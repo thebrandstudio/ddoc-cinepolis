@@ -136,7 +136,7 @@
 }
 
 .dl_pro_subscribe_form input:-webkit-autofill,
-.dl_pro_subscribe_form input:-webkit-autofill:hover, 
+.dl_pro_subscribe_form input:-webkit-autofill:hover,
 .dl_pro_subscribe_form input:-webkit-autofill:focus{
   border: 1px solid green;
   -webkit-box-shadow: 0 0 0px 1000px #fff inset;
@@ -216,7 +216,7 @@
 	top: 30px;
 }
 .ddoc-single-post{
-	 padding-bottom: 335px;
+	 padding-bottom: 0px;
 }
 .ddoc-single-post .ajx-progress{
 	top: 0 !important;
@@ -418,7 +418,7 @@ p.has-text-color.has-background.has-very-light-gray-color{
 }
 
 .site-footer a:hover{
-  color: #076cec;  
+  color: #076cec;
 }
 
 p[style="font-size:46px"] {
@@ -573,7 +573,7 @@ p[style="font-size:46px"] {
 	color: #fff !important;
 }
 .drdt-dark-mode .drdt-ignore-dark .dl_pro_testimonial_slider_wrapper .dl_text,.drdt-dark-mode .drdt-ignore-dark .dl_pro_testimonial_slider_wrapper .dl_name{
-	color: rgba(255, 255, 255, 0.5) !important; 
+	color: rgba(255, 255, 255, 0.5) !important;
 }
 .drdt-dark-mode .drdt-ignore-dark .dl_pro_testimonial_slider_wrapper{
 	background: #2e2e2e !important;
@@ -608,7 +608,7 @@ html.drdt-dark-mode :not(.drdt-ignore-dark):not(.drdt_checkbox):not(.droit_dark)
 }
 .dark_switch_box .drdt_checkbox.switch_2{
 	background: linear-gradient(270deg, #074FC0 0%, #4672B8 53.91%);
-} 
+}
 html.drdt-dark-mode .dl-paralax-section .elementor-background-overlay{
 	z-index: 0;
 }
@@ -634,7 +634,7 @@ html.drdt-dark-mode :not(.drdt-ignore-dark):not(.drdt_checkbox):not(.droit_dark)
 .drdt-dark-mode .ddoc-login-from .form-control{
 	background: #2f2f2f !important;
 }
-html.drdt-dark-mode :not(.drdt-ignore-dark):not(.drdt_checkbox):not(.droit_dark):not(.droit_light):not(.dark_switch_box):not(img):not(option):not(input):not(select):not(textarea):not(mark):not(code):not(pre):not(ins):not(button):not(a):not(video):not(canvas):not(progress):not(iframe):not(svg):not(path):not(.mejs-iframe-overlay):not(.mejs-iframe-overlay):not(.elementor-element-overlay):not(.elementor-background-overlay):not(i):not(button *):not(a *) .page_title{ 
+html.drdt-dark-mode :not(.drdt-ignore-dark):not(.drdt_checkbox):not(.droit_dark):not(.droit_light):not(.dark_switch_box):not(img):not(option):not(input):not(select):not(textarea):not(mark):not(code):not(pre):not(ins):not(button):not(a):not(video):not(canvas):not(progress):not(iframe):not(svg):not(path):not(.mejs-iframe-overlay):not(.mejs-iframe-overlay):not(.elementor-element-overlay):not(.elementor-background-overlay):not(i):not(button *):not(a *) .page_title{
 	color: #7d7d7d !important;
 }
 html.drdt-dark-mode :not(.drdt-ignore-dark):not(.drdt_checkbox):not(.droit_dark):not(.droit_light):not(.dark_switch_box):not(img):not(option):not(input):not(select):not(textarea):not(mark):not(code):not(pre):not(ins):not(button):not(a):not(video):not(canvas):not(progress):not(iframe):not(svg):not(path):not(.mejs-iframe-overlay):not(.mejs-iframe-overlay):not(.elementor-element-overlay):not(.elementor-background-overlay):not(i):not(button *):not(a *) .banner_three{
