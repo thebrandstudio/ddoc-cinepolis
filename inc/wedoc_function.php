@@ -136,11 +136,11 @@ function ddoc_doc_banner( $banner ) {  ?>
 			    /*$placeholder = $placeholder_base.' '.$title; ?>*/
 			      $placeholder = $placeholder_base; ?>
 
-			   <div class="col-md-12 text-center">
-				   <div id="custom-titulo">
-					   <h3 class="custom-titulo"><?php the_field('titulo_tema'); ?></h3>
-				   </div>
-			   </div>
+      			   <div class="col-md-12 text-center">
+      				   <div id="custom-titulo">
+      					   <h3 class="custom-titulo"><?php the_field('titulo_tema'); ?></h3>
+      				   </div>
+      			   </div>
                <div class="col-md-8">
                  <div class="search-doc">
                     <input class="form-control ajax-ddoc-search"  id="exampleDataList" placeholder="<?php echo esc_attr($placeholder) ?>" data-parent-id="<?php echo esc_attr($parent_id_check); ?>">
@@ -148,6 +148,18 @@ function ddoc_doc_banner( $banner ) {  ?>
                     <div class="ajax_sajation"></div>
                  </div>
                </div>
+
+               <div class="col-md-12 text-center">
+                 <div class="row">
+                   <div class="col-8 col-sm-6">
+                     Level 2: .col-8 .col-sm-6
+                   </div>
+                   <div class="col-4 col-sm-6">
+                     Level 2: .col-4 .col-sm-6
+                   </div>
+                 </div>
+      			   </div>
+
         </div>
       </div>
     </div>
