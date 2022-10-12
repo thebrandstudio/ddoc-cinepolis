@@ -115,7 +115,7 @@ function ddoc_single_page_ajax() {
 add_action( 'wedocs_before_main_content', 'ddoc_doc_banner', 10, 1 );
 
 function ddoc_doc_banner( $banner ) {  ?>
-    <div class="ddoc-banner" style="min-height: 400px; background: url(<?php the_field('imagen_fondo'); ?>)">
+    <div class="ddoc-banner" style="min-height: 400px; padding: 200px 0px 50px; background: url(<?php the_field('imagen_fondo'); ?>)">
       <div class="container">
         <div class="row justify-content-center">
              <?php
