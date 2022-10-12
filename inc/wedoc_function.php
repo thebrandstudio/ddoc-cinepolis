@@ -151,10 +151,22 @@ function ddoc_doc_banner( $banner ) {  ?>
 
                <div class="col-md-12 text-center">
                  <div class="row">
-                   <div class="col-8 col-sm-6">
+                   <div class="col-4 col-sm-2">
                      Level 2: .col-8 .col-sm-6
                    </div>
-                   <div class="col-4 col-sm-6">
+                   <div class="col-4 col-sm-2">
+                     Level 2: .col-4 .col-sm-6
+                   </div>
+                   <div class="col-4 col-sm-2">
+                     Level 2: .col-8 .col-sm-6
+                   </div>
+                   <div class="col-4 col-sm-2">
+                     Level 2: .col-4 .col-sm-6
+                   </div>
+                   <div class="col-4 col-sm-2">
+                     Level 2: .col-8 .col-sm-6
+                   </div>
+                   <div class="col-4 col-sm-2">
                      Level 2: .col-4 .col-sm-6
                    </div>
                  </div>
