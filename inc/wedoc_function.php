@@ -165,7 +165,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                    <div class="col-4 col-sm-2">
                      <div class="icono-categoria">
                        <div class="icono">
-                         <img width="60" height="60" src="http://75.101.181.126/wp-content/uploads/2022/03/icon-1.svg" class="attachment-full size-full" alt="" loading="lazy">
+                         <img width="60" height="60" src="<?php the_field('icono2'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
                            <h5><a href="#" class="text-decoration-none" style="color: white;">Contenido</a></h5>
@@ -175,7 +175,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                    <div class="col-4 col-sm-2">
                      <div class="icono-categoria">
                        <div class="icono">
-                         <img width="60" height="60" src="http://75.101.181.126/wp-content/uploads/2022/03/icon-1.svg" class="attachment-full size-full" alt="" loading="lazy">
+                         <img width="60" height="60" src="<?php the_field('icono3'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
                            <h5><a href="#" class="text-decoration-none" style="color: white;">Métodos de Pago</a></h5>
@@ -185,7 +185,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                    <div class="col-4 col-sm-2">
                      <div class="icono-categoria">
                        <div class="icono">
-                         <img width="60" height="60" src="http://75.101.181.126/wp-content/uploads/2022/03/icon-1.svg" class="attachment-full size-full" alt="" loading="lazy">
+                         <img width="60" height="60" src="<?php the_field('icono4'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
                            <h5><a href="#" class="text-decoration-none" style="color: white;">Dispositivos</a></h5>
@@ -195,7 +195,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                    <div class="col-4 col-sm-2">
                      <div class="icono-categoria">
                        <div class="icono">
-                         <img width="60" height="60" src="http://75.101.181.126/wp-content/uploads/2022/03/icon-1.svg" class="attachment-full size-full" alt="" loading="lazy">
+                         <img width="60" height="60" src="<?php the_field('icono5'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
                            <h5><a href="#" class="text-decoration-none" style="color: white;">Canales</a></h5>
@@ -205,7 +205,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                    <div class="col-4 col-sm-2">
                      <div class="icono-categoria">
                        <div class="icono">
-                         <img width="60" height="60" src="http://75.101.181.126/wp-content/uploads/2022/03/icon-1.svg" class="attachment-full size-full" alt="" loading="lazy">
+                         <img width="60" height="60" src="<?php the_field('icono6'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
                            <h5><a href="#" class="text-decoration-none" style="color: white;">Promociones</a></h5>
