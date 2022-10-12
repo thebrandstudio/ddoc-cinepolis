@@ -101,11 +101,9 @@ get_header();
                                     <img src="<?php echo esc_url($support_img);?>" alt="img_footer">
                                     <h4><?php printf( __( '¿Aún tienes dudas?', 'ddoc' ));?></h4>
                                     <div>
-                                      <u>
-                                        <li><img width="30" height="30" src="http://75.101.181.126/wp-content/uploads/2019/05/icono-pagos.svg" class="attachment-full size-full" alt="" loading="lazy"></li>
-                                        <li></li>
-                                        <li></li>
-                                      </u>
+                                      <img width="30" height="30" src="http://75.101.181.126/wp-content/uploads/2019/05/icono-pagos.svg" class="attachment-full size-full" alt="" loading="lazy">
+                                      <img width="30" height="30" src="http://75.101.181.126/wp-content/uploads/2019/05/icono-pagos.svg" class="attachment-full size-full" alt="" loading="lazy">
+                                      <img width="30" height="30" src="http://75.101.181.126/wp-content/uploads/2019/05/icono-pagos.svg" class="attachment-full size-full" alt="" loading="lazy">
                                     </div>
 
 
