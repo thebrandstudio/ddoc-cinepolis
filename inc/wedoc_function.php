@@ -356,13 +356,13 @@ if ( !function_exists('ddoc_doc_nav')) {
 			if ( $prev_post_id ) {
 				printf('<a href="%s" class="prev_content prev"><i class="fas fa-arrow-left"></i>%s</a>',
 				get_permalink( $prev_post_id ),
-				esc_html__('Previous', 'ddoc'));
+				esc_html__('Artículo Anterior', 'ddoc'));
 			}
 
 			if ( $next_post_id ) {
 				printf('<a href="%s" class="prev_content next">%s<i class="fas fa-arrow-right"></i></i></a>',
 				get_permalink( $next_post_id ),
-				esc_html__('Next', 'ddoc'));
+				esc_html__('Siguiente Artículo', 'ddoc'));
 			}
 
 			echo '</div>';
