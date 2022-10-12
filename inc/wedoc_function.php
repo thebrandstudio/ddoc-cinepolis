@@ -152,23 +152,14 @@ function ddoc_doc_banner( $banner ) {  ?>
                <div class="col-md-12 text-center">
                  <div class="row">
                    <div class="col-4 col-sm-2">
-
-
-
                      <div class="icono-categoria">
                        <div class="icono">
                          <img width="80" height="80" src="http://75.101.181.126/wp-content/uploads/2022/03/icon-1.svg" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
                            <h4><a href="http://75.101.181.126/docs/canales/woocommerce/" class="text-decoration-none">WooCommerce</a></h4>
-                           <p></p>
-                           <p>How to use WooCommerce with Donority (products, settings)? WooCommerce configuration</p>
-                           <p></p>
                        </div>
                      </div>
-
-
-
                     </div>
                    <div class="col-4 col-sm-2">
                      Level 2: .col-4 .col-sm-6
