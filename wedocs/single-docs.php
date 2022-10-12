@@ -15,6 +15,9 @@
 global $post;
 $default_banner = ddoc_IMAGES.'/ddoc/single_default_banner.webp';
 $support_img = ddoc_IMAGES.'/blog/support.webp';
+$messenger_img = ddoc_IMAGES.'/blog/messenger.';
+$mail_img = ddoc_IMAGES.'/blog/mail.svg';
+$phone_img = ddoc_IMAGES.'/blog/phone.svg';
 $call_support = ddoc_IMAGES.'/blog/call-center-agent.png';
 $topic_icon = ddoc_IMAGES.'/docs/topic-icon.svg';
 $skip_sidebar = ( get_post_meta( $post->ID, 'skip_sidebar', true ) == 'yes' ) ? true : false;
@@ -101,9 +104,9 @@ get_header();
                                     <img src="<?php echo esc_url($support_img);?>" alt="img_footer">
                                     <h4><?php printf( __( '¿Aún tienes dudas?', 'ddoc' ));?></h4>
                                     <div>
-                                      <a href="#" target="_blank"><img width="30" height="30" src="http://75.101.181.126/wp-content/uploads/2019/05/icono-pagos.svg" class="attachment-full size-full" alt="" loading="lazy"></a>
-                                      <a href="#" target="_blank"><img width="30" height="30" src="http://75.101.181.126/wp-content/uploads/2019/05/icono-pagos.svg" class="attachment-full size-full" alt="" loading="lazy"></a>
-                                      <a href="#" target="_blank"><img width="30" height="30" src="http://75.101.181.126/wp-content/uploads/2019/05/icono-pagos.svg" class="attachment-full size-full" alt="" loading="lazy"></a>
+                                      <a href="#" target="_blank"><img width="30" height="30" src="<?php echo esc_url($messenger_img);?>" class="attachment-full size-full" alt="" loading="lazy"></a>
+                                      <a href="#" target="_blank"><img width="30" height="30" src="<?php echo esc_url($phone_img);?>" class="attachment-full size-full" alt="" loading="lazy"></a>
+                                      <a href="#" target="_blank"><img width="30" height="30" src="<?php echo esc_url($mail_img);?>" class="attachment-full size-full" alt="" loading="lazy"></a>
                                     </div>
 
 
