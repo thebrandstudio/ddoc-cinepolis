@@ -157,7 +157,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="80" height="80" src="http://75.101.181.126/wp-content/uploads/2022/03/icon-1.svg" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h4><a href="http://75.101.181.126/docs/canales/woocommerce/" class="text-decoration-none">WooCommerce</a></h4>
+                           <h5><a href="http://75.101.181.126/docs/canales/woocommerce/" class="text-decoration-none" style="color: white;">WooCommerce</a></h5>
                        </div>
                      </div>
                     </div>
