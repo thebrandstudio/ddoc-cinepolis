@@ -14555,6 +14555,7 @@ a:active {
   color: #C9CBD1;
 }
 .wp-block-ddoc-block-zoomtext .print-ddoc {
+  display: none;
   font-size: 22px;
   color: #929AB2;
   vertical-align: middle;
