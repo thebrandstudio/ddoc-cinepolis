@@ -162,6 +162,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                            <p>How to use WooCommerce with Donority (products, settings)? WooCommerce configuration</p>
                            <p></p>
                        </div>
+                     </div>
                     </div>
                    <div class="col-4 col-sm-2">
                      Level 2: .col-4 .col-sm-6
