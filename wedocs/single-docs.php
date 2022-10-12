@@ -99,7 +99,7 @@ get_header();
                             <?php if ( wedocs_get_option( 'email', 'wedocs_settings', 'on' ) == 'on' ) { ?>
                                 <div class="wedocs-help-link wedocs-hide-print">
                                     <img src="<?php echo esc_url($support_img);?>" alt="img_footer">
-                                    <h3><?php printf( __( 'Still stuck?', 'ddoc' ));?></h3>
+                                    <h4><?php printf( __( '¿Aún tienes dudas?', 'ddoc' ));?></h4>
                                     <span><?php printf( '%s <a id="wedocs-stuck-modal" href="%s">%s</a>', __( 'We can help you.', 'ddoc'), '#', __('How can we help?', 'ddoc' ) ); ?></span>
                                 </div>
                             <?php } ?>
