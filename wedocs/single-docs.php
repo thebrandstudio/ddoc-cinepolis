@@ -70,7 +70,7 @@ get_header();
                         <div class="ajx-progress ddoc-d-none"></div>
                         <header class="entry-header">
                             <?php the_title( '<h1 class="entry-title" itemprop="headline">', '</h1>' ); ?>
-                            <ul class="list-unstyled ddoc-single-post-meta">
+                            <!--<ul class="list-unstyled ddoc-single-post-meta">
                                 <li><i class="far fa-user"></i><?php esc_html_e('Author:', 'ddoc'); ?> <?php ddoc_posted_by(); ?></li>
                                 <li><i class="far fa-clock"></i><?php ddoc_artical_read_time(get_the_content()); ?></li>
                                 <li>
@@ -80,7 +80,7 @@ get_header();
                                     ddoc_get_doc_views(get_the_ID());
                                     ?>
                                 </li>
-                            </ul>
+                            </ul>-->
                         </header><!-- .entry-header -->
 
                         <div class="entry-content" itemprop="articleBody">
