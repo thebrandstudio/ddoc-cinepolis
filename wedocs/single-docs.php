@@ -15,7 +15,7 @@
 global $post;
 $default_banner = ddoc_IMAGES.'/ddoc/single_default_banner.webp';
 $support_img = ddoc_IMAGES.'/blog/support.webp';
-$messenger_img = ddoc_IMAGES.'/blog/messenger.svg';
+$messenger_img = ddoc_IMAGES.'/blog/messenger.png';
 $mail_img = ddoc_IMAGES.'/blog/mail.svg';
 $phone_img = ddoc_IMAGES.'/blog/phone.svg';
 $call_support = ddoc_IMAGES.'/blog/call-center-agent.png';
