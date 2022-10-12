@@ -158,7 +158,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="60" height="60" src="http://75.101.181.126/wp-content/uploads/2022/03/icon-1.svg" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5><a href="http://75.101.181.126/docs/canales/woocommerce/" class="text-decoration-none" style="color: white;">WooCommerce</a></h5>
+                           <h5><a href="#" class="text-decoration-none" style="color: white;">Cinépolis Klic®</a></h5>
                        </div>
                      </div>
                     </div>
@@ -168,7 +168,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="60" height="60" src="http://75.101.181.126/wp-content/uploads/2022/03/icon-1.svg" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5><a href="http://75.101.181.126/docs/canales/woocommerce/" class="text-decoration-none" style="color: white;">WooCommerce</a></h5>
+                           <h5><a href="#" class="text-decoration-none" style="color: white;">Contenido</a></h5>
                        </div>
                      </div>
                    </div>
@@ -178,7 +178,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="60" height="60" src="http://75.101.181.126/wp-content/uploads/2022/03/icon-1.svg" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5><a href="http://75.101.181.126/docs/canales/woocommerce/" class="text-decoration-none" style="color: white;">WooCommerce</a></h5>
+                           <h5><a href="#" class="text-decoration-none" style="color: white;">Métodos de Pago</a></h5>
                        </div>
                      </div>
                    </div>
@@ -188,7 +188,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="60" height="60" src="http://75.101.181.126/wp-content/uploads/2022/03/icon-1.svg" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5><a href="http://75.101.181.126/docs/canales/woocommerce/" class="text-decoration-none" style="color: white;">WooCommerce</a></h5>
+                           <h5><a href="#" class="text-decoration-none" style="color: white;">Dispositivos</a></h5>
                        </div>
                      </div>
                    </div>
@@ -198,7 +198,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="60" height="60" src="http://75.101.181.126/wp-content/uploads/2022/03/icon-1.svg" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5><a href="http://75.101.181.126/docs/canales/woocommerce/" class="text-decoration-none" style="color: white;">WooCommerce</a></h5>
+                           <h5><a href="#" class="text-decoration-none" style="color: white;">Canales</a></h5>
                        </div>
                      </div>
                    </div>
@@ -208,7 +208,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="60" height="60" src="http://75.101.181.126/wp-content/uploads/2022/03/icon-1.svg" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5><a href="http://75.101.181.126/docs/canales/woocommerce/" class="text-decoration-none" style="color: white;">WooCommerce</a></h5>
+                           <h5><a href="#" class="text-decoration-none" style="color: white;">Promociones</a></h5>
                        </div>
                      </div>
                    </div>
