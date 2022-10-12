@@ -155,7 +155,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                    <div class="col-4 col-sm-2">
                      <div class="icono-categoria">
                        <div class="icono">
-                         <img width="60" height="60" src="http://75.101.181.126/wp-content/uploads/2022/03/icon-1.svg" class="attachment-full size-full" alt="" loading="lazy">
+                         <img width="60" height="60" src="<?php the_field('icono1'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
                            <h5><a href="#" class="text-decoration-none" style="color: white;">Cinépolis Klic®</a></h5>
