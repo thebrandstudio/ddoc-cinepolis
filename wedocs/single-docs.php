@@ -110,7 +110,7 @@ get_header();
                             </div>
 
                             <meta itemprop="datePublished" content="<?php echo get_the_time( 'c' ); ?>"/>
-                            <time itemprop="dateModified" datetime="<?php echo esc_attr( get_the_modified_date( 'c' ) ); ?>"><?php printf( __( 'Updated on %s', 'ddoc' ), get_the_modified_date() ); ?></time>
+                            <time itemprop="dateModified" datetime="<?php echo esc_attr( get_the_modified_date( 'c' ) ); ?>"><?php printf( __( 'Última actualización en %s', 'ddoc' ), get_the_modified_date() ); ?></time>
                         </footer>
 
                         <?php if ( wedocs_get_option( 'helpful', 'wedocs_settings', 'on' ) == 'on' ) { ?>
