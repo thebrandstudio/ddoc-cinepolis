@@ -103,17 +103,11 @@ get_header();
                                 <div class="wedocs-help-link wedocs-hide-print">
                                     <img src="<?php echo esc_url($support_img);?>" alt="img_footer">
                                     <h4><?php printf( __( '¿Aún tienes dudas?', 'ddoc' ));?></h4>
-                                    <div>
+                                    <div id="iconos">
                                       <a href="#" target="_blank"><img width="30" height="30" src="<?php echo esc_url($messenger_img);?>" class="attachment-full size-full" alt="" loading="lazy"></a>
                                       <a href="#" target="_blank"><img width="30" height="30" src="<?php echo esc_url($phone_img);?>" class="attachment-full size-full" alt="" loading="lazy"></a>
                                       <a href="#" target="_blank"><img width="30" height="30" src="<?php echo esc_url($mail_img);?>" class="attachment-full size-full" alt="" loading="lazy"></a>
                                     </div>
-
-
-
-
-
-                                    <span><?php printf( '%s <a id="wedocs-stuck-modal" href="%s">%s</a>', __( 'We can help you.', 'ddoc'), '#', __('How can we help?', 'ddoc' ) ); ?></span>
                                 </div>
                             <?php } ?>
 
