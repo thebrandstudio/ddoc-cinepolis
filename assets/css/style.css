@@ -11323,7 +11323,7 @@ textarea.form-control-lg {
   }
 }
 /*
-* define all constant here 
+* define all constant here
 */
 /**
 * Define All CSS Variable
@@ -14232,10 +14232,10 @@ dl dd a:hover {
 }
 
 /*
-* default setting for the ddoc setting 
+* default setting for the ddoc setting
 */
 /*
-* define all constant here 
+* define all constant here
 */
 /**
 * Define All CSS Variable
@@ -14644,7 +14644,7 @@ a:active {
   font-size: 16px;
   line-height: 26px;
   text-decoration: none;
-  color: var(--bs-body-color);
+  color: #102958;
 }
 .ddoc-single-post .dt_content_pagonation .prev_content i {
   font-size: 12px;
@@ -14657,7 +14657,7 @@ a:active {
   margin-right: 0;
 }
 .ddoc-single-post .dt_content_pagonation .prev_content:hover {
-  color: var(--hovercolor);
+  color: black;
 }
 .ddoc-single-post .entry-footer {
   margin-top: 50px;
