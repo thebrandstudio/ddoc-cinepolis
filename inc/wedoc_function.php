@@ -141,6 +141,7 @@ function ddoc_doc_banner( $banner ) {  ?>
       					   <h3 class="custom-titulo"><?php the_field('titulo_tema'); ?></h3>
       				   </div>
       			   </div>
+
                <div class="col-md-8">
                  <div class="search-doc">
                     <input class="form-control ajax-ddoc-search"  id="exampleDataList" placeholder="<?php echo esc_attr($placeholder) ?>" data-parent-id="<?php echo esc_attr($parent_id_check); ?>">
@@ -149,7 +150,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                  </div>
                </div>
 
-               <div class="col-md-12 text-center">
+               <div class="col-md-12 text-center" style="margin-top: 30px;">
                  <div class="row">
                    <div class="col-4 col-sm-2">
                      <div class="icono-categoria">
