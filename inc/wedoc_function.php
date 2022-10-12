@@ -1,6 +1,6 @@
-<?php 
+<?php
 /**
- * New function for wedoc 
+ * New function for wedoc
  */
 
  require_once __DIR__.'/wedoc_list_page.php';
@@ -42,7 +42,7 @@ function single_single_page_sidebar() {
             </ul>
         <?php } ?>
     </div>
-    <?php 
+    <?php
 }
 
 if ( !function_exists('ddoc_artical_read_time') ) {
@@ -79,7 +79,7 @@ function ddoc_get_doc_views( $postID ) {
     }
     printf(__('%s %s', 'ddoc'), $count, $view_lable);
 }
- 
+
 function ddoc_set_doc_views( $postID ) {
     $count_key = 'ddoc_doc_view_count';
     $count = get_post_meta($postID, $count_key, true);
@@ -92,10 +92,10 @@ function ddoc_set_doc_views( $postID ) {
         update_post_meta($postID, $count_key, $count);
     }
 }
- 
+
 remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 
-//  ajax loading 
+//  ajax loading
 
 add_action( 'wp_ajax_ddoc_single_page_ajax', 'ddoc_single_page_ajax' );
 add_action( 'wp_ajax_nopriv_ddoc_single_page_ajax', 'ddoc_single_page_ajax' );
@@ -103,14 +103,14 @@ add_action( 'wp_ajax_nopriv_ddoc_single_page_ajax', 'ddoc_single_page_ajax' );
 function ddoc_single_page_ajax() {
 
     check_ajax_referer( 'ddoc_single_ajax', 'security' );
-    $get_post = get_post($_POST['pageId']); 
+    $get_post = get_post($_POST['pageId']);
     echo wp_json_encode($get_post);
     wp_die();
-    
+
 }
 
 
-//  add banner 
+//  add banner
 
 add_action( 'wedocs_before_main_content', 'ddoc_doc_banner', 10, 1 );
 
@@ -119,26 +119,26 @@ function ddoc_doc_banner( $banner ) {  ?>
       <div class="container">
         <div class="row justify-content-center">
              <?php
-            
+
                 global $post;
                 $get_id = get_ancestors($post->ID, 'docs');
                 $parent_ID = end($get_id);
                 $parent_id_check = $parent_ID? $parent_ID : $post->ID;
-               
+
                 if(!empty($get_id)) {
                    $parent_post = get_post($parent_ID);
                    $title = $parent_post->post_title;
                 }else{
                     $title = get_the_title($post->ID);
                 }
-                
+
                   $placeholder_base = esc_html__('¿Que estás buscando hoy?', 'ddoc');
 			    /*$placeholder = $placeholder_base.' '.$title; ?>*/
 			      $placeholder = $placeholder_base; ?>
-			
+
 			   <div class="col-md-12 text-center">
 				   <div id="custom-titulo">
-					   <h3 class="custom-titulo"><?php echo esc_attr($placeholder) ?></h3>  
+					   <h3 class="custom-titulo"><?php the_field('titulo_tema'); ?></h3>
 				   </div>
 			   </div>
                <div class="col-md-8">
@@ -151,7 +151,7 @@ function ddoc_doc_banner( $banner ) {  ?>
         </div>
       </div>
     </div>
-   <?php 
+   <?php
 }
 
 
@@ -165,14 +165,14 @@ function doc_search_result() {
     if($_POST['keyworkds'] == '') {
         return;
     }
-    
+
      $args = [
         's' => $_POST['keyworkds'],
         'post_type' => 'docs',
         'post_parent' => $_POST['parentId'],
         'posts_per_page' => 10
      ];
-   
+
     $query = new WP_Query($args );
         if ($query->have_posts()) :
             while($query->have_posts()): $query->the_post();
@@ -187,9 +187,9 @@ function doc_search_result() {
 
 
 function get_all_pages( $Id ) {
-  
+
     if (empty($Id)) return array();
-  
+
     $children = new WP_Query(
       array(
         'post_type' => 'docs',
@@ -202,7 +202,7 @@ function get_all_pages( $Id ) {
   }
 
 
-  //  doc get child page 
+  //  doc get child page
 if(!function_exists('ddoc_doc_child_page')){
 	function ddoc_doc_child_page( $id = '' ) {
 		if($id == ''){
@@ -214,14 +214,14 @@ if(!function_exists('ddoc_doc_child_page')){
 			return;
 		}
 		$child_args = array(
-			'post_parent' => $post->ID, 
+			'post_parent' => $post->ID,
 			'post_type'   => 'docs',
 			'post_status' => 'publish',
 			'depth'		  => 1
 		);
-		
+
 		$children = get_children( $child_args );
-		
+
 
 		foreach($children as $post) {
 			?>
@@ -244,10 +244,10 @@ if(!function_exists('ddoc_doc_child_page')){
                     </div>
                 </div>
 			</div>
-			<?php 
+			<?php
 		}
 
-		
+
 	}
 }
 
@@ -257,48 +257,48 @@ function ddoc_get_icon ( $post_id )  {
         $get_icon_type = get_field('select_icon_type_', $post_id, true);
 
         if($get_icon_type == 'icon'){
-            $icon = get_field('select_icon', $post_id, true);      
+            $icon = get_field('select_icon', $post_id, true);
         }elseif($get_icon_type == 'image'){
-            $imgeId = get_field('upload_image_icon_svg', $post_id, true); 
-            $icon = wp_get_attachment_image($imgeId['ID'], 'full');   
+            $imgeId = get_field('upload_image_icon_svg', $post_id, true);
+            $icon = wp_get_attachment_image($imgeId['ID'], 'full');
         }
-     }      
+     }
      return $icon;
  }
 
- // doc next prev function 
+ // doc next prev function
 if ( !function_exists('ddoc_doc_nav')) {
 	function ddoc_doc_nav() {
 		global $post, $wpdb;
-	
+
 		$next_query = "SELECT ID FROM {$wpdb->posts}
 			WHERE post_parent = {$post->post_parent} and post_type = 'docs' and post_status = 'publish' and menu_order > {$post->menu_order}
 			ORDER BY menu_order ASC
 			LIMIT 0, 1";
-	
+
 		$prev_query = "SELECT ID FROM {$wpdb->posts}
 			WHERE post_parent = {$post->post_parent} and post_type = 'docs' and post_status = 'publish' and menu_order < {$post->menu_order}
 			ORDER BY menu_order DESC
 			LIMIT 0, 1";
-	
+
 		$next_post_id = (int) $wpdb->get_var( $next_query );
 		$prev_post_id = (int) $wpdb->get_var( $prev_query );
-	
+
 		if ( $next_post_id || $prev_post_id ) {
 			echo '<div class="dt_content_pagonation">';
-	
+
 			if ( $prev_post_id ) {
-				printf('<a href="%s" class="prev_content prev"><i class="fas fa-arrow-left"></i>%s</a>', 
+				printf('<a href="%s" class="prev_content prev"><i class="fas fa-arrow-left"></i>%s</a>',
 				get_permalink( $prev_post_id ),
 				esc_html__('Previous', 'ddoc'));
 			}
-	
+
 			if ( $next_post_id ) {
-				printf('<a href="%s" class="prev_content next">%s<i class="fas fa-arrow-right"></i></i></a>', 
+				printf('<a href="%s" class="prev_content next">%s<i class="fas fa-arrow-right"></i></i></a>',
 				get_permalink( $next_post_id ),
 				esc_html__('Next', 'ddoc'));
 			}
-	
+
 			echo '</div>';
 		}
 
