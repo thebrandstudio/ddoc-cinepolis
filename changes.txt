@@ -1,0 +1,20 @@
+----- 1.0.3 (12 June 2022) -----
+New: Added bbPress Forums (Forums, Topic & Single pages)
+Fixed: Docs single page sidebar tab title
+Updated: Demo Contents
+Updated: Ddoc Core plugin to (1.0.3) version
+
+
+----- 1.0.2 (16 May 2022) -----
+New: Added Child Theme
+New: WPML Multilingual Compatible
+New: RTL Support
+
+
+----- 1.0.1 (02 May 2022) -----
+New: 02 New Home Page Added
+New: Dark mode added
+
+
+----- 1.0.0 (29 April 2022) -----
+Initial release

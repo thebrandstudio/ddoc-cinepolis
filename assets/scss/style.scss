@@ -1,0 +1,27 @@
+/*
+* ddoc default stylesheed
+*/
+
+/*
+ * table of content
+*/
+@import "components/tableofcontent";
+/*
+ * bootstrap
+*/
+
+@import "./node_modules/bootstrap/scss/mixins/clearfix";
+@import "./node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "./node_modules/bootstrap/scss/bootstrap";
+@import "components/nav";
+@import "components/blog";
+@import "components/wp_doc";
+@import "components/banner";
+@import "components/default";
+@import "components/wpdefault";
+
+

@@ -1,0 +1,12 @@
+<wpml-config>
+    <admin-texts>
+        <key name="ddoc_opt">
+            <key name="blog_banner_title" />
+            <key name="error_banner_title" />
+            <key name="read_more_text_button" />
+            <key name="footer_copyright_txt" />
+        </key>
+    </admin-texts>
+</wpml-config>
+
+

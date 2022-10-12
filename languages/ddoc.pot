@@ -1,0 +1,2132 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ddoc\n"
+"POT-Creation-Date: 2022-06-12 16:34+0600\n"
+"PO-Revision-Date: 2020-08-28 15:57+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:21
+msgid "Not Found"
+msgstr ""
+
+#: 404.php:22
+msgid "404"
+msgstr ""
+
+#: 404.php:26
+msgid "We cannot seem to find that Page."
+msgstr ""
+
+#: 404.php:26
+msgid "Go back"
+msgstr ""
+
+#: bbpress/alert-topic-lock.php:21
+msgid "Leave"
+msgstr ""
+
+#: bbpress/alert-topic-lock.php:22
+msgid "Stay"
+msgstr ""
+
+#: bbpress/content-single-topic-lead.php:19
+#: bbpress/content-single-topic-lead.php:87
+msgid "Creator"
+msgstr ""
+
+#: bbpress/content-single-topic-lead.php:23
+#: bbpress/content-single-topic-lead.php:91 bbpress/loop-topics.php:18
+msgid "Topic"
+msgstr ""
+
+#: bbpress/content-statistics.php:31
+msgid "Registered Users"
+msgstr ""
+
+#: bbpress/content-statistics.php:38 bbpress/user-profile.php:34
+msgid "Forums"
+msgstr ""
+
+#: bbpress/content-statistics.php:45 bbpress/loop-forums.php:21
+msgid "Topics"
+msgstr ""
+
+#: bbpress/content-statistics.php:52 bbpress/loop-forums.php:22
+#: bbpress/loop-replies.php:20 bbpress/loop-replies.php:46
+#: bbpress/loop-topics.php:21
+msgid "Replies"
+msgstr ""
+
+#: bbpress/content-statistics.php:59
+msgid "Topic Tags"
+msgstr ""
+
+#: bbpress/content-statistics.php:67
+msgid "Empty Topic Tags"
+msgstr ""
+
+#: bbpress/content-statistics.php:74
+msgid "Hidden Topics"
+msgstr ""
+
+#: bbpress/content-statistics.php:83
+msgid "Hidden Replies"
+msgstr ""
+
+#: bbpress/feedback-logged-in.php:17
+msgid "You are already logged in."
+msgstr ""
+
+#: bbpress/feedback-no-access.php:16
+msgid "Private"
+msgstr ""
+
+#: bbpress/feedback-no-access.php:20
+msgid "You do not have permission to view this forum."
+msgstr ""
+
+#: bbpress/feedback-no-forums.php:17
+msgid "Oh, bother! No forums were found here."
+msgstr ""
+
+#: bbpress/feedback-no-replies.php:17
+msgid "Oh, bother! No replies were found here."
+msgstr ""
+
+#: bbpress/feedback-no-search.php:17
+msgid "Oh, bother! No search results were found here."
+msgstr ""
+
+#: bbpress/feedback-no-topics.php:17
+msgid "Oh, bother! No topics were found here."
+msgstr ""
+
+#: bbpress/form-anonymous.php:18
+msgid "Author Information"
+msgstr ""
+
+#: bbpress/form-anonymous.php:18
+msgid "Your information:"
+msgstr ""
+
+#: bbpress/form-anonymous.php:23
+msgid "Name (required):"
+msgstr ""
+
+#: bbpress/form-anonymous.php:28
+msgid "Mail (will not be published) (required):"
+msgstr ""
+
+#: bbpress/form-anonymous.php:33
+msgid "Website:"
+msgstr ""
+
+#: bbpress/form-forum.php:36 bbpress/form-topic.php:44
+#, php-format
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-forum.php:39
+#, php-format
+msgid "Create New Forum in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-forum.php:40
+msgid "Create New Forum"
+msgstr ""
+
+#: bbpress/form-forum.php:52 bbpress/form-reply.php:48
+msgid ""
+"This forum is closed to new content, however your posting capabilities still "
+"allow you to post."
+msgstr ""
+
+#: bbpress/form-forum.php:62 bbpress/form-reply.php:58
+#: bbpress/form-topic.php:70
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr ""
+
+#: bbpress/form-forum.php:75
+#, php-format
+msgid "Forum Name (Maximum Length: %d):"
+msgstr ""
+
+#: bbpress/form-forum.php:90 bbpress/form-reply.php:79
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes:"
+msgstr ""
+
+#: bbpress/form-forum.php:101
+msgid "Forum Moderators:"
+msgstr ""
+
+#: bbpress/form-forum.php:112
+msgid "Forum Type:"
+msgstr ""
+
+#: bbpress/form-forum.php:121
+msgid "Status:"
+msgstr ""
+
+#: bbpress/form-forum.php:130
+msgid "Visibility:"
+msgstr ""
+
+#: bbpress/form-forum.php:139
+msgid "Parent Forum:"
+msgstr ""
+
+#: bbpress/form-forum.php:144
+msgid "&mdash; No parent &mdash;"
+msgstr ""
+
+#: bbpress/form-forum.php:159 bbpress/form-reply-move.php:81
+#: bbpress/form-reply.php:176 bbpress/form-topic-merge.php:103
+#: bbpress/form-topic-split.php:107 bbpress/form-topic.php:213
+msgid "Submit"
+msgstr ""
+
+#: bbpress/form-forum.php:183
+#, php-format
+msgid "The forum &#8216;%s&#8217; is closed to new content."
+msgstr ""
+
+#: bbpress/form-forum.php:194
+msgid "You cannot create new forums."
+msgstr ""
+
+#: bbpress/form-forum.php:195
+msgid "You must be logged in to create new forums."
+msgstr ""
+
+#: bbpress/form-protected.php:17
+msgid "Protected"
+msgstr ""
+
+#: bbpress/form-reply-move.php:27
+#, php-format
+msgid "Move reply \"%s\""
+msgstr ""
+
+#: bbpress/form-reply-move.php:33
+msgid ""
+"You can either make this reply a new topic with a new title, or merge it "
+"into an existing topic."
+msgstr ""
+
+#: bbpress/form-reply-move.php:39
+msgid ""
+"If you choose an existing topic, replies will be ordered by the time and "
+"date they were created."
+msgstr ""
+
+#: bbpress/form-reply-move.php:44
+msgid "Move Method"
+msgstr ""
+
+#: bbpress/form-reply-move.php:48 bbpress/form-topic-split.php:48
+#, php-format
+msgid "New topic in %s titled:"
+msgstr ""
+
+#: bbpress/form-reply-move.php:49
+#, php-format
+msgid "Moved: %s"
+msgstr ""
+
+#: bbpress/form-reply-move.php:56 bbpress/form-topic-split.php:56
+msgid "Use an existing topic in this forum:"
+msgstr ""
+
+#: bbpress/form-reply-move.php:76 bbpress/form-topic-merge.php:98
+#: bbpress/form-topic-split.php:102
+msgid "This process cannot be undone."
+msgstr ""
+
+#: bbpress/form-reply-move.php:95
+msgid "You do not have permission to edit this reply."
+msgstr ""
+
+#: bbpress/form-reply-move.php:96
+msgid "You cannot edit this reply."
+msgstr ""
+
+#: bbpress/form-reply-search.php:18
+msgid "Search replies:"
+msgstr ""
+
+#: bbpress/form-reply-search.php:20 bbpress/form-search.php:21
+#: bbpress/form-topic-search.php:20 searchform.php:24
+msgid "Search"
+msgstr ""
+
+#: bbpress/form-reply.php:30
+#, php-format
+msgid "Reply To: %s"
+msgstr ""
+
+#: bbpress/form-reply.php:30
+#, php-format
+msgid "Reply #%1$s in %2$s"
+msgstr ""
+
+#: bbpress/form-reply.php:38
+msgid ""
+"This topic is marked as closed to new replies, however your posting "
+"capabilities still allow you to reply."
+msgstr ""
+
+#: bbpress/form-reply.php:90
+msgid "Tags:"
+msgstr ""
+
+#: bbpress/form-reply.php:108 bbpress/form-topic.php:174
+msgid "Notify the author of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-reply.php:112 bbpress/form-topic.php:178
+msgid "Notify me of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-reply.php:129
+msgid "Reply To:"
+msgstr ""
+
+#: bbpress/form-reply.php:138
+msgid "Reply Status:"
+msgstr ""
+
+#: bbpress/form-reply.php:153 bbpress/form-topic.php:194
+msgid "Keep a log of this edit:"
+msgstr ""
+
+#: bbpress/form-reply.php:157 bbpress/form-topic.php:198
+msgid "Optional reason for editing:"
+msgstr ""
+
+#: bbpress/form-reply.php:200
+#, php-format
+msgid "The topic &#8216;%s&#8217; is closed to new replies."
+msgstr ""
+
+#: bbpress/form-reply.php:210 bbpress/form-topic.php:237
+#, php-format
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr ""
+
+#: bbpress/form-reply.php:221
+msgid "You cannot reply to this topic."
+msgstr ""
+
+#: bbpress/form-reply.php:222
+msgid "You must be logged in to reply to this topic."
+msgstr ""
+
+#: bbpress/form-search.php:18
+msgid "Search for:"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:27
+#, php-format
+msgid "Merge topic \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-merge.php:33
+msgid ""
+"Select the topic to merge this one into. The destination topic will remain "
+"the lead topic, and this one will change into a reply."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:34
+msgid ""
+"To keep this topic as the lead, go to the other topic and use the merge tool "
+"from there instead."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:40
+msgid ""
+"Replies to both topics are merged chronologically, ordered by the time and "
+"date they were published. Topics may be updated to a 1 second difference to "
+"maintain chronological order based on the merge direction."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:45
+msgid "Destination"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:49
+msgid "Merge with this topic:"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:64
+msgid "There are no other topics in this forum to merge with."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:72 bbpress/form-topic-split.php:76
+msgid "Topic Extras"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:79
+msgid "Merge topic subscribers"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:84
+msgid "Merge topic favoriters"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:89
+msgid "Merge topic tags"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:117 bbpress/form-topic-split.php:121
+msgid "You do not have permission to edit this topic."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:118 bbpress/form-topic-split.php:122
+msgid "You cannot edit this topic."
+msgstr ""
+
+#: bbpress/form-topic-search.php:18
+msgid "Search topics:"
+msgstr ""
+
+#: bbpress/form-topic-split.php:27
+#, php-format
+msgid "Split topic \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-split.php:33
+msgid ""
+"When you split a topic, you are slicing it in half starting with the reply "
+"you just selected. Choose to use that reply as a new topic with a new title, "
+"or merge those replies into an existing topic."
+msgstr ""
+
+#: bbpress/form-topic-split.php:39
+msgid ""
+"If you use the existing topic option, replies within both topics will be "
+"merged chronologically. The order of the merged replies is based on the time "
+"and date they were posted."
+msgstr ""
+
+#: bbpress/form-topic-split.php:44
+msgid "Split Method"
+msgstr ""
+
+#: bbpress/form-topic-split.php:49
+#, php-format
+msgid "Split: %s"
+msgstr ""
+
+#: bbpress/form-topic-split.php:83
+msgid "Copy subscribers to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-split.php:88
+msgid "Copy favoriters to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-split.php:93
+msgid "Copy topic tags to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:19
+#, php-format
+msgid "Manage Tag: \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-tag.php:23
+msgid "Rename"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:27
+msgid "Leave the slug empty to have one automatically generated."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:33
+msgid ""
+"Changing the slug affects its permalink. Any links to the old slug will stop "
+"working."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:40
+msgid "Name:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:45
+msgid "Slug:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:50
+msgid "Description:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:55 inc/tgm/class-tgm-plugin-activation.php:2782
+msgid "Update"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:69 bbpress/form-topic-tag.php:86
+msgid "Merge"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:73
+msgid "Merging tags together cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:80
+msgid "Existing tag:"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:85
+#, php-format
+msgid ""
+"Are you sure you want to merge the \"%s\" tag into the tag you specified?"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:101 bbpress/form-topic-tag.php:119
+msgid "Delete"
+msgstr ""
+
+#: bbpress/form-topic-tag.php:105
+msgid "This does not delete your topics. Only the tag itself is deleted."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:110
+msgid "Deleting a tag cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:111
+msgid "Any links to this tag will no longer function."
+msgstr ""
+
+#: bbpress/form-topic-tag.php:118
+#, php-format
+msgid ""
+"Are you sure you want to delete the \"%s\" tag? This is permanent and cannot "
+"be undone."
+msgstr ""
+
+#: bbpress/form-topic.php:47
+#, php-format
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-topic.php:48
+msgid "Create New Topic"
+msgstr ""
+
+#: bbpress/form-topic.php:60
+msgid ""
+"This forum is marked as closed to new topics, however your posting "
+"capabilities still allow you to create a topic."
+msgstr ""
+
+#: bbpress/form-topic.php:85
+#, php-format
+msgid "Topic Title (Maximum Length: %d):"
+msgstr ""
+
+#: bbpress/form-topic.php:100
+#, php-format
+msgid "You may use these %s tags and attributes:"
+msgstr ""
+
+#: bbpress/form-topic.php:111
+msgid "Topic Tags:"
+msgstr ""
+
+#: bbpress/form-topic.php:124 bbpress/loop-search-forum.php:25
+msgid "Forum:"
+msgstr ""
+
+#: bbpress/form-topic.php:127
+msgid "&mdash; No forum &mdash;"
+msgstr ""
+
+#: bbpress/form-topic.php:143
+msgid "Topic Type:"
+msgstr ""
+
+#: bbpress/form-topic.php:155
+msgid "Topic Status:"
+msgstr ""
+
+#: bbpress/form-topic.php:248
+msgid "You cannot create new topics."
+msgstr ""
+
+#: bbpress/form-topic.php:249
+msgid "You must be logged in to create new topics."
+msgstr ""
+
+#: bbpress/form-user-edit.php:17 bbpress/form-user-edit.php:22
+msgid "Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:27
+msgid "First Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:32
+msgid "Last Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:37
+msgid "Nickname"
+msgstr ""
+
+#: bbpress/form-user-edit.php:42
+msgid "Display Name"
+msgstr ""
+
+#: bbpress/form-user-edit.php:52 bbpress/form-user-edit.php:55
+msgid "Contact Info"
+msgstr ""
+
+#: bbpress/form-user-edit.php:60
+msgid "Website"
+msgstr ""
+
+#: bbpress/form-user-edit.php:78 bbpress/form-user-edit.php:84
+msgid "About Yourself"
+msgstr ""
+
+#: bbpress/form-user-edit.php:79 bbpress/form-user-edit.php:85
+msgid "About the user"
+msgstr ""
+
+#: bbpress/form-user-edit.php:91
+msgid "Biographical Info"
+msgstr ""
+
+#: bbpress/form-user-edit.php:99 bbpress/form-user-edit.php:102
+msgid "Account"
+msgstr ""
+
+#: bbpress/form-user-edit.php:107 bbpress/form-user-login.php:20
+#: bbpress/form-user-register.php:29
+msgid "Username"
+msgstr ""
+
+#: bbpress/form-user-edit.php:112 bbpress/form-user-register.php:34
+msgid "Email"
+msgstr ""
+
+#: bbpress/form-user-edit.php:119
+msgid "Language"
+msgstr ""
+
+#: bbpress/form-user-edit.php:131 bbpress/form-user-edit.php:134
+msgid "User Role"
+msgstr ""
+
+#: bbpress/form-user-edit.php:141
+msgid "Network Role"
+msgstr ""
+
+#: bbpress/form-user-edit.php:144
+msgid "Grant this user super admin privileges for the Network."
+msgstr ""
+
+#: bbpress/form-user-edit.php:161
+msgid "Save Changes"
+msgstr ""
+
+#: bbpress/form-user-edit.php:167
+msgid "Update Profile"
+msgstr ""
+
+#: bbpress/form-user-edit.php:168
+msgid "Update User"
+msgstr ""
+
+#: bbpress/form-user-login.php:17 bbpress/form-user-login.php:38
+msgid "Log In"
+msgstr ""
+
+#: bbpress/form-user-login.php:25 bbpress/form-user-passwords.php:21
+msgid "Password"
+msgstr ""
+
+#: bbpress/form-user-login.php:31
+msgid "Keep me signed in"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:17
+msgid "Lost Password"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:21
+msgid "Username or Email"
+msgstr ""
+
+#: bbpress/form-user-lost-pass.php:30
+msgid "Reset My Password"
+msgstr ""
+
+#: bbpress/form-user-passwords.php:22
+msgid "Generate Password"
+msgstr ""
+
+#: bbpress/form-user-passwords.php:30
+msgid "Hide password"
+msgstr ""
+
+#: bbpress/form-user-passwords.php:32 lib/options/opt_banner.php:36
+#: lib/options/opt_banner.php:48 lib/options/opt_banner.php:106
+#: lib/options/opt_banner.php:172 lib/options/opt_banner.php:184
+#: lib/options/opt_banner.php:242 lib/options/opt_banner.php:254
+#: lib/options/opt_banner.php:266 lib/options/opt_banner.php:355
+#: lib/options/opt_banner.php:375
+msgid "Hide"
+msgstr ""
+
+#: bbpress/form-user-passwords.php:33
+msgid "Cancel password change"
+msgstr ""
+
+#: bbpress/form-user-passwords.php:35
+msgid "Cancel"
+msgstr ""
+
+#: bbpress/form-user-passwords.php:44
+msgid "Repeat New Password"
+msgstr ""
+
+#: bbpress/form-user-passwords.php:46
+msgid "Type your new password again."
+msgstr ""
+
+#: bbpress/form-user-passwords.php:50
+msgid "Confirm"
+msgstr ""
+
+#: bbpress/form-user-register.php:17
+msgid "Create an Account"
+msgstr ""
+
+#: bbpress/form-user-register.php:23
+msgid "Your username must be unique, and cannot be changed later."
+msgstr ""
+
+#: bbpress/form-user-register.php:24
+msgid ""
+"We use your email address to email you a secure password and verify your "
+"account."
+msgstr ""
+
+#: bbpress/form-user-register.php:42
+msgid "Register"
+msgstr ""
+
+#: bbpress/form-user-roles.php:16
+msgid "Blog Role"
+msgstr ""
+
+#: bbpress/form-user-roles.php:23
+msgid "Forum Role"
+msgstr ""
+
+#: bbpress/loop-forums.php:20
+msgid "Forum"
+msgstr ""
+
+#: bbpress/loop-forums.php:22 bbpress/loop-replies.php:21
+#: bbpress/loop-replies.php:47 bbpress/loop-topics.php:22
+msgid "Posts"
+msgstr ""
+
+#: bbpress/loop-forums.php:23 bbpress/loop-topics.php:24
+msgid "Last Post"
+msgstr ""
+
+#: bbpress/loop-replies.php:18 bbpress/loop-replies.php:44
+#: bbpress/loop-search.php:19 bbpress/loop-search.php:41
+msgid "Author"
+msgstr ""
+
+#: bbpress/loop-search-forum.php:17
+#, php-format
+msgid "Last updated %s"
+msgstr ""
+
+#: bbpress/loop-search-reply.php:22
+msgid "In reply to: "
+msgstr ""
+
+#: bbpress/loop-search-topic.php:25
+msgid "Topic:"
+msgstr ""
+
+#: bbpress/loop-search-topic.php:32
+msgid "in group forum "
+msgstr ""
+
+#: bbpress/loop-search-topic.php:36
+msgid "in forum "
+msgstr ""
+
+#: bbpress/loop-search.php:23 bbpress/loop-search.php:45
+msgid "Search Results"
+msgstr ""
+
+#: bbpress/loop-single-reply.php:22
+msgid "in reply to: "
+msgstr ""
+
+#: bbpress/loop-single-topic.php:62
+#, php-format
+msgid "Started by: %1$s"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:70
+#, php-format
+msgid "in: %1$s"
+msgstr ""
+
+#: bbpress/loop-topics.php:19
+msgid "Voices"
+msgstr ""
+
+#: bbpress/user-details.php:30
+#, php-format
+msgid "%s's Profile"
+msgstr ""
+
+#: bbpress/user-details.php:30 bbpress/user-profile.php:18
+msgid "Profile"
+msgstr ""
+
+#: bbpress/user-details.php:36
+#, php-format
+msgid "%s's Topics Started"
+msgstr ""
+
+#: bbpress/user-details.php:36
+msgid "Topics Started"
+msgstr ""
+
+#: bbpress/user-details.php:42
+#, php-format
+msgid "%s's Replies Created"
+msgstr ""
+
+#: bbpress/user-details.php:42
+msgid "Replies Created"
+msgstr ""
+
+#: bbpress/user-details.php:49
+#, php-format
+msgid "%s's Engagements"
+msgstr ""
+
+#: bbpress/user-details.php:49
+msgid "Engagements"
+msgstr ""
+
+#: bbpress/user-details.php:57
+#, php-format
+msgid "%s's Favorites"
+msgstr ""
+
+#: bbpress/user-details.php:57
+msgid "Favorites"
+msgstr ""
+
+#: bbpress/user-details.php:67
+#, php-format
+msgid "%s's Subscriptions"
+msgstr ""
+
+#: bbpress/user-details.php:67
+msgid "Subscriptions"
+msgstr ""
+
+#: bbpress/user-details.php:74
+#, php-format
+msgid "Edit %s's Profile"
+msgstr ""
+
+#: bbpress/user-details.php:74 inc/classes/comment_walker.php:98
+msgid "Edit"
+msgstr ""
+
+#: bbpress/user-engagements.php:19
+msgid "Topics Engaged In"
+msgstr ""
+
+#: bbpress/user-favorites.php:19
+msgid "Favorite Forum Topics"
+msgstr ""
+
+#: bbpress/user-profile.php:19
+#, php-format
+msgid "Registered: %s"
+msgstr ""
+
+#: bbpress/user-profile.php:29
+#, php-format
+msgid "Website: %s"
+msgstr ""
+
+#: bbpress/user-profile.php:38
+#, php-format
+msgid "Last Activity: %s"
+msgstr ""
+
+#: bbpress/user-profile.php:42
+#, php-format
+msgid "Topics Started: %s"
+msgstr ""
+
+#: bbpress/user-profile.php:43
+#, php-format
+msgid "Replies Created: %s"
+msgstr ""
+
+#: bbpress/user-profile.php:44
+#, php-format
+msgid "Forum Role: %s"
+msgstr ""
+
+#: bbpress/user-replies-created.php:19
+msgid "Forum Replies Created"
+msgstr ""
+
+#: bbpress/user-subscriptions.php:23
+msgid "Subscribed Forums"
+msgstr ""
+
+#: bbpress/user-subscriptions.php:38
+msgid "Subscribed Topics"
+msgstr ""
+
+#: bbpress/user-topics-created.php:19
+msgid "Forum Topics Started"
+msgstr ""
+
+#. translators: 1: title.
+#. translators: 1: comment count number, 2: title.
+#: comments.php:35 comments.php:41
+#, php-format
+msgid "%s Comment"
+msgstr ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:81
+msgid "Your Name *"
+msgstr ""
+
+#: comments.php:82
+msgid "Your Email *"
+msgstr ""
+
+#: comments.php:83
+msgid "Your Website (optional)"
+msgstr ""
+
+#: comments.php:89
+msgid "Comment"
+msgstr ""
+
+#: functions.php:88
+msgid "Main Menu"
+msgstr ""
+
+#: header.php:31
+msgid "Skip to content"
+msgstr ""
+
+#: inc/breadcrumbs.php:16
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumbs.php:17
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: inc/breadcrumbs.php:18
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: inc/breadcrumbs.php:19
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: inc/breadcrumbs.php:20
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:21
+msgid "Error 404"
+msgstr ""
+
+#: inc/breadcrumbs.php:22
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:23
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: inc/classes/comment_walker.php:77
+msgid "says:"
+msgstr ""
+
+#. translators: 1: Comment date, 2: Comment time.
+#: inc/classes/comment_walker.php:84
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/classes/comment_walker.php:110
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/one_click_demo_config.php:13
+msgid "All Demos"
+msgstr ""
+
+#: inc/plugin_activation.php:40
+msgid "Ddoc Core"
+msgstr ""
+
+#: inc/plugin_activation.php:52
+msgid "Advanced Custom Fields-pro"
+msgstr ""
+
+#: inc/plugin_activation.php:63
+msgid "Elementor"
+msgstr ""
+
+#: inc/plugin_activation.php:69
+msgid "Droit Addons For Elementor"
+msgstr ""
+
+#: inc/plugin_activation.php:75
+msgid "Redux Framework"
+msgstr ""
+
+#: inc/plugin_activation.php:81
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/plugin_activation.php:87
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/plugin_activation.php:93
+msgid "Wedocs"
+msgstr ""
+
+#: inc/plugin_activation.php:99
+msgid "ddoc"
+msgstr ""
+
+#: inc/plugin_activation.php:105
+msgid "WordPress Social Login and Register"
+msgstr ""
+
+#: inc/sidebars.php:10
+msgid "Primary Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:12
+msgid "Place widgets in sidebar widgets area."
+msgstr ""
+
+#: inc/sidebars.php:25
+msgid "Docs Sidebar"
+msgstr ""
+
+#: inc/sidebars.php:26 inc/sidebars.php:39
+msgid "A short description of the sidebar."
+msgstr ""
+
+#: inc/sidebars.php:38
+msgid "Forum Sidebar"
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: inc/template-functions.php:46
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:46
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:49
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:53
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:56
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:66
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:83 template-parts/content-page.php:37
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-tags.php:115
+msgid "No comment"
+msgstr ""
+
+#: inc/template-tags.php:115
+msgid "1 comment"
+msgstr ""
+
+#: inc/template-tags.php:115
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: inc/template-tags.php:314
+msgid "About the Author"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:302
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:303
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:305
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:307
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:308
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:311
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:317
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:323
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:329
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:341
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:346
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:351
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:356
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:360
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:361
+#: inc/tgm/class-tgm-plugin-activation.php:886
+#: inc/tgm/class-tgm-plugin-activation.php:2592
+#: inc/tgm/class-tgm-plugin-activation.php:3639
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:362
+#: inc/tgm/class-tgm-plugin-activation.php:3218
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:363
+#: inc/tgm/class-tgm-plugin-activation.php:3011
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:365
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/tgm/class-tgm-plugin-activation.php:369
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:370
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:371
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:372
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:575
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:576
+msgid "Update Required"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:693
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:993
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:993
+#: inc/tgm/class-tgm-plugin-activation.php:996
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:996
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1180
+#: inc/tgm/class-tgm-plugin-activation.php:3007
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/tgm/class-tgm-plugin-activation.php:2041
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2332
+msgid "Required"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2335
+msgid "Recommended"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2351
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2354
+msgid "External Source"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2357
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2374
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2378
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2380
+msgid "Active"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2386
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2389
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2392
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/tgm/class-tgm-plugin-activation.php:2401
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2447
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2451
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2455
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2459
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2541
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2549
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2557
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2569
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2592
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2606
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2607
+msgid "Source"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2608
+msgid "Type"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2612
+msgid "Version"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2613
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2662
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2667
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2673
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2743
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2776
+msgid "Install"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2785
+msgid "Activate"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2816
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2818
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2859
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2861
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2967
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2993
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3217
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3557
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgm/class-tgm-plugin-activation.php:3560
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3562
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3566
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3568
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3568
+#: inc/tgm/class-tgm-plugin-activation.php:3576
+msgid "Show Details"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3568
+#: inc/tgm/class-tgm-plugin-activation.php:3576
+msgid "Hide Details"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3569
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3571
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3574
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3576
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3577
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3579
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/wedoc_function.php:60
+#, php-format
+msgid "<span>Reading time: <span>%s %s</span></span>"
+msgstr ""
+
+#: inc/wedoc_function.php:62
+#, php-format
+msgid "<span>Reading time: <span>%s %s</span> <span>%s %s</span></span>"
+msgstr ""
+
+#: inc/wedoc_function.php:75
+msgid "Views"
+msgstr ""
+
+#: inc/wedoc_function.php:78
+msgid "View"
+msgstr ""
+
+#: inc/wedoc_function.php:80
+#, php-format
+msgid "%s %s"
+msgstr ""
+
+#: inc/wedoc_function.php:135
+msgid "Search in"
+msgstr ""
+
+#: inc/wedoc_function.php:175
+#, php-format
+msgid "Nothing found with \" %s \""
+msgstr ""
+
+#: inc/wedoc_function.php:286
+msgid "Previous"
+msgstr ""
+
+#: inc/wedoc_function.php:292
+msgid "Next"
+msgstr ""
+
+#: lib/options/opt-config.php:21
+msgid "Theme Settings"
+msgstr ""
+
+#: lib/options/opt-config.php:37
+msgid "Copyright ddoc &copy; 2021"
+msgstr ""
+
+#: lib/options/opt_banner.php:6
+msgid "Banner Setting"
+msgstr ""
+
+#: lib/options/opt_banner.php:13
+msgid "Page Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:21
+msgid "Show Page Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:22
+msgid "Show Hide Page Banner Globally "
+msgstr ""
+
+#: lib/options/opt_banner.php:24 lib/options/opt_banner.php:94
+#: lib/options/opt_banner.php:160 lib/options/opt_banner.php:230
+#: lib/options/opt_banner.php:343
+msgid "Show Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:25 lib/options/opt_banner.php:95
+#: lib/options/opt_banner.php:161 lib/options/opt_banner.php:231
+#: lib/options/opt_banner.php:344
+msgid "Hide Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:33
+msgid "Show Page Breadcrumb"
+msgstr ""
+
+#: lib/options/opt_banner.php:35 lib/options/opt_banner.php:47
+#: lib/options/opt_banner.php:105 lib/options/opt_banner.php:171
+#: lib/options/opt_banner.php:183 lib/options/opt_banner.php:241
+#: lib/options/opt_banner.php:253 lib/options/opt_banner.php:265
+#: lib/options/opt_banner.php:354 lib/options/opt_banner.php:374
+msgid "Show"
+msgstr ""
+
+#: lib/options/opt_banner.php:45
+msgid "Show Page Title"
+msgstr ""
+
+#: lib/options/opt_banner.php:57 lib/options/opt_banner.php:123
+#: lib/options/opt_banner.php:193 lib/options/opt_banner.php:275
+#: lib/options/opt_banner.php:309 lib/options/opt_banner.php:384
+msgid "Upload Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:82
+msgid "Blog Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:91
+msgid "Show Blog Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:92
+msgid "Show Hide Blog Banner Globally "
+msgstr ""
+
+#: lib/options/opt_banner.php:103
+msgid "Show Blog Title"
+msgstr ""
+
+#: lib/options/opt_banner.php:113
+msgid "Blog title"
+msgstr ""
+
+#: lib/options/opt_banner.php:148
+msgid "Single Blog Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:157
+msgid "Show Single Blog Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:158
+msgid "Show Hide Banner Globally "
+msgstr ""
+
+#: lib/options/opt_banner.php:169 lib/options/opt_banner.php:239
+#: lib/options/opt_banner.php:372
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: lib/options/opt_banner.php:181 lib/options/opt_banner.php:352
+msgid "Show Title"
+msgstr ""
+
+#: lib/options/opt_banner.php:219
+msgid "Archive Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:228
+msgid "Show Archive  Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:251
+msgid "Show Archive Title"
+msgstr ""
+
+#: lib/options/opt_banner.php:263
+msgid "Show Archive Description"
+msgstr ""
+
+#: lib/options/opt_banner.php:300
+msgid "Search Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:332
+msgid "404 Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:341
+msgid "Show 404  Banner"
+msgstr ""
+
+#: lib/options/opt_banner.php:362
+msgid "404 Banner Title"
+msgstr ""
+
+#: lib/options/opt_blog.php:3
+msgid "Blog"
+msgstr ""
+
+#: lib/options/opt_blog.php:13
+msgid "Blog Archive"
+msgstr ""
+
+#: lib/options/opt_blog.php:22
+msgid "Blog Layout"
+msgstr ""
+
+#: lib/options/opt_blog.php:23
+msgid "Select your blog Layout"
+msgstr ""
+
+#: lib/options/opt_blog.php:43
+msgid "Read More Button Text"
+msgstr ""
+
+#: lib/options/opt_blog.php:55
+msgid "Single Post"
+msgstr ""
+
+#: lib/options/opt_blog.php:64
+msgid "Display Social Share?"
+msgstr ""
+
+#: lib/options/opt_colors.php:6
+msgid "Color Scheme"
+msgstr ""
+
+#: lib/options/opt_colors.php:13
+msgid "Theme Color"
+msgstr ""
+
+#: lib/options/opt_colors.php:19
+msgid "Body Color"
+msgstr ""
+
+#: lib/options/opt_colors.php:25
+msgid "Link Color"
+msgstr ""
+
+#: lib/options/opt_colors.php:31
+msgid "Link Hover Color"
+msgstr ""
+
+#: lib/options/opt_colors.php:37
+msgid "Title Color"
+msgstr ""
+
+#: lib/options/opt_footer.php:3
+msgid "Footer"
+msgstr ""
+
+#: lib/options/opt_footer.php:10
+msgid "Contents"
+msgstr ""
+
+#: lib/options/opt_footer.php:17
+msgid "Copyright Text"
+msgstr ""
+
+#: lib/options/opt_header.php:4
+msgid "Header"
+msgstr ""
+
+#: lib/options/opt_header.php:13
+msgid "Logo"
+msgstr ""
+
+#: lib/options/opt_header.php:19
+msgid "Upload logo"
+msgstr ""
+
+#: lib/options/opt_header.php:20
+msgid "Upload here a image file for your logo"
+msgstr ""
+
+#: lib/options/opt_header.php:29
+msgid "Sticky header logo"
+msgstr ""
+
+#: lib/options/opt_header.php:38
+msgid "Retina Logo"
+msgstr ""
+
+#: lib/options/opt_header.php:39 lib/options/opt_header.php:46
+msgid "The retina logo should be double (2x) of your original logo"
+msgstr ""
+
+#: lib/options/opt_header.php:45
+msgid "Retina Sticky Logo"
+msgstr ""
+
+#: lib/options/opt_header.php:52
+msgid "Logo dimensions"
+msgstr ""
+
+#: lib/options/opt_header.php:53
+msgid "Set a custom height width for your upload logo."
+msgstr ""
+
+#: lib/options/opt_header.php:61
+msgid "Padding"
+msgstr ""
+
+#: lib/options/opt_header.php:62
+msgid ""
+"Padding around the logo. Input the padding as clockwise (Top Right Bottom "
+"Left)"
+msgstr ""
+
+#: lib/options/opt_header.php:78
+msgid "Header Styling"
+msgstr ""
+
+#: lib/options/opt_header.php:86
+msgid "Show Search Icon"
+msgstr ""
+
+#: lib/options/opt_header.php:88
+msgid "Yes"
+msgstr ""
+
+#: lib/options/opt_header.php:89
+msgid "No"
+msgstr ""
+
+#: lib/options/opt_page.php:4
+msgid "Page Settings"
+msgstr ""
+
+#: lib/options/opt_page.php:13
+msgid "Layout"
+msgstr ""
+
+#: lib/options/opt_page.php:22
+msgid "Page Layout"
+msgstr ""
+
+#: lib/options/opt_page.php:23
+msgid "Select your Page Layout"
+msgstr ""
+
+#: node_modules/yargs-parser/index.js:302
+#, javascript-format
+msgid "Not enough arguments following: %s"
+msgstr ""
+
+#: node_modules/yargs-parser/index.js:450
+#, javascript-format
+msgid "Invalid JSON config file: %s"
+msgstr ""
+
+#: node_modules/yargs/lib/usage.js:169
+msgid "Commands:"
+msgstr ""
+
+#: node_modules/yargs/lib/usage.js:177 node_modules/yargs/lib/usage.js:407
+msgid "default:"
+msgstr ""
+
+#: node_modules/yargs/lib/usage.js:179
+msgid "aliases:"
+msgstr ""
+
+#: node_modules/yargs/lib/usage.js:241
+msgid "boolean"
+msgstr ""
+
+#: node_modules/yargs/lib/usage.js:242
+msgid "count"
+msgstr ""
+
+#: node_modules/yargs/lib/usage.js:243 node_modules/yargs/lib/usage.js:244
+msgid "string"
+msgstr ""
+
+#: node_modules/yargs/lib/usage.js:245
+msgid "array"
+msgstr ""
+
+#: node_modules/yargs/lib/usage.js:246
+msgid "number"
+msgstr ""
+
+#: node_modules/yargs/lib/usage.js:250
+msgid "required"
+msgstr ""
+
+#: node_modules/yargs/lib/usage.js:251
+msgid "choices:"
+msgstr ""
+
+#: node_modules/yargs/lib/usage.js:270
+msgid "Examples:"
+msgstr ""
+
+#: node_modules/yargs/lib/usage.js:385
+msgid "generated-value"
+msgstr ""
+
+#: node_modules/yargs/lib/validation.js:26
+#: node_modules/yargs/lib/validation.js:49
+#, javascript-format
+msgid "Not enough non-option arguments: got %s, need at least %s"
+msgstr ""
+
+#: node_modules/yargs/lib/validation.js:37
+#, javascript-format
+msgid "Too many non-option arguments: got %s, maximum of %s"
+msgstr ""
+
+#: node_modules/yargs/lib/validation.js:185
+msgid "Invalid values:"
+msgstr ""
+
+#: node_modules/yargs/lib/validation.js:188
+#, javascript-format
+msgid "Argument: %s, Given: %s, Choices: %s"
+msgstr ""
+
+#: node_modules/yargs/lib/validation.js:218
+#, javascript-format
+msgid "Argument check failed: %s"
+msgstr ""
+
+#: node_modules/yargs/lib/validation.js:283
+msgid "Implications failed:"
+msgstr ""
+
+#: node_modules/yargs/lib/validation.js:313
+#, javascript-format
+msgid "Arguments %s and %s are mutually exclusive"
+msgstr ""
+
+#: node_modules/yargs/lib/validation.js:332
+#, javascript-format
+msgid "Did you mean %s?"
+msgstr ""
+
+#: page.php:32 template-parts/blog/content/content.php:53
+#: template-parts/content-page.php:23 template-parts/content.php:53
+msgid "Pages:"
+msgstr ""
+
+#: page.php:36 template-parts/blog/content/content-single.php:20
+msgid "Page"
+msgstr ""
+
+#. translators: %s: search query.
+#: template-parts/banner/banner-search.php:27
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/blog/content/content-excerpt.php:23
+msgid "Featured"
+msgstr ""
+
+#. translators: %: page number.
+#: template-parts/blog/content/content-single.php:23
+msgid "Page %"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/blog/content/content.php:40 template-parts/content.php:40
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/blog/related-post.php:2
+msgid "Related posts"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/header/nav/content-nav-serch.php:16
+msgid "Search..."
+msgstr ""
+
+#: wedocs/single-docs.php:42
+msgid "days"
+msgstr ""
+
+#: wedocs/single-docs.php:44
+msgid "day"
+msgstr ""
+
+#: wedocs/single-docs.php:46
+#, php-format
+msgid "Last updated %s %s ago"
+msgstr ""
+
+#: wedocs/single-docs.php:71
+msgid "Author:"
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: wedocs/single-docs.php:88
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: wedocs/single-docs.php:102
+msgid "Still stuck?"
+msgstr ""
+
+#: wedocs/single-docs.php:103
+msgid "We can help you."
+msgstr ""
+
+#: wedocs/single-docs.php:103
+msgid "How can we help?"
+msgstr ""
+
+#: wedocs/single-docs.php:113
+#, php-format
+msgid "Updated on %s"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Ddoc"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://ddoc.droitlab.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"DDoc is a responsive WordPress documentation theme, purpose-designed and "
+"built to accommodate all types of manuals, documentation, instructions, "
+"procedures, etc. With its robust design elements and structures, users of "
+"DDoc will be able to create informative and productive documentation for "
+"their products and services."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "DroitThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/droitthemes"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "_PageFluid"
+msgstr ""
