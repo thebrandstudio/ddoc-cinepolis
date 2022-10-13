@@ -14661,9 +14661,10 @@ a:active {
   margin-top: 40px;
 }
 .ddoc-single-post .ddoc-page-content p {
-  color: #677789;
   font-size: 16px;
   line-height: 26px;
+  margin-bottom: 0em;
+
 }
 
 .doc-sidebar-right {
