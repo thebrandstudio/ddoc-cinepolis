@@ -45,7 +45,9 @@
 
 /*Categorias*/
 .doc-sidebar-menu {
-    background: white;
+    background: white!important;
+    height: 100%;
+    margin-right: 80px;
 }
 .doc-sidebar-menu .wedocs-sidebar {
     padding-left: 2rem;
