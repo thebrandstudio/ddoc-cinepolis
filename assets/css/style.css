@@ -46,6 +46,9 @@
     color: #08285B;
     font-weight: 500;
 }
+.doc-nav-list li a img {
+    display: none;
+}
 
 /*Categorias*/
 .doc-sidebar-menu {
