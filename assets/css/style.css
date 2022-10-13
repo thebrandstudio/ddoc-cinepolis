@@ -43,11 +43,11 @@
 */
 
 .doc-nav-list > li:hover > a {
-    color: #08285B;
-    font-weight: 500;
+    color: #08285B!important;
+    font-weight: 500!important;
 }
 .doc-nav-list li a img {
-    display: none;
+    display: none!important;
 }
 
 /*Categorias*/
