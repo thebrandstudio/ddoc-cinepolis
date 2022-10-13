@@ -42,6 +42,10 @@
  *--------------------------- custom -----------------------------------
 */
 
+.doc-nav-list > li:hover > a {
+    color: #08285B;
+    font-weight: 500;
+}
 
 /*Categorias*/
 .doc-sidebar-menu {
