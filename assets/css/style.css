@@ -37,6 +37,138 @@
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
+
+/*
+ *--------------------------- custom -----------------------------------
+*/
+
+
+/*Categorias*/
+.doc-sidebar-menu {
+    background: white;
+}
+.doc-sidebar-menu .wedocs-sidebar {
+    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background: #EAECF0;
+    border-radius: 10px;
+    margin-top: 35px;
+    box-shadow: 0px 4px 24px rgb(25 28 106 / 15%);
+}
+.wedocs-breadcrumb li {
+    display: inline;
+    font-size: 16px;
+    color: #08285B;
+    font-weight: 500;
+}
+.wedocs-breadcrumb li a {
+    color: #08285B;
+    text-decoration: none;
+}
+.wedocs-breadcrumb li .current {
+    color: #08285B;
+    font-weight: 700;
+}
+.doc-sidebar-menu .wedocs-sidebar .widget-title {
+    color: #08285B;
+}
+.doc-nav-list li > a {
+    color: #08285B;
+    border-bottom: 1px solid lightgray;
+}
+.doc-nav-list li ul li a {
+    color: #08285B;
+}
+.doc-nav-list li.wd-state-open > a {
+    color: #08285B;
+    font-weight: 700;
+}
+.doc-nav-list > li:hover > a {
+    color: #08285B;
+    font-weight: 700;
+}
+.doc-nav-list li.wd-state-open > a > .wedocs-icon {
+    color: #08285B;
+}
+.doc-nav-list li ul li a:before {
+    display: none;
+}
+.doc-nav-list li ul li a:hover {
+    color: #08285B;
+    font-weight: 700;
+}
+
+/*Tabs*/
+.dt_doc_tab_content .nav-tabs li.nav-item a.nav-link {
+    color: #08285B!important;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 5px 20px 3px;
+    background: transparent!important;
+    border-radius: 0;
+}
+.dt_doc_tab_content .nav-tabs li.nav-item a.nav-link.active, .dt_doc_tab_content .nav-tabs li.nav-item a.nav-link:hover {
+    box-shadow: none!important;
+    border: 1px solid #08285B;
+    background: transparent!important;
+    color: #08285B!important;
+}
+.dt_knowledge_item .media .media-left .img_wrap img {
+    max-width: 50px;
+    height: auto;
+}
+.dt_knowledge_item .media .media-left .img_wrap img {
+    max-width: 50px;
+    height: auto;
+}
+.dt_knowledge_item .media .media-body h4 {
+    color: #08285B;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.dt_knowledge_item .media .media-body p {
+    color: #08285B;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 0;
+    margin-bottom: 0px;
+}
+.dt_knowledge_item .media .media-left .img_wrap {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}
+.dt_knowledge_item .media {
+    box-shadow: 0px 4px 24px rgb(25 28 106 / 15%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.dt_our_live_document_wrap .tab_content .tab_left_content .read_more {
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #08285B;
+    color: #08285B!important;
+    padding: 10px 20px 10px;
+}
+.dt_our_live_document_wrap .tab_content .tab_left_content h3 {
+    color: #08285B;
+}
+
+
+
+
 /*
  * bootstrap
 */
