@@ -154,52 +154,62 @@ function ddoc_doc_banner( $banner ) {  ?>
                  <div class="row">
                    <div class="col-4 col-sm-2">
                      <div class="icono-categoria">
+                       <a href="/docs/cinepolis-klic/" class="text-decoration-none" style="color: white;">
                        <div class="icono">
                          <img width="60" height="60" src="<?php the_field('icono1'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5><a href="/docs/cinepolis-klic/" class="text-decoration-none" style="color: white;">Cinépolis Klic®</a></h5>
+                           <h5>Cinépolis Klic®</h5>
                        </div>
+                       </a>
                      </div>
                     </div>
                    <div class="col-4 col-sm-2">
                      <div class="icono-categoria">
+                       <a href="/docs/contenido/" class="text-decoration-none" style="color: white;">
                        <div class="icono">
                          <img width="60" height="60" src="<?php the_field('icono2'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5><a href="/docs/contenido/" class="text-decoration-none" style="color: white;">Contenido</a></h5>
+                           <h5>Contenido</h5>
                        </div>
+                       </a>
                      </div>
                    </div>
                    <div class="col-4 col-sm-2">
                      <div class="icono-categoria">
+                       <a href="/docs/metodos-de-pago/" class="text-decoration-none" style="color: white;">
                        <div class="icono">
                          <img width="60" height="60" src="<?php the_field('icono3'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5><a href="/docs/metodos-de-pago/" class="text-decoration-none" style="color: white;">Métodos de Pago</a></h5>
+                           <h5>Métodos de Pago</h5>
                        </div>
+                       </a>
                      </div>
                    </div>
                    <div class="col-4 col-sm-2">
                      <div class="icono-categoria">
+                       <a href="/docs/dispositivos/" class="text-decoration-none" style="color: white;">
                        <div class="icono">
                          <img width="60" height="60" src="<?php the_field('icono4'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5><a href="/docs/dispositivos/" class="text-decoration-none" style="color: white;">Dispositivos</a></h5>
+                           <h5>Dispositivos</h5>
                        </div>
+                       </a>
                      </div>
                    </div>
                    <div class="col-4 col-sm-2">
                      <div class="icono-categoria">
+                       <a href="/docs/canales/" class="text-decoration-none" style="color: white;">
                        <div class="icono">
                          <img width="60" height="60" src="<?php the_field('icono5'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5><a href="/docs/canales/" class="text-decoration-none" style="color: white;">Canales</a></h5>
+                           <h5>Canales</h5>
                        </div>
+                       </a>
                      </div>
                    </div>
                    <div class="col-4 col-sm-2">
