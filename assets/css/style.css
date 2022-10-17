@@ -88,10 +88,10 @@
     border-bottom: 1px solid lightgray;
 }
 .doc-nav-list li ul li a {
-    color: #08285B;
+    color: #102958;
 }
 .doc-nav-list li.wd-state-open > a {
-    color: #08285B;
+    color: black;
     font-weight: 700;
 }
 .doc-nav-list > li:hover > a {
@@ -105,7 +105,7 @@
     display: none;
 }
 .doc-nav-list li ul li a:hover {
-    color: #08285B;
+    color: black;
     font-weight: 700;
 }
 
