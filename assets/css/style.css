@@ -14074,7 +14074,7 @@ dl dd a:hover {
   background: rgba(0, 0, 0, 0.33);
 }
 .doc-nav-list li ul li a:hover {
-  color: #2579FF;
+  color: black;
 }
 .doc-nav-list > li:hover > a {
   color: #2579FF;
