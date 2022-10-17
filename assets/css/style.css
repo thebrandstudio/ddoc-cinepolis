@@ -14061,7 +14061,7 @@ dl dd a:hover {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-  padding-left: 11px;
+  padding-left: 0px;
 }
 .doc-nav-list li ul li a:before {
   position: absolute;
