@@ -41,7 +41,9 @@
 /*
  *--------------------------- custom -----------------------------------
 */
-
+i.fas.fa-circle {
+    color: #F906DD;
+}
 .doc-nav-list > li:hover > a {
     color: #08285B!important;
     font-weight: 500!important;
