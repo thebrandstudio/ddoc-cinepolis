@@ -95,11 +95,11 @@
     font-weight: 700;
 }
 .doc-nav-list > li:hover > a {
-    color: #08285B;
+    color: black;
     font-weight: 700;
 }
 .doc-nav-list li.wd-state-open > a > .wedocs-icon {
-    color: #08285B;
+    color: black;
 }
 .doc-nav-list li ul li a:before {
     display: none;
