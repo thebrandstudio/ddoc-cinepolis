@@ -92,9 +92,9 @@ get_header();
                                         the_title( '<span class="screen-reader-text">"', '"</span>', false )
                                     ) );
                                 ?>
-                                <div id="tarjetas" class="row">
+                                <!--<div id="tarjetas" class="row">
                                     <?php  ddoc_doc_child_page(get_the_ID()); ?>
-                                </div>
+                                </div>-->
                             </div>
                         </div><!-- .entry-content -->
                         <?php ddoc_doc_nav(); ?>
