@@ -14015,7 +14015,7 @@ dl dd a:hover {
   color: #0E1133;
   text-decoration: none;
   display: flex;
-  padding-right: 20px;
+  padding-right: 0px;
   position: relative;
 }
 .doc-nav-list li > a img {
