@@ -93,7 +93,7 @@ get_header();
                                     ) );
                                 ?>
                                 <!--<div id="tarjetas" class="row">
-                                    <?php  ddoc_doc_child_page(get_the_ID()); ?>
+                                    <php  ddoc_doc_child_page(get_the_ID()); ?>
                                 </div>-->
                             </div>
                         </div><!-- .entry-content -->
