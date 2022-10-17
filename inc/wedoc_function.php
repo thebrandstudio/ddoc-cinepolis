@@ -204,12 +204,14 @@ function ddoc_doc_banner( $banner ) {  ?>
                    </div>
                    <div class="col-4 col-sm-2">
                      <div class="icono-categoria">
+                       <a href="/docs/promociones/" class="text-decoration-none" style="color: white;">
                        <div class="icono">
                          <img width="60" height="60" src="<?php the_field('icono6'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5><a href="/docs/promociones/" class="text-decoration-none" style="color: white;">Promociones</a></h5>
+                           <h5>Promociones</h5>
                        </div>
+                     </a>
                      </div>
                    </div>
                  </div>
