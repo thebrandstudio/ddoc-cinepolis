@@ -33,10 +33,10 @@ get_header();
         ?>
         <div class="ddoc-single-content container-fluid p-0">
             <div class="row ddoc-single-breadcrumbs">
-                <div class="col-md-7">
+                <div class="col-md-8">
                     <?php wedocs_breadcrumbs(); ?>
                 </div>
-                <div class="col-md-5 text-md-end ddoc_date">
+                <div class="col-md-4 text-md-end ddoc_date">
                     <?php
                     $datetime1 = new DateTime( get_the_modified_date() );
                     $datetime2 = new DateTime(); // current date
