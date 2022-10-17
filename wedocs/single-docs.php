@@ -33,21 +33,8 @@ get_header();
         ?>
         <div class="ddoc-single-content container-fluid p-0">
             <div class="row ddoc-single-breadcrumbs">
-                <div class="col-md-8">
+                <div class="col-md-12">
                     <?php wedocs_breadcrumbs(); ?>
-                </div>
-                <div class="col-md-4 text-md-end ddoc_date">
-                    <?php
-                    $datetime1 = new DateTime( get_the_modified_date() );
-                    $datetime2 = new DateTime(); // current date
-                    $interval = $datetime1->diff( $datetime2 );
-                    if($interval->days > 1 ){
-                        $day_stype = __('days', 'ddoc');
-                    }else{
-                        $day_stype = __('day', 'ddoc');
-                    }
-                    printf(__('Last updated %s %s ago', 'ddoc'), $interval->days, $day_stype);
-                    ?>
                 </div>
                 <div class="clickIconLeft">
                     <span class="bar"></span>
