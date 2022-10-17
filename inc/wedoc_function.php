@@ -158,7 +158,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="60" height="60" src="<?php the_field('icono1'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5><a href="#" class="text-decoration-none" style="color: white;">Cinépolis Klic®</a></h5>
+                           <h5><a href="/docs/cinepolis-klic/" class="text-decoration-none" style="color: white;">Cinépolis Klic®</a></h5>
                        </div>
                      </div>
                     </div>
@@ -168,7 +168,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="60" height="60" src="<?php the_field('icono2'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5><a href="#" class="text-decoration-none" style="color: white;">Contenido</a></h5>
+                           <h5><a href="/docs/contenido/" class="text-decoration-none" style="color: white;">Contenido</a></h5>
                        </div>
                      </div>
                    </div>
@@ -178,7 +178,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="60" height="60" src="<?php the_field('icono3'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5><a href="#" class="text-decoration-none" style="color: white;">Métodos de Pago</a></h5>
+                           <h5><a href="/docs/metodos-de-pago/" class="text-decoration-none" style="color: white;">Métodos de Pago</a></h5>
                        </div>
                      </div>
                    </div>
@@ -188,7 +188,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="60" height="60" src="<?php the_field('icono4'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5><a href="#" class="text-decoration-none" style="color: white;">Dispositivos</a></h5>
+                           <h5><a href="/docs/dispositivos/" class="text-decoration-none" style="color: white;">Dispositivos</a></h5>
                        </div>
                      </div>
                    </div>
@@ -198,7 +198,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="60" height="60" src="<?php the_field('icono5'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5><a href="#" class="text-decoration-none" style="color: white;">Canales</a></h5>
+                           <h5><a href="/docs/canales/" class="text-decoration-none" style="color: white;">Canales</a></h5>
                        </div>
                      </div>
                    </div>
@@ -208,7 +208,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="60" height="60" src="<?php the_field('icono6'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5><a href="#" class="text-decoration-none" style="color: white;">Promociones</a></h5>
+                           <h5><a href="/docs/promociones/" class="text-decoration-none" style="color: white;">Promociones</a></h5>
                        </div>
                      </div>
                    </div>
