@@ -14040,7 +14040,7 @@ dl dd a:hover {
 }
 .doc-nav-list li.wd-state-open > a > .wedocs-icon {
   transform: rotate(180deg);
-  color: #2579FF;
+  color: black;
 }
 .doc-nav-list li ul {
   display: none;
