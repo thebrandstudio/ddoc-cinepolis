@@ -17,7 +17,6 @@
                 the_sub_field('custom_field'); //acf fields
              endwhile;
      endif;
-
  	 	return ob_get_clean();
  }
  add_shortcode('shortcode_name', 'custom_shortcode');
