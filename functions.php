@@ -12,14 +12,13 @@
  {
      ob_start();
 		 Prueba
-     if (have_rows('repeater_slug')) : ?> //change to your repeater slug
-             <?php
-             while (have_rows('repeater_slug')) : the_row(); ?> //repeater slug
-                         <?php the_sub_field('custom_field'); ?> //acf fields
-             <?php endwhile; ?>
-     <?php endif; ?>
+     if (have_rows('repeater_slug')) : //change to your repeater slug
+             while (have_rows('repeater_slug')) : the_row(); //repeater slug
+                the_sub_field('custom_field'); //acf fields
+             endwhile;
+     endif;
 
- <?php return ob_get_clean();
+ 	 	return ob_get_clean();
  }
  add_shortcode('shortcode_name', 'custom_shortcode');
 
