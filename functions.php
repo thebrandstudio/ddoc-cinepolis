@@ -198,6 +198,7 @@ function yourfunction_name() //change to your function name
                         <?php the_sub_field('custom_field'); ?> //acf fields
             <?php endwhile; ?>
     <?php endif; ?>
+		Prueba
 <?php return ob_get_clean();
 }
 add_shortcode('shortcode_name', 'yourfunction_name');
