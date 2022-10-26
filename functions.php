@@ -185,20 +185,3 @@ if(class_exists('WeDocs')) {
  * Register sidebar's
  */
 require_once ddoc_THEMEROOT_DIR . '/inc/sidebars.php';
-
-
-
-// ACF Shortcode repeater by toolset.wiki
-function yourfunction_name() //change to your function name
-{
-    ob_start();
-    if (have_rows('repeater_slug')) : ?> //change to your repeater slug
-            <?php
-            while (have_rows('repeater_slug')) : the_row(); ?> //repeater slug
-                        <?php the_sub_field('custom_field'); ?> //acf fields
-            <?php endwhile; ?>
-    <?php endif; ?>
-		Prueba
-<?php return ob_get_clean();
-}
-add_shortcode('shortcode_name', 'yourfunction_name');
