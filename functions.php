@@ -7,22 +7,6 @@
  * @package ddoc
  */
 
-
- function custom_shortcode()
- {
-     ob_start();
-		 Prueba
-     if (have_rows('repeater_slug')) : //change to your repeater slug
-             while (have_rows('repeater_slug')) : the_row(); //repeater slug
-                the_sub_field('custom_field'); //acf fields
-             endwhile;
-     endif;
- 	 	return ob_get_clean();
- }
- add_shortcode('shortcode_name', 'custom_shortcode');
-
-
-
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
