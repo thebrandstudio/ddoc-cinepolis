@@ -153,26 +153,26 @@ add_action( 'after_setup_theme', 'ddoc_content_width', 0 );
 
 
 /**
- * ddoc required function init
+ * ddoc required function init  
  */
-require_once ddoc_THEMEROOT_DIR . '/inc/init.php';
+require_once ddoc_THEMEROOT_DIR . '/inc/init.php'; 
 
 /**
- *  ddoc options and metabox init
+ *  ddoc options and metabox init 
  */
 
-require_once ddoc_THEMEROOT_DIR . '/lib/init.php';
+require_once ddoc_THEMEROOT_DIR . '/lib/init.php'; 
 /**
- * _ddoc template setting
- *
+ * _ddoc template setting 
+ * 
  * @package Header, Footer, banner, 404
  * @since  1.0
  */
 require_once ddoc_THEMEROOT_DIR . '/inc/template_setting.php';
 
 /**
- * _ddoc Doc Setting
- *
+ * _ddoc Doc Setting 
+ * 
  * @package Header, Footer, banner, 404
  * @since  1.0
  */
