@@ -32,7 +32,7 @@ get_header();
     while ( have_posts() ) : the_post();
         ?>
         <div class="ddoc-single-content container-fluid p-0">
-          <section>
+          <section style="background: #E1E6EE;">
             <div class="container">
               <div class="row ddoc-single-breadcrumbs">
                 <div class="col-md-12">
@@ -46,19 +46,6 @@ get_header();
               </div>
             </div>
           </section>
-
-
-
-            <div class="row ddoc-single-breadcrumbs">
-                <div class="col-md-12">
-                    <?php wedocs_breadcrumbs(); ?>
-                </div>
-                <div class="clickIconLeft">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </div>
 
             <div class="row dt_product_body_wrap">
                 <div class="col-lg-3 col-md-4">
