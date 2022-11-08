@@ -56,7 +56,7 @@ get_header();
           <section style="background: #E1E6EE;">
               <div class="row ddoc-single-breadcrumbs">
                 <div class="col-md-12">
-                    <?php wedocs_breadcrumbs(); ?>
+
                 </div>
                 <div class="clickIconLeft">
                     <span class="bar"></span>
