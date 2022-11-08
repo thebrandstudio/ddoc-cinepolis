@@ -45,8 +45,6 @@ get_header();
             </div>
           </div>
         </div>
-
-
         <div id="contenido" style="background: white;">
           <div class="container p-0">
             <div class="row dt_product_body_wrap">
