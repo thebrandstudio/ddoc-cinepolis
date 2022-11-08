@@ -4,9 +4,9 @@
     text-align: center;
 }
 .custom-titulo {
-    font-weight: 500;
-    line-height: 1.3em;
+    line-height: 1.3em!important;
     color: #FFFFFF;
+    margin-bottom: 20px!important
 }
 
 /*======================   normal styles    =======================*/

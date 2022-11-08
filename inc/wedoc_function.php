@@ -119,7 +119,6 @@ function ddoc_doc_banner( $banner ) {  ?>
       <div class="container">
         <div class="row justify-content-center">
              <?php
-
                 global $post;
                 $get_id = get_ancestors($post->ID, 'docs');
                 $parent_ID = end($get_id);
@@ -131,7 +130,6 @@ function ddoc_doc_banner( $banner ) {  ?>
                 }else{
                     $title = get_the_title($post->ID);
                 }
-
                   $placeholder_base = esc_html__('¿Que estás buscando hoy?', 'ddoc');
 			    /*$placeholder = $placeholder_base.' '.$title; ?>*/
 			      $placeholder = $placeholder_base; ?>
