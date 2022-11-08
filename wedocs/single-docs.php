@@ -33,7 +33,7 @@ get_header();
         ?>
 
 
-        <div class="" style="background: red; height: 20px;">
+        <div class="" style="background: red;">
           <div class="container">
             <div class="row ddoc-single-breadcrumbs">
               <div class="col-md-12">
