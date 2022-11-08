@@ -13814,7 +13814,7 @@ dl dd a:hover {
 }
 
 .widget_text p {
-  line-height: 1.8;
+  font-size: 14px;
 }
 
 .wp-caption {
