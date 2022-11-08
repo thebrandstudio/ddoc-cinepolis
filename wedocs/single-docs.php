@@ -48,7 +48,7 @@ get_header();
         <div id="contenido" style="background: white;">
           <div class="container p-0">
             <div class="row dt_product_body_wrap">
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-4 col-md-4">
                     <div class="doc-sidebar-menu sidebar_left ps-lg-5">
                         <?php
                         if ( !$skip_sidebar ) {
