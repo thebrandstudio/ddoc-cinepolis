@@ -14172,21 +14172,14 @@ dl dd a:hover {
   opacity: 1;
 }
 
-.doc-sidebar-menu {
-  background: #EEF1F6;
-  height: 100%;
-  margin-right: 80px;
-}
 @media (max-width: 1440px) {
   .doc-sidebar-menu {
-    margin-right: 20px;
-    padding-left: 20px !important;
+    margin-right: 10px;
   }
 }
 @media (max-width: 767px) {
   .doc-sidebar-menu.sidebar_left {
     margin-right: 0;
-    padding-left: 15px !important;
     padding-right: 15px;
     display: none;
   }
