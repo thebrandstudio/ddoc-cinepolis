@@ -6,7 +6,9 @@
 .custom-titulo {
     line-height: 1.3em!important;
     color: #FFFFFF;
-    margin-bottom: 20px!important
+    margin-bottom: 20px!important;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 500;
 }
 
 /*======================   normal styles    =======================*/
