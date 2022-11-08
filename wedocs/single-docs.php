@@ -31,9 +31,8 @@ get_header();
     do_action( 'wedocs_before_main_content', $default_banner );
     while ( have_posts() ) : the_post();
         ?>
-        <div class="ddoc-single-content container-fluid p-0">
+        <div class="ddoc-single-content container p-0">
           <section style="background: #E1E6EE;">
-            <div class="container">
               <div class="row ddoc-single-breadcrumbs">
                 <div class="col-md-12">
                     <?php wedocs_breadcrumbs(); ?>
@@ -44,7 +43,6 @@ get_header();
                     <span class="bar"></span>
                 </div>
               </div>
-            </div>
           </section>
 
           <section style="background: white;">
