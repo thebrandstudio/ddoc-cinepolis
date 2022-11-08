@@ -33,7 +33,7 @@ get_header();
         ?>
         <div class="ddoc-single-content container-fluid p-0">
             <div class="row ddoc-single-breadcrumbs">
-                <div class="col-md-12">
+                <div class="col-md-12" style="max-width: 1300px;">
                     <?php wedocs_breadcrumbs(); ?>
                 </div>
                 <div class="clickIconLeft">
