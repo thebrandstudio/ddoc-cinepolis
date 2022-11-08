@@ -157,7 +157,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="70" height="70" src="<?php the_field('icono1'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5 class="nav-link">Cinépolis Klic®</h5>
+                           <h5 class="icono-titulo">Cinépolis Klic®</h5>
                        </div>
                        </a>
                      </div>
@@ -169,7 +169,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="70" height="70" src="<?php the_field('icono2'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5 class="nav-link">Contenido</h5>
+                           <h5 class="icono-titulo">Contenido</h5>
                        </div>
                        </a>
                      </div>
@@ -181,7 +181,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="70" height="70" src="<?php the_field('icono3'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5 class="nav-link">Métodos de Pago</h5>
+                           <h5 class="icono-titulo">Métodos de Pago</h5>
                        </div>
                        </a>
                      </div>
@@ -193,7 +193,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="70" height="70" src="<?php the_field('icono4'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5 class="nav-link">Dispositivos</h5>
+                           <h5 class="icono-titulo">Dispositivos</h5>
                        </div>
                        </a>
                      </div>
@@ -205,7 +205,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="70" height="70" src="<?php the_field('icono5'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5 class="nav-link">Canales</h5>
+                           <h5 class="icono-titulo">Canales</h5>
                        </div>
                        </a>
                      </div>
@@ -217,7 +217,7 @@ function ddoc_doc_banner( $banner ) {  ?>
                          <img width="70" height="70" src="<?php the_field('icono6'); ?>" class="attachment-full size-full" alt="" loading="lazy">
                        </div>
                        <div class="info">
-                           <h5 class="nav-link">Promociones</h5>
+                           <h5 class="icono-titulo">Promociones</h5>
                        </div>
                      </a>
                      </div>
