@@ -12,7 +12,7 @@ if ( ! is_active_sidebar( 'dddoc_sidebar' ) ) {
 }
 ?>
 
-<div class="col-lg-3">
+<div class="col-lg-2">
     <div class="doc-sidebar-menu doc-sidebar-right me-0">
         <?php dynamic_sidebar( 'dddoc_sidebar' ); ?>
     </div>
