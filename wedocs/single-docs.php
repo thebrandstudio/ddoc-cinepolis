@@ -33,7 +33,8 @@ get_header();
         ?>
         <div class="ddoc-single-content container-fluid p-0">
           <section>
-            <div class="row ddoc-single-breadcrumbs">
+            <div class="container">
+              <div class="row ddoc-single-breadcrumbs">
                 <div class="col-md-12">
                     <?php wedocs_breadcrumbs(); ?>
                 </div>
@@ -41,18 +42,6 @@ get_header();
                     <span class="bar"></span>
                     <span class="bar"></span>
                     <span class="bar"></span>
-                </div>
-            </div>
-            <div class="container ddoc-single-breadcrumbs">
-              <div class="row">
-                <div class="col-sm">
-                  One of three columns
-                </div>
-                <div class="col-sm">
-                  One of three columns
-                </div>
-                <div class="col-sm">
-                  One of three columns
                 </div>
               </div>
             </div>
