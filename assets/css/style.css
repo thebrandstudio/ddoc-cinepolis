@@ -14088,8 +14088,7 @@ dl dd a:hover {
 /*========== ddoc-single-breadcrumbs ==========*/
 .ddoc-single-breadcrumbs {
   background: #E1E6EE;
-  border: 1px solid #DAE2EF;
-  padding: 17px 80px;
+  padding: 17px 0px;
   --bs-gutter-x: 0rem;
   position: relative;
 }
