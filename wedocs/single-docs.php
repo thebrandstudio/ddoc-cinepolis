@@ -32,6 +32,22 @@ get_header();
     while ( have_posts() ) : the_post();
         ?>
 
+
+        <div class="ddoc-banner" style="background: red;">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-12 text-center">
+              	<div id="custom-titulo">
+                  <h4 class="elementor-heading-title elementor-size-default custom-titulo">Busca tu pregunta en esta categoría</h4>
+              	</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
         <div class="ddoc-single-content container p-0">
               <div class="row ddoc-single-breadcrumbs">
                 <div class="col-md-12">
