@@ -83,7 +83,6 @@ i.fas.fa-circle {
     font-weight: 700;
 }
 .doc-nav-list li > a {
-    color: #08285B;
     border-bottom: 1px solid lightgray;
 }
 .doc-nav-list li ul li a {
@@ -14011,7 +14010,7 @@ dl dd a:hover {
 .doc-nav-list li > a {
   font-size: 16px;
   font-weight: 500;
-  color: #0E1133;
+  color: #08285B;
   text-decoration: none;
   display: flex;
   padding-right: 0px;
@@ -14707,16 +14706,16 @@ a:active {
   }
 }
 .ddoc-single-post .ddoc-page-content {
-  color: var(--bs-body-color);
+  color: #102958;
   font-size: 16px;
   line-height: 26px;
 }
 .ddoc-single-post .ddoc-page-content p a {
   text-decoration: none;
-  color: var(--bs-body-color);
+  color: #102958;
 }
 .ddoc-single-post .ddoc-page-content p strong {
-  color: var(--bs-body-color);
+  color: #102958;
   font-weight: 500;
 }
 .ddoc-single-post .ddoc-page-content p strong a {
