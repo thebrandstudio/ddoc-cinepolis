@@ -14185,14 +14185,14 @@ dl dd a:hover {
   }
 }
 .doc-sidebar-menu .wedocs-sidebar {
-  padding-left: 2rem;
-  padding-right: 3rem;
+  padding-left: 20px;
+  padding-right: 20px;
   padding-top: 35px;
 }
 @media (max-width: 1440px) {
   .doc-sidebar-menu .wedocs-sidebar {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 .doc-sidebar-menu .wedocs-sidebar .widget-title {
