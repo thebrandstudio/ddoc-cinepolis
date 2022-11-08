@@ -49,7 +49,7 @@ get_header();
           <div class="container p-0">
             <div class="row dt_product_body_wrap">
                 <div class="col-lg-4 col-md-4">
-                    <div class="doc-sidebar-menu sidebar_left ps-lg-5">
+                    <div class="doc-sidebar-menu sidebar_left">
                         <?php
                         if ( !$skip_sidebar ) {
                             single_single_page_sidebar();
