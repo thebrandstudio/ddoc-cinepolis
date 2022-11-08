@@ -33,7 +33,7 @@ get_header();
         ?>
         <div class="ddoc-single-content container-fluid p-0">
 
-          <div class="container" style="background: red;">
+          <div class="container ddoc-single-breadcrumbs">
             <div class="row">
               <div class="col-sm">
                 One of three columns
