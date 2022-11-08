@@ -33,7 +33,7 @@ get_header();
         ?>
 
 
-        <div class="" style="background: red;">
+        <div class="" style="background: red; height: 20px;">
           <div class="container">
             <div class="row ddoc-single-breadcrumbs">
               <div class="col-md-12">
@@ -50,13 +50,11 @@ get_header();
 
 
 
-
-
-        <div class="ddoc-single-content container p-0">
+        <div class=" container p-0">
           <section style="background: #E1E6EE;">
               <div class="row ddoc-single-breadcrumbs">
                 <div class="col-md-12">
-
+                    <?php wedocs_breadcrumbs(); ?>
                 </div>
                 <div class="clickIconLeft">
                     <span class="bar"></span>
