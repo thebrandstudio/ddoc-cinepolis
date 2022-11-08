@@ -32,8 +32,23 @@ get_header();
     while ( have_posts() ) : the_post();
         ?>
         <div class="ddoc-single-content container-fluid p-0">
+
+          <div class="container" style="background: red;">
+            <div class="row">
+              <div class="col-sm">
+                One of three columns
+              </div>
+              <div class="col-sm">
+                One of three columns
+              </div>
+              <div class="col-sm">
+                One of three columns
+              </div>
+            </div>
+          </div>
+
             <div class="row ddoc-single-breadcrumbs">
-                <div class="col-md-12" style="max-width: 1300px;">
+                <div class="col-md-12">
                     <?php wedocs_breadcrumbs(); ?>
                 </div>
                 <div class="clickIconLeft">
@@ -42,6 +57,7 @@ get_header();
                     <span class="bar"></span>
                 </div>
             </div>
+
             <div class="row dt_product_body_wrap">
                 <div class="col-lg-3 col-md-4">
                     <div class="doc-sidebar-menu sidebar_left ps-lg-5">
