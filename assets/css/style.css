@@ -79,7 +79,7 @@ i.fas.fa-circle {
     text-decoration: none;
 }
 .wedocs-breadcrumb li .current {
-    color: #08285B;
+    color: #677789;
     font-weight: 700;
 }
 .doc-nav-list li > a {
@@ -13988,9 +13988,6 @@ dl dd a:hover {
 .wedocs-breadcrumb li a {
   color: #929AB2;
   text-decoration: none;
-}
-.wedocs-breadcrumb li .current {
-  color: #677789;
 }
 .wedocs-breadcrumb li.delimiter {
   margin: 0px 10px;
