@@ -47,7 +47,7 @@ get_header();
         </div>
 
 
-        <div id="contenido" style="background: #E1E6EE; border-top: 1px solid #DAE2EF; border-bottom: 1px solid #DAE2EF;">
+        <div id="contenido" style="background: white;">
           <div class="container p-0">
             <div class="row dt_product_body_wrap">
                 <div class="col-lg-3 col-md-4">
