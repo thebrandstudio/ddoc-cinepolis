@@ -33,8 +33,8 @@ get_header();
         ?>
 
 
-        <div class="" style="background: red; height: 20px;">
-          <div class="container">
+        <div class="" style="background: red;">
+          <div class="container p-0">
             <div class="row ddoc-single-breadcrumbs">
               <div class="col-md-12">
                 <?php wedocs_breadcrumbs(); ?>
