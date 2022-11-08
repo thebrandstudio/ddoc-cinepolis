@@ -14208,12 +14208,10 @@ dl dd a:hover {
   margin-bottom: 25px;
 }
 .doc-sidebar-menu.doc-sidebar-right {
-  margin-left: 80px;
-  padding: 38px 35px;
+  padding: 38px 0px;
 }
 @media (max-width: 1440px) {
   .doc-sidebar-menu.doc-sidebar-right {
-    margin-left: 40px;
   }
 }
 @media (max-width: 991px) {
@@ -14671,8 +14669,7 @@ a:active {
 }
 
 .doc-sidebar-right {
-  margin-left: 80px;
-  padding: 38px 35px;
+  padding: 38px 0px;
 }
 
 .wp-block-ddoc-block-zoomtext .btn-group {
