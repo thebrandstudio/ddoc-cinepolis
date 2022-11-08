@@ -134,20 +134,6 @@ get_header();
                 <?php get_sidebar('docs') ?>
           </div>
         </div>
-
-        
-
-
-          <section style="background: white;">
-            <div class="container">
-
-             </div>
-            </div>
-          </section>
-
-        </div>
-
-
         <?php
     endwhile;
     wp_reset_postdata();
