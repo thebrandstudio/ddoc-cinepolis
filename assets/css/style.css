@@ -82,9 +82,6 @@ i.fas.fa-circle {
     color: #08285B;
     font-weight: 700;
 }
-.doc-sidebar-menu .wedocs-sidebar .widget-title {
-    color: #08285B;
-}
 .doc-nav-list li > a {
     color: #08285B;
     border-bottom: 1px solid lightgray;
@@ -14197,7 +14194,7 @@ dl dd a:hover {
 }
 .doc-sidebar-menu .wedocs-sidebar .widget-title {
   font-size: 18px;
-  color: #0E1133;
+  color: #08285B;
   margin-bottom: 25px;
 }
 .doc-sidebar-menu.doc-sidebar-right {
