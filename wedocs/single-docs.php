@@ -47,7 +47,7 @@ get_header();
             </div>
           </section>
 
-          <section style="background: #E1E6EE;">
+          <section style="background: white;">
             <div class="container">
               <div class="row dt_product_body_wrap">
                   <div class="col-lg-3 col-md-4">
