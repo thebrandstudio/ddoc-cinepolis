@@ -33,7 +33,7 @@ get_header();
         ?>
 
 
-        <div class="ddoc-banner" style="background: red;">
+        <div class="" style="background: red; height: 20px;">
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-md-12 text-center">
