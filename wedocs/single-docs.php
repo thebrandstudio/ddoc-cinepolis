@@ -43,6 +43,19 @@ get_header();
                     <span class="bar"></span>
                 </div>
             </div>
+            <div class="container ddoc-single-breadcrumbs">
+              <div class="row">
+                <div class="col-sm">
+                  One of three columns
+                </div>
+                <div class="col-sm">
+                  One of three columns
+                </div>
+                <div class="col-sm">
+                  One of three columns
+                </div>
+              </div>
+            </div>
           </section>
 
           <div class="container ddoc-single-breadcrumbs">
