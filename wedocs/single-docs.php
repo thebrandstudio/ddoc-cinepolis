@@ -35,28 +35,19 @@ get_header();
 
         <div class="" style="background: red; height: 20px;">
           <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-md-12 text-center">
+            <div class="row ddoc-single-breadcrumbs">
+              <div class="col-md-12">
+                <?php wedocs_breadcrumbs(); ?>
+              </div>
+              <div class="clickIconLeft">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
               </div>
             </div>
           </div>
         </div>
 
-
-
-
-        <div class="ddoc-single-content container p-0">
-              <div class="row ddoc-single-breadcrumbs">
-                <div class="col-md-12">
-                    <?php wedocs_breadcrumbs(); ?>
-                </div>
-                <div class="clickIconLeft">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-              </div>
-        </div>
 
 
 
