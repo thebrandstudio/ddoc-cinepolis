@@ -14017,11 +14017,11 @@ dl dd a:hover {
   margin: 0;
 }
 .doc-nav-list li ul li {
-  margin-left: 0px;
+  margin-left: 10px;
   position: relative;
   margin-bottom: 0px;
-  padding-bottom: 5px;
-  padding-top: 8px;
+  padding-bottom: 6px;
+  padding-top: 6px;
 }
 .doc-nav-list li ul li a {
   display: block;
