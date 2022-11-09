@@ -1,4 +1,4 @@
-<?php 
+<?php
 namespace dl\doc;
 
 use Walker_Page;
@@ -12,23 +12,23 @@ class Walker extends Walker_Page {
      * Initialize the class
      */
     public function start_el( &$output, $page, $depth = 0, $args = [], $current_page = 0 ) {
-        
+
         if ( isset( $args['pages_with_children'][ $page->ID ] ) ) {
-            $args['link_after'] = '<span class="wedocs-icon wedocs-icon-angle-down"></span><span data-page-id="'.$page->ID.'"></span>';
+            $args['link_after'] = '<span class="wedocs-icon wedocs-icon-icon-plus"></span><span data-page-id="'.$page->ID.'"></span>';
         }else{
           $args['link_after'] = '<span data-page-id="'.$page->ID.'"></span>';
         }
 
-        $icon_html = ''; 
+        $icon_html = '';
         $get_icon_type = get_field('select_icon_type_', $page->ID, true);
         $get_icon = get_field('select_icon', $page->ID, true);
         $get_image = get_field('upload_image_icon_svg', $page->ID, true);
-        
+
         $get_image_html = '';
         if(isset($get_image['ID']) && '' != $get_image['ID']){
             $get_image_html = wp_get_attachment_image($get_image['ID'], [30, 30]);
         }
-        
+
         if( $get_icon_type == 'icon') {
             $icon_html = $get_icon;
         }
