@@ -14031,8 +14031,7 @@ dl dd a:hover {
   cursor: pointer;
 }
 .doc-nav-list li.wd-state-open > a > .wedocs-icon {
-  transform: rotate(180deg);
-  color: black;
+  color: #102958;
 }
 .doc-nav-list li ul {
   display: none;
