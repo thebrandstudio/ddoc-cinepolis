@@ -59,10 +59,18 @@ i.fas.fa-circle {
     color: red;
 }
 .doc-nav-list li {
-  padding: 4px;
-  margin-bottom: 4px;
+    padding: 4px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid lightgray;
 }
-
+.doc-nav-list li ul li {
+  position: relative;
+  padding: 6px;
+  margin-bottom: 4px;
+  background: #E1E6EE;
+  border-radius: 4px;
+  border-bottom: none;
+}
 
 
 
@@ -14027,13 +14035,6 @@ dl dd a:hover {
   list-style: none;
   padding: 4px 0px 0px;
   margin: 0;
-}
-.doc-nav-list li ul li {
-  position: relative;
-  padding: 6px;
-  margin-bottom: 4px;
-  background: #E1E6EE;
-  border-radius: 4px;
 }
 .doc-nav-list li ul li a {
   display: block;
