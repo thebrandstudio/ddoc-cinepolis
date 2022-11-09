@@ -14019,6 +14019,7 @@ dl dd a:hover {
 .doc-nav-list li ul li {
   position: relative;
   padding: 10px;
+  margin: 0;
 }
 .doc-nav-list li ul li a {
   display: block;
