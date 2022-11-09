@@ -14017,11 +14017,8 @@ dl dd a:hover {
   margin: 0;
 }
 .doc-nav-list li ul li {
-  margin-left: 10px;
   position: relative;
-  margin-bottom: 0px;
-  padding-bottom: 6px;
-  padding-top: 6px;
+  padding: 10px;
 }
 .doc-nav-list li ul li a {
   display: block;
@@ -14030,7 +14027,7 @@ dl dd a:hover {
   font-weight: 400;
   line-height: 20px;
   padding-left: 0px;
-  border-bottom: 1px solid lightgray;
+  /*border-bottom: 1px solid lightgray;*/
 }
 .doc-nav-list li ul li a:before {
   position: absolute;
