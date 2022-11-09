@@ -80,7 +80,12 @@ i.fas.fa-circle {
 .doc-nav-list li.wd-state-open > a > .wedocs-icon {
     color: white;
 }
+.doc-nav-list > li:hover > a {
 
+}
+.doc-nav-list > li:hover > a .wedocs-icon {
+
+}
 
 /*Categorias*/
 .doc-sidebar-menu {
@@ -14054,9 +14059,6 @@ dl dd a:hover {
   height: 4px;
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.33);
-}
-.doc-nav-list > li:hover > a .wedocs-icon {
-  color: #2579FF;
 }
 
 /*========== ddoc-single-breadcrumbs ==========*/
