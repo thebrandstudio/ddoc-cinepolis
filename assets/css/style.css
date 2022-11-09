@@ -74,14 +74,9 @@ i.fas.fa-circle {
     color: #08285B;
     text-decoration: none;
 }
-.doc-nav-list li > a {
-    border-bottom: 1px solid lightgray;
-}
-
 .doc-nav-list li.wd-state-open > a > .wedocs-icon {
     color: black;
 }
-
 .doc-nav-list li ul li a:before {
     display: none;
 }
@@ -14038,6 +14033,7 @@ dl dd a:hover {
   font-weight: 400;
   line-height: 20px;
   padding-left: 0px;
+  border-bottom: 1px solid lightgray;
 }
 .doc-nav-list li ul li a:before {
   position: absolute;
