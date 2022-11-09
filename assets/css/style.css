@@ -13981,9 +13981,6 @@ dl dd a:hover {
   margin-bottom: 12px;
 }
 .doc-nav-list li > a {
-  font-size: 16px;
-  font-weight: 500;
-  color: #08285B;
   text-decoration: none;
   display: flex;
   padding-right: 0px;
