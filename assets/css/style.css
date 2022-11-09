@@ -48,9 +48,6 @@ i.fas.fa-circle {
     color: #08285B!important;
     font-weight: 500!important;
 }
-.doc-nav-list li a img {
-    display: none!important;
-}
 
 /*Categorias*/
 .doc-sidebar-menu {
@@ -78,32 +75,17 @@ i.fas.fa-circle {
     color: #08285B;
     text-decoration: none;
 }
-.wedocs-breadcrumb li .current {
-    color: #102958;
-    font-weight: 700;
-}
 .doc-nav-list li > a {
     border-bottom: 1px solid lightgray;
 }
 .doc-nav-list li ul li a {
     color: #102958;
 }
-.doc-nav-list li.wd-state-open > a {
-    color: black;
-    font-weight: 700;
-}
-.doc-nav-list > li:hover > a {
-    color: black;
-    font-weight: 700;
-}
 .doc-nav-list li.wd-state-open > a > .wedocs-icon {
     color: black;
 }
 .doc-nav-list li ul li a:before {
     display: none;
-}
-.doc-nav-list li ul li a:hover {
-    color: black;
 }
 
 /*Tabs*/
