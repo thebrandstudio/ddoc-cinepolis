@@ -47,7 +47,12 @@ i.fas.fa-circle {
 .doc-nav-list li a img {
     display: none!important;
 }
-
+.page_item .current_page_item {
+    background: #102958;
+}
+.page_item .current_page_item a {
+    color: white;
+}
 /*Categorias*/
 .doc-sidebar-menu {
     background: white!important;
