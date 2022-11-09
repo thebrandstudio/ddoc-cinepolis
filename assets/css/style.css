@@ -232,7 +232,7 @@ i.fas.fa-circle {
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  font-family: 'Montserrat', sans-serif!important;
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
@@ -405,7 +405,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: var(--bs-font-monospace);
+  font-family: 'Montserrat', sans-serif;
   font-size: 1em;
   direction: ltr /* rtl:ignore */;
   unicode-bidi: bidi-override;
@@ -5915,7 +5915,7 @@ textarea.form-control-lg {
   z-index: 1080;
   display: block;
   margin: 0;
-  font-family: var(--bs-font-sans-serif);
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -6017,7 +6017,7 @@ textarea.form-control-lg {
   z-index: 1070;
   display: block;
   max-width: 276px;
-  font-family: var(--bs-font-sans-serif);
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -14359,9 +14359,9 @@ dl dd a:hover {
   --widget_title_color: #181B31;
   --bs-body-color: #677789;
   --hovercolor: #2579FF;
-  --body-font-family: Roboto, sans-serif;
-  --menu-font-family: Roboto, sans-serif;
-  --headings-font-family: Roboto, sans-serif;
+  --body-font-family: Montserrat, sans-serif;
+  --menu-font-family: Montserrat, sans-serif;
+  --headings-font-family: Montserrat, sans-serif;
   --body-font-size: 16px;
   --body-font-weight: 400;
   --body-line-height: 26px;
