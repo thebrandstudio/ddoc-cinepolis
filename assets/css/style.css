@@ -77,12 +77,11 @@ i.fas.fa-circle {
 .doc-nav-list li > a {
     border-bottom: 1px solid lightgray;
 }
-.doc-nav-list li ul li a {
-    color: #102958;
-}
+
 .doc-nav-list li.wd-state-open > a > .wedocs-icon {
     color: black;
 }
+
 .doc-nav-list li ul li a:before {
     display: none;
 }
@@ -14034,7 +14033,7 @@ dl dd a:hover {
 }
 .doc-nav-list li ul li a {
   display: block;
-  color: #444;
+  color: #102958;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
