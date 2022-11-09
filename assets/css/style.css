@@ -58,7 +58,10 @@ i.fas.fa-circle {
 .doc-nav-list li.wd-state-open > a {
     color: red;
 }
-
+.doc-nav-list li {
+  padding: 4px;
+  margin-bottom: 4px;
+}
 
 
 
@@ -13991,9 +13994,6 @@ dl dd a:hover {
   list-style: none;
   margin-bottom: 0;
   padding-left: 0;
-}
-.doc-nav-list li {
-  margin-bottom: 12px;
 }
 .doc-nav-list li > a {
   text-decoration: none;
