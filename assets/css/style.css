@@ -14055,9 +14055,6 @@ dl dd a:hover {
   border-radius: 50%;
   background: rgba(0, 0, 0, 0.33);
 }
-.doc-nav-list > li:hover > a {
-  color: #2579FF;
-}
 .doc-nav-list > li:hover > a .wedocs-icon {
   color: #2579FF;
 }
