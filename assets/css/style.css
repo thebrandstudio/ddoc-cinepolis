@@ -77,7 +77,7 @@ i.fas.fa-circle {
   border-radius: 4px;
   border-bottom: 1px solid lightgray;
 }
-.doc-nav-list li.wd-state-open > a > .wedocs-icon .wedocs-icon-angle-down:before {
+.doc-nav-list li.wd-state-open > a > .wedocs-icon .wedocs-icon-angle-down:hover:before {
     content: '-';
 }
 .doc-nav-list li.wd-state-open > a > .wedocs-icon {
