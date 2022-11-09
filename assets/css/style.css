@@ -44,6 +44,8 @@
 i.fas.fa-circle {
     color: #F906DD;
 }
+
+/*Sidebar Menu*/
 .doc-nav-list li a img {
     display: none!important;
 }
@@ -53,6 +55,14 @@ i.fas.fa-circle {
 .page_item .current_page_item a {
     color: white;
 }
+.doc-nav-list li.current_page_item > a {
+    color: red;
+}
+
+
+
+
+
 /*Categorias*/
 .doc-sidebar-menu {
     background: white!important;
