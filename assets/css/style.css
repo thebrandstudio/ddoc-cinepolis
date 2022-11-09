@@ -59,9 +59,8 @@ i.fas.fa-circle {
     color: red;
 }
 .doc-nav-list li {
-    padding: 4px;
+    padding: 6px;
     margin-bottom: 4px;
-    border-bottom: 1px solid lightgray;
 }
 .doc-nav-list li ul li {
   position: relative;
