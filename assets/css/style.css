@@ -67,9 +67,8 @@ i.fas.fa-circle {
   position: relative;
   padding: 6px;
   margin-bottom: 4px;
-  background: #E1E6EE;
   border-radius: 4px;
-  border-bottom: none;
+  border-bottom: 1px solid lightgray;
 }
 
 
@@ -14043,7 +14042,6 @@ dl dd a:hover {
   font-weight: 400;
   line-height: 20px;
   padding-left: 0px;
-  /*border-bottom: 1px solid lightgray;*/
 }
 .doc-nav-list li ul li a:before {
   position: absolute;
