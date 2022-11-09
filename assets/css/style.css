@@ -55,7 +55,7 @@ i.fas.fa-circle {
 .page_item .current_page_item a {
     color: white;
 }
-.doc-nav-list li.current_page_item > a {
+.doc-nav-list li.wd-state-open > a {
     color: red;
 }
 
