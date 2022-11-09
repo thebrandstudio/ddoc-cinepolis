@@ -14030,9 +14030,6 @@ dl dd a:hover {
   transform: rotate(0deg);
   cursor: pointer;
 }
-.doc-nav-list li.wd-state-open > a > .wedocs-icon {
-  color: #102958;
-}
 .doc-nav-list li ul {
   display: none;
   list-style: none;
