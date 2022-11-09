@@ -44,6 +44,12 @@
 i.fas.fa-circle {
     color: #F906DD;
 }
+.wedocs-icon-angle-down:before {
+    content: url('/wp-content/themes/ddoc-cinepolis/assets/images/icons/icono-mas.svg') no-repeat;
+    display: block;
+    width:  24px;
+    height: 24px;
+}
 
 /*Sidebar Menu*/
 .doc-nav-list li a img {
