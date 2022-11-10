@@ -45,27 +45,26 @@ i.fas.fa-circle {
     color: #F906DD;
 }
 
+/*Mensaje de aviso*/
 .ddoc-single-post .ddoc-page-content pre {
 	background: #102958;
 	color: white;
 	font-family: 'Montserrat', sans-serif!important;
+  font-size: 12px;
 	line-height: 1.2;
 	text-align: center;
   margin-top: 15px;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 	padding: 10px;
 }
 
-
-
+/*Sidebar Menu*/
 .wedocs-icon-angle-down:before {
     content: '+';
 }
 .doc-nav-list li.wd-state-open > a > .wedocs-icon:before {
     content: '-';
 }
-
-/*Sidebar Menu*/
 .doc-nav-list li a img {
     display: none!important;
 }
@@ -97,12 +96,7 @@ i.fas.fa-circle {
 .doc-nav-list li.wd-state-open > a > .wedocs-icon {
     color: white;
 }
-.doc-nav-list > li:hover > a {
 
-}
-.doc-nav-list > li:hover > a .wedocs-icon {
-
-}
 
 /*Categorias*/
 .doc-sidebar-menu {
@@ -14726,9 +14720,6 @@ a:active {
   font-size: 22px;
   color: #0E1133;
   margin-bottom: 8px;
-}
-.ddoc-single-post .ddoc-page-content pre {
-  margin-top: 15px;
 }
 .ddoc-single-post .ddoc-page-content ol, .ddoc-single-post .ddoc-page-content ul {
   padding-left: 18px;
