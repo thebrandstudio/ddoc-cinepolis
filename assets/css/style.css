@@ -116,6 +116,9 @@ i.fas.fa-circle {
     transition: transform 0.5s;
     border-radius: 4px;
 }
+.page_item.current_page_parent a > .wedocs-icon {
+    color: white;
+}
 .page_item.current_page_parent a {
     color: white;
 }
