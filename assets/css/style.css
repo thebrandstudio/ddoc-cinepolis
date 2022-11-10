@@ -14048,6 +14048,7 @@ dl dd a:hover {
 .doc-nav-list li > a > .wedocs-icon {
   color: #4E5564;
   position: absolute;
+  top: 3px;
   right: 10px;
   font-size: 16px;
   transition: all 0.2s;
