@@ -125,6 +125,7 @@ i.fas.fa-circle {
 }
 .page_item.page_item_has_children.current_page_item a > .wedocs-icon {
   color: white;
+  top: 7px;
 }
 .page_item.page_item_has_children.current_page_item ul li a {
     background: transparent;
