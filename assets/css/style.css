@@ -86,12 +86,6 @@ i.fas.fa-circle {
 .doc-nav-list li a img {
     display: none!important;
 }
-.page_item .current_page_item {
-    background: #102958;
-}
-.page_item .current_page_item a {
-    color: white;
-}
 .doc-nav-list li.wd-state-open > a {
     color: white;
     background: #102958;
