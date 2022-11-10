@@ -56,6 +56,10 @@ i.fas.fa-circle {
   margin-top: 15px;
 	margin-bottom: 30px;
 	padding: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 10px -12px rgba(0,0,0,0.52);
+  -moz-box-shadow: 10px 10px 10px -12px rgba(0,0,0,0.52);
+  box-shadow: 10px 10px 10px -12px rgba(0,0,0,0.52);
 }
 
 /*Sidebar Menu*/
