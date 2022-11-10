@@ -46,6 +46,20 @@ i.fas.fa-circle {
 }
 
 /*Mensaje de aviso*/
+.wedocs-breadcrumb li {
+    display: inline;
+    font-size: 16px;
+    color: #08285B;
+    font-weight: 500;
+}
+.wedocs-breadcrumb li a {
+    color: #08285B;
+    text-decoration: none;
+}
+
+
+
+/*Mensaje de aviso*/
 .ddoc-single-post .ddoc-page-content pre {
 	background: #102958;
 	color: white;
@@ -118,16 +132,6 @@ i.fas.fa-circle {
     border-radius: 10px;
     margin-top: 35px;
     box-shadow: 0px 4px 24px rgb(25 28 106 / 15%);
-}
-.wedocs-breadcrumb li {
-    display: inline;
-    font-size: 16px;
-    color: #08285B;
-    font-weight: 500;
-}
-.wedocs-breadcrumb li a {
-    color: #08285B;
-    text-decoration: none;
 }
 .doc-nav-list li ul li a:before {
     display: none;
@@ -14002,18 +14006,8 @@ dl dd a:hover {
   padding: 0 50px 0px 0px;
   margin-bottom: 0;
 }
-.wedocs-breadcrumb li {
-  display: inline;
-  font-size: 16px;
-  color: #929AB2;
-  font-weight: 500;
-}
 .wedocs-breadcrumb li:first-child {
   display: none;
-}
-.wedocs-breadcrumb li a {
-  color: #929AB2;
-  text-decoration: none;
 }
 .wedocs-breadcrumb li.delimiter {
   margin: 0px 10px;
