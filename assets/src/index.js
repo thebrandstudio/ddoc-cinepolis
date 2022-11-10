@@ -137,7 +137,7 @@ jQuery(function ($) {
 	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
 		e.preventDefault();
 		if (e.target !== this) return;
-			window.alert('Okay, if youre sure.');
+
 		//  Get page id on click
 		let pageId = $(this).find('span[data-page-id]').data('page-id');
 		//  get div where want to dispaly content
