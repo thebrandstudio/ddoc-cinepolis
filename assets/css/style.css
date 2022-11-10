@@ -14028,6 +14028,7 @@ dl dd a:hover {
   display: flex;
   padding-right: 10px;
   position: relative;
+  color: #102958;
 }
 .doc-nav-list li > a img {
   display: inline-block;
