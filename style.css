@@ -3,7 +3,7 @@ Theme Name: Ddoc
 Theme URI: https://ddoc.droitlab.com/
 Author: DroitThemes
 Author URI: https://themeforest.net/user/droitthemes
-Description: DDoc is a responsive WordPress documentation theme, purpose-designed and built to accommodate all types of manuals, documentation, instructions, procedures, etc. With its robust design elements and structures, users of DDoc will be able to create informative and productive documentation for their products and services. 
+Description: DDoc is a responsive WordPress documentation theme, purpose-designed and built to accommodate all types of manuals, documentation, instructions, procedures, etc. With its robust design elements and structures, users of DDoc will be able to create informative and productive documentation for their products and services.
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 Version: 1.0.3
 License: GNU General Public License v2 or later
@@ -344,7 +344,6 @@ address {
 
 pre {
 	background: #eee;
-	font-family: "Courier 10 Pitch", courier, monospace;
 	line-height: 1.6;
 	margin-bottom: 1.6em;
 	max-width: 100%;
