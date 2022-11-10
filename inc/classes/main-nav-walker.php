@@ -52,9 +52,9 @@ class ddoc_Navwalker extends Walker_Nav_Menu  {
             $has_child_icon = '<i class="fas fa-angle-down mobile_dropdown_icon"></i>';
 
         }
-         
+
         $item_output = $args->before;
-		$item_output .= '<a id="prueba"' . $attributes . '>';
+		$item_output .= '<a' . $attributes . '>';
 		$item_output .= $args->link_before . apply_filters( 'the_title', $page->title, $page->ID ) . $args->link_after;
 		$item_output .='</a>'.$has_child_icon;
 		$item_output .= $args->after;
