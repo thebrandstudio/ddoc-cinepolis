@@ -115,7 +115,7 @@ i.fas.fa-circle {
 .page_item.current_page_parent a > .wedocs-icon {
     color: white;
 }
-.doc-nav-list .li .page_item .page_item_has_children .current_page_item a{
+.page_item.page_item_has_children.current_page_item a {
   color: white;
   background: #102958;
   padding: 4px 8px;
