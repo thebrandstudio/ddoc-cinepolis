@@ -112,14 +112,6 @@ i.fas.fa-circle {
 .doc-nav-list li.wd-state-open > a > .wedocs-icon {
     color: white;
 }
-.page_item.current_page_parent {
-    color: white;
-    background: #102958;
-    padding: 4px 8px;
-    transform: scale(1);
-    transition: transform 0.5s;
-    border-radius: 4px;
-}
 .page_item.current_page_parent a > .wedocs-icon {
     color: white;
 }
