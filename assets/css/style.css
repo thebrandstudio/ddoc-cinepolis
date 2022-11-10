@@ -123,12 +123,13 @@ i.fas.fa-circle {
   transition: transform 0.5s;
   border-radius: 4px;
 }
+.page_item.page_item_has_children.current_page_item a > .wedocs-icon {
+  color: white;
+}
 .page_item.page_item_has_children.current_page_item ul li a {
     background: transparent;
     color: #102958;
 }
-
-
 .page_item_has_children.current_page_ancestor.current_page_parent.wd-state-closed {
   color: white;
   background: #102958;
@@ -136,9 +137,6 @@ i.fas.fa-circle {
   transform: scale(1);
   transition: transform 0.5s;
   border-radius: 4px;
-}
-li.page_item.page-item-1165.page_item_has_children.current_page_item {
-    background: aliceblue;
 }
 
 /*Categorias*/
