@@ -47,6 +47,9 @@ i.fas.fa-circle {
 .wedocs-icon-angle-down:before {
     content: '+';
 }
+.doc-nav-list li.wd-state-open > a > .wedocs-icon:before {
+    content: '-';
+}
 
 /*Sidebar Menu*/
 .doc-nav-list li a img {
@@ -76,12 +79,6 @@ i.fas.fa-circle {
   margin-bottom: 4px;
   border-radius: 4px;
   border-bottom: 1px solid lightgray;
-}
-.doc-nav-list li.wd-state-open > a > wedocs-icon > .wedocs-icon-angle-down:before {
-    content: '-';
-}
-.doc-nav-list li.wd-state-open > a > .wedocs-icon {
-    color: white;
 }
 .doc-nav-list > li:hover > a {
 
