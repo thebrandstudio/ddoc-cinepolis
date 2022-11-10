@@ -115,9 +115,6 @@ i.fas.fa-circle {
 .page_item.current_page_parent a > .wedocs-icon {
     color: white;
 }
-.page_item.current_page_parent a {
-    color: white;
-}
 .page_item_has_children.current_page_ancestor.current_page_parent.wd-state-closed {
   color: white;
   background: #102958;
@@ -126,7 +123,9 @@ i.fas.fa-circle {
   transition: transform 0.5s;
   border-radius: 4px;
 }
-
+li.page_item.page-item-1165.page_item_has_children.current_page_item {
+    background: aliceblue;
+}
 
 /*Categorias*/
 .doc-sidebar-menu {
