@@ -45,7 +45,7 @@ i.fas.fa-circle {
     color: #F906DD;
 }
 .wedocs-icon-angle-down:before {
-    content: '\02795';
+    content: '+';
 }
 
 /*Sidebar Menu*/
