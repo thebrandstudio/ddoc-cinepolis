@@ -44,7 +44,7 @@
 i.fas.fa-circle {
     color: #F906DD;
 }
-.wedocs-icon-angle-down:after {
+.wedocs-icon-angle-down:before {
     content: '\02795';
 }
 
