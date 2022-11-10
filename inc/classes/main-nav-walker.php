@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 class ddoc_Navwalker extends Walker_Nav_Menu  {
 
@@ -10,11 +10,11 @@ class ddoc_Navwalker extends Walker_Nav_Menu  {
 
     public function start_el(&$output, $page, $depth = 0, $args = [], $current_page = 0) {
 
-  
+
          $indent = ($depth) ? str_repeat("\t", $depth) : '';
          $li_attributes = '';
          $class_names = $value = '';
-         $classes =  empty($page->classes) ? array() : (array) $page->classes ;    
+         $classes =  empty($page->classes) ? array() : (array) $page->classes ;
          $classes[] = 'nav-item' ;
          $classes[]  =   ($args->walker->has_children) ? 'dropdown submenu' : '';
          $classes[]  =   ($page->current || $page->current_item_ancestor) ? 'active current-menu-item current_item_ancestor' : '';
@@ -38,7 +38,7 @@ class ddoc_Navwalker extends Walker_Nav_Menu  {
         $attributes .= ( $args->walker->has_children ) ? 'data-toggle="dropdown"' : '';
         $href_class[] = 'nav-link';
         $href_class[] = ( $args->walker->has_children ) ? 'dropdown-toggle' : '';
-       
+
         $href_class_attr = join(' ', $href_class);
         $attributes .= 'class="'.esc_attr( $href_class_attr ).'"';
         $has_child_icon = '';
@@ -54,7 +54,7 @@ class ddoc_Navwalker extends Walker_Nav_Menu  {
         }
          
         $item_output = $args->before;
-		$item_output .= '<a' . $attributes . '>';
+		$item_output .= '<a id="prueba"' . $attributes . '>';
 		$item_output .= $args->link_before . apply_filters( 'the_title', $page->title, $page->ID ) . $args->link_after;
 		$item_output .='</a>'.$has_child_icon;
 		$item_output .= $args->after;
@@ -63,4 +63,3 @@ class ddoc_Navwalker extends Walker_Nav_Menu  {
     }
 
 }
-
