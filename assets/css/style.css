@@ -45,6 +45,12 @@ i.fas.fa-circle {
     color: #F906DD;
 }
 
+/*iframe*/
+.ddoc-single-post .ddoc-page-content p > iframe {
+    margin: 0 auto;
+    display: block;
+}
+
 /*Mensaje de aviso*/
 .wedocs-breadcrumb li {
     display: inline;
@@ -56,8 +62,6 @@ i.fas.fa-circle {
     color: #08285B;
     text-decoration: none;
 }
-
-
 
 /*Mensaje de aviso*/
 .ddoc-single-post .ddoc-page-content pre {
