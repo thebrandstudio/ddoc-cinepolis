@@ -112,7 +112,7 @@ jQuery(function ($) {
 
 	$(document).on('click', '.doc-nav-list > li span', function (e) {
 		e.preventDefault();
-		window.alert('Okay, si estas seguro.');
+		$(this).window.alert('Okay, si estas seguro.');
 		$(this).parents('li').find('.children').slideToggle();
 		$(this).parents('li').siblings('li').find('.children').slideUp();
 	});
