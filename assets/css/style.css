@@ -44,6 +44,20 @@
 i.fas.fa-circle {
     color: #F906DD;
 }
+
+.ddoc-single-post .ddoc-page-content pre {
+	background: #102958;
+	color: white;
+	font-family: 'Montserrat', sans-serif!important;
+	line-height: 1.2;
+	text-align: center;
+  margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+
+
 .wedocs-icon-angle-down:before {
     content: '+';
 }
