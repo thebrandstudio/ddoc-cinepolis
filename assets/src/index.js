@@ -137,7 +137,7 @@ jQuery(function ($) {
 	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
 		e.preventDefault();
 		if (e.target !== this) return;
-    	$(this).addClass('prueba');
+
 		//  Get page id on click
 		let pageId = $(this).find('span[data-page-id]').data('page-id');
 		//  get div where want to dispaly content
@@ -145,7 +145,8 @@ jQuery(function ($) {
 		//  get div to display title
 		let display_title = $(this)
 			.parents('.row')
-			.find('.entry-header .entry-title');
+			.find('.entry-header .entry-title')
+			.addClass('prueba');
 		//  display progressbar
 		let progressbar = $(this).parents('.row').find('.ajx-progress');
 		progressbar.fadeIn();
