@@ -14020,7 +14020,7 @@ dl dd a:hover {
 .doc-nav-list li > a {
   text-decoration: none;
   display: flex;
-  padding-right: 0px;
+  padding-right: 10px;
   position: relative;
 }
 .doc-nav-list li > a img {
@@ -14052,7 +14052,7 @@ dl dd a:hover {
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-  padding-left: 0px;
+  padding-left: 10px;
 }
 .doc-nav-list li ul li a:before {
   position: absolute;
