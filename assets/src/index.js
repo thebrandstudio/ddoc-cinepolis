@@ -154,9 +154,7 @@ jQuery(function ($) {
 			security: ddoc_single_ajax_call.nonce,
 		};
 		let current_url = $(this).attr('href');
-		console.log($(this).attr('href'));
-		console.log('hola');
-			window.alert('Okay, if youre sure.');
+
 		jQuery.post(ddoc_single_ajax_call.ajaxurl, data, function (response) {
 			let obj = JSON.parse(response);
 			display_title.html(obj.post_title);
