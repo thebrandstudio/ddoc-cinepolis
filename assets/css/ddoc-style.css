@@ -208,6 +208,9 @@
     .error-404{
     	padding: 100px 0px;
     }
+    .tab_left_content {
+        text-align: center;
+    }
 }
 @media (max-width:576px){
 	.dl_pro_subscribe_form_action.dl-pro-sub-block .dl_pro_subscribe_form{
@@ -219,6 +222,9 @@
     .dl_contact_form_wrapper .col-6{
     	width: 100%;
 	}
+  .tab_left_content {
+    text-align: center;
+  }
 }
 .admin-bar .drdt_sticky_section.elementor-section{
 	top: 30px;
