@@ -203,7 +203,7 @@
 @media (max-width:767px){
 	.dt_doc_tab_content .nav-tabs li.nav-item + li.nav-item{
     	margin-left: 2px;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
     }
     .error-404{
     	padding: 100px 0px;
