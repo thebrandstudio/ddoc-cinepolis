@@ -14204,8 +14204,9 @@ dl dd a:hover {
 }
 @media (max-width: 1440px) {
   .doc-sidebar-menu .wedocs-sidebar {
-    padding-right: 10px;
-    padding-left: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-top: 10px;
   }
 }
 .doc-sidebar-menu .wedocs-sidebar .widget-title {
