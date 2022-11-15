@@ -14188,8 +14188,13 @@ dl dd a:hover {
 @media (max-width: 767px) {
   .doc-sidebar-menu.sidebar_left {
     margin-right: 0;
-    padding-right: 15px;
+    padding: 15px;
     display: none;
+  }
+  .doc-sidebar-menu .wedocs-sidebar {
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-top: 10px;
   }
 }
 .doc-sidebar-menu .wedocs-sidebar {
