@@ -14715,12 +14715,12 @@ a:active {
 
 @media (max-width: 1199px) {
   .ddoc-single-post {
-    padding-right: 10px;
+    padding: 10px;
   }
 }
 @media (max-width: 767px) {
   .ddoc-single-post {
-    padding-left: 15px;
+    padding: 20px;
   }
 }
 .ddoc-single-post .ddoc-page-content {
