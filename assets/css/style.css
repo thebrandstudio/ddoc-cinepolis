@@ -152,7 +152,6 @@ i.fas.fa-circle {
 }
 .page_item_has_children.current_page_ancestor.current_page_parent.wd-state-closed {
   color: white;
-  background: #102958;
   padding: 4px 8px;
   transform: scale(1);
   transition: transform 0.5s;
