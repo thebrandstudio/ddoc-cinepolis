@@ -42,6 +42,9 @@ get_header();
                   <span class="bar"></span>
                   <span class="bar"></span>
               </div>
+              <style>
+              .clickIconLeft::before {content: "-";}
+              </style>
             </div>
           </div>
         </div>
