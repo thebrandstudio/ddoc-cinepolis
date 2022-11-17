@@ -101,7 +101,7 @@ get_header();
                                     <div id="iconos" style="margin-bottom: 10px;">
                                       <a href="http://m.me/cinepolis.klic" target="_blank"><img width="32" height="32" src="<?php echo esc_url($messenger_img);?>" class="attachment-full size-full" alt="" loading="lazy"></a>
                                       <a href="tel:5521226060" target="_blank"><img width="32" height="32" src="<?php echo esc_url($phone_img);?>" class="attachment-full size-full" alt="" loading="lazy"></a>
-                                      <a href="#" target="_blank"><img width="32" height="32" src="<?php echo esc_url($mail_img);?>" class="attachment-full size-full" alt="" loading="lazy"></a>
+                                      <a href="mailto:ayudaklic@cinepolis.com" target="_blank"><img width="32" height="32" src="<?php echo esc_url($mail_img);?>" class="attachment-full size-full" alt="" loading="lazy"></a>
                                     </div>
                                 </div>
                             <?php } ?>
