@@ -43,7 +43,7 @@ get_header();
                   <span class="bar"></span>
               </div>
               <style>
-              .clickIconLeft::before {content: "-";}
+              .clickIconLeft::after {content: "-";}
               </style>
             </div>
           </div>
