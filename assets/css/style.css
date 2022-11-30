@@ -417,6 +417,10 @@ ul ol {
   margin-bottom: 0;
 }
 
+::marker {
+    font-weight: 700;
+}
+
 dt {
   font-weight: 700;
 }
