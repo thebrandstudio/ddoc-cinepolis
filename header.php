@@ -18,6 +18,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- For Responsive Device -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://kit.fontawesome.com/45dc78d4ed.js" crossorigin="anonymous"></script>
 	<?php wp_head(); ?>
 </head>
 
@@ -32,6 +33,6 @@
         <?php
         //Header Style
         global $post;
-        
+
         $header_id = get_themebuilder_Id(get_the_ID(), 'header');
         do_action('_ddoc_header_content', $header_id);
