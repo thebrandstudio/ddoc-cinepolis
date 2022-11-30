@@ -97,7 +97,15 @@ remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 
 //  ajax loading
 
+add_action( 'wp_ajax_ddoc_single_page_ajax', 'ddoc_single_page_ajax' );
+add_action( 'wp_ajax_nopriv_ddoc_single_page_ajax', 'ddoc_single_page_ajax' );
 
+function ddoc_single_page_ajax() {
+    check_ajax_referer( 'ddoc_single_ajax', 'security' );
+    $get_post = get_post($_POST['pageId']);
+    echo wp_json_encode($get_post);
+    wp_die();
+}
 
 
 //  add banner
