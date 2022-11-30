@@ -24,7 +24,7 @@ function ddoc_breadcrumbs( $default_sep = '>') {
 
 	$wrap_before    = '<div class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">'; // the opening wrapper tag
 	$wrap_after     = '</div><!-- .breadcrumbs -->'; // the closing wrapper tag
-	$sep            = '<span id="separador" class="breadcrumbs__separator"> '.$default_sep.' </span>'; // separator between crumbs
+	$sep            = '<span class="breadcrumbs__separator"> '.$default_sep.' </span>'; // separator between crumbs
 	$before         = '<span class="breadcrumbs__current">'; // tag before the current crumb
 	$after          = '</span>'; // tag after the current crumb
 
@@ -37,7 +37,7 @@ function ddoc_breadcrumbs( $default_sep = '>') {
 	global $post;
 	$home_url       = home_url('/');
 	$link           = '<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">';
-	$link          .= '<a class="breadcrumbs__link" href="%1$s" itemprop="item"><span itemprop="name">%2$s</span></a>';
+	$link          .= '<a class="breadcrumbs__link" href="%1$s" itemprop="item"><span id="prueba" itemprop="name">%2$s</span></a>';
 	$link          .= '<meta itemprop="position" content="%3$s" />';
 	$link          .= '</span>';
 	$parent_id      = ( $post ) ? $post->post_parent : '';
