@@ -41,6 +41,12 @@
 /*
  *--------------------------- custom -----------------------------------
 */
+
+.fa-lg {
+    margin-left: 10px!important;
+    margin-right: 10px!important;
+}
+
 i.fas.fa-circle {
     color: #F906DD;
 }
