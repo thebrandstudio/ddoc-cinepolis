@@ -24,7 +24,7 @@ function ddoc_breadcrumbs( $default_sep = '>') {
 
 	$wrap_before    = '<div class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">'; // the opening wrapper tag
 	$wrap_after     = '</div><!-- .breadcrumbs -->'; // the closing wrapper tag
-	$sep            = '<span class="breadcrumbs__separator"> '.$default_sep.' </span>'; // separator between crumbs
+	$sep            = '<span id="separador" class="breadcrumbs__separator"> '.$default_sep.' </span>'; // separator between crumbs
 	$before         = '<span class="breadcrumbs__current">'; // tag before the current crumb
 	$after          = '</span>'; // tag after the current crumb
 
