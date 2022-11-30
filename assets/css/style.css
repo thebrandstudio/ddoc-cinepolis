@@ -41,6 +41,13 @@
 /*
  *--------------------------- custom -----------------------------------
 */
+.wedocs-breadcrumb li:nth-of-type(3) {
+    display: none;
+}
+
+.wedocs-breadcrumb li:nth-of-type(4) {
+    display: none;
+}
 
 .fa-lg {
     margin-left: 10px!important;
