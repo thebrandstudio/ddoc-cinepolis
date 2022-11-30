@@ -14521,11 +14521,11 @@ a:hover,
 a:focus,
 a:active,
 h2 a:hover {
-  color: var(--hovercolor);
+  color: black;
 }
 
 a:visited {
-  color: var(--visitedlink);
+  color: black;
 }
 
 a:hover,
