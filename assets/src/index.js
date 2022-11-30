@@ -133,41 +133,41 @@ jQuery(function ($) {
 		});
 	});
 
-//  ajax call for ddoc single page
-//	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
-//		e.preventDefault();
-//		if (e.target !== this) return;
-		//  Get page id on click
-//		let pageId = $(this).find('span[data-page-id]').data('page-id');
-		//  get div where want to dispaly content
-//		let dispaly_container = $(this).parents('.row').find('.ddoc-page-content');
-		//  get div to display title
-//		let display_title = $(this)
-//			.parents('.row')
-//			.find('.entry-header .entry-title');
-		//  display progressbar
-//		let progressbar = $(this).parents('.row').find('.ajx-progress');
-//		progressbar.fadeIn();
-//		var data = {
-//			action: 'ddoc_single_page_ajax',
-//			pageId: pageId,
-//			security: ddoc_single_ajax_call.nonce,
-//		};
-//		let current_url = $(this).attr('href');
+  ajax call for ddoc single page
+	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
+		e.preventDefault();
+		if (e.target !== this) return;
+		  Get page id on click
+		let pageId = $(this).find('span[data-page-id]').data('page-id');
+		  get div where want to dispaly content
+		let dispaly_container = $(this).parents('.row').find('.ddoc-page-content');
+		  get div to display title
+		let display_title = $(this)
+			.parents('.row')
+			.find('.entry-header .entry-title');
+		  display progressbar
+		let progressbar = $(this).parents('.row').find('.ajx-progress');
+		progressbar.fadeIn();
+		var data = {
+			action: 'ddoc_single_page_ajax',
+			pageId: pageId,
+			security: ddoc_single_ajax_call.nonce,
+		};
+		let current_url = $(this).attr('href');
 
-//		jQuery.post(ddoc_single_ajax_call.ajaxurl, data, function (response) {
-//			let obj = JSON.parse(response);
-//			display_title.html(obj.post_title);
-//			dispaly_container.html(obj.post_content);
-//			window.history.pushState(null, '', current_url);
-//			window.alert('Okay, if youre sure.');
-//			progressbar.css('width', '100%');
-//			setTimeout(function () {
-//				progressbar.css('width', '0%');
-//				progressbar.hide();
-//			}, '500');
-//		});
-//	});
+		jQuery.post(ddoc_single_ajax_call.ajaxurl, data, function (response) {
+			let obj = JSON.parse(response);
+			display_title.html(obj.post_title);
+			dispaly_container.html(obj.post_content);
+			window.history.pushState(null, '', current_url);
+			window.alert('Okay, if youre sure.');
+			progressbar.css('width', '100%');
+			setTimeout(function () {
+				progressbar.css('width', '0%');
+				progressbar.hide();
+			}, '500');
+		});
+	});
 
 	var inputs = $('.search-doc .form-control').not(':submit');
 
