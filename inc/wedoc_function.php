@@ -47,7 +47,7 @@ function single_single_page_sidebar() {
 }
 
 function runMyFunction() {
-  echo '<script>window.alert("Hello world!");</script>';
+  echo '<script>window.location.href=window.location.href;</script>';
 }
 
 if (isset($_GET['hello'])) {
