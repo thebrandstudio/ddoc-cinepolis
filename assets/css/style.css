@@ -14682,7 +14682,8 @@ a:active {
   margin-right: 5px;
 }
 .ddoc-single-post .entry-content {
-  margin-top: 0px;
+  border-top: 1px solid #E7EBF2;
+  margin-top: 30px;
 }
 .ddoc-single-post .ddoc-page-content p {
   font-size: 16px;
@@ -14798,8 +14799,6 @@ a:active {
   }
 }
 .ddoc-single-post .dt_content_pagonation {
-  border-top: 1px solid #E7EBF2;
-  margin-top: 30px;
   padding-top: 20px;
 }
 .ddoc-single-post .dt_content_pagonation .prev_content {
