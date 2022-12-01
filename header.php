@@ -20,10 +20,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="https://kit.fontawesome.com/45dc78d4ed.js" crossorigin="anonymous"></script>
 	<?php wp_head(); ?>
+	<style>
+    .hidden {
+      opacity: 0;
+    }
+
+    .visible {
+      opacity: 1;
+      transition: opacity 1s ease-out;
+    }
+  </style>
 </head>
 
 <body <?php body_class(); ?>>
     <?php
+		document.body.className = 'hidden';
     if ( function_exists('wp_body_open') ) {
         wp_body_open();
     }
