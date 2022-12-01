@@ -133,7 +133,7 @@ jQuery(function ($) {
 		});
 	});
 
-  ajax call for ddoc single page
+
 	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
 		e.preventDefault();
 		if (e.target !== this) return;
