@@ -164,8 +164,6 @@ jQuery(function ($) {
 			display_title.html(obj.post_title);
 			dispaly_container.html(obj.post_content);
 			window.history.pushState(null, '', current_url);
-			window.location.href=window.location.href;
-			window.alert('Okay, if youre sure.');
 			progressbar.css('width', '100%');
 			setTimeout(function () {
 				progressbar.css('width', '0%');
