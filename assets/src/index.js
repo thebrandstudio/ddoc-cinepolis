@@ -119,7 +119,7 @@ jQuery(function ($) {
 		$('.doc-nav-list > li.wd-state-open').find('.children').slideDown(700);
 	}
 
-	if ($('.doc-nav-list > li').hasClass('wd-state-closed')) {
+	if ($('.doc-nav-list > li').hasClass('current_page_ancestor')) {
 		$('.doc-nav-list > li.wd-state-open').find('.children').slideDown(700);
 	}
 	
