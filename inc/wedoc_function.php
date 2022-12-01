@@ -37,7 +37,7 @@ function single_single_page_sidebar() {
             	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
             		e.preventDefault();
                 setTimeout(() => {
-                  document.location.reload();
+                  //document.location.reload();
                 }, 490);
             	});
             </script>
