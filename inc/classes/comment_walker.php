@@ -57,7 +57,7 @@ if ( ! class_exists( 'ddoc_Walker_Comment' ) ) {
 								if ( empty( $comment_author_url ) ) {
 									echo wp_kses_post( $avatar );
 								} else {
-									printf( '<a id="test" href="%s" rel="external nofollow" class="url">', $comment_author_url ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped --Escaped in https://developer.wordpress.org/reference/functions/get_comment_author_url/
+									printf( '<a href="%s" rel="external nofollow" class="url">', $comment_author_url ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped --Escaped in https://developer.wordpress.org/reference/functions/get_comment_author_url/
 									echo wp_kses_post( $avatar );
 								}
 							}
