@@ -160,7 +160,6 @@ jQuery(function ($) {
 			display_title.html(obj.post_title);
 			display_container.html(obj.post_content);
 			window.history.pushState(null, '', current_url);
-			window.location.reload();
 			progressbar.css('width', '100%');
 			setTimeout(function () {
 				progressbar.css('width', '0%');
