@@ -134,6 +134,8 @@ jQuery(function ($) {
 	});
 
 
+	//  ajax load content
+
 	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
 		e.preventDefault();
 		if (e.target !== this) return;
@@ -157,13 +159,16 @@ jQuery(function ($) {
 		window.history.pushState(null, '', current_url);
 	});
 
-	var inputs = $('.search-doc .form-control').not(':submit');
 
+
+	var inputs = $('.search-doc .form-control').not(':submit');
 	inputs.on('input', function (idx) {
 		var top_text = $(this).parent('.search-doc').find('.ajax_sajation');
 		$(this).toggleClass('animated', this.value > '');
 		$(top_text).toggleClass('animated', this.value > '');
 	});
+
+
 
 	$(document).ready(function () {
 		function openRightSiDebar() {
