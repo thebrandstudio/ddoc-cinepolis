@@ -22,5 +22,13 @@ do_action('_ddoc_footer_content', $footer);
 
 <?php wp_footer(); ?>
 
+  <script>
+    window.addEventListener('DOMContentLoaded', function () {
+      doStuff(function () {
+        document.body.className = 'visible';
+      });
+    }, false);
+  </script>
+  
 </body>
 </html>
