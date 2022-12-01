@@ -15,10 +15,10 @@ jQuery(function ($) {
 	}
 
 
-	  $(document).on('click', '.test-boton', function (e) {
-			e.preventDefault();
-			window.alert("Hello world!");
-		});
+	function doSomething() { 
+		window.alert("Hello world!");
+    return false;
+}
 
 
 
