@@ -22,7 +22,7 @@ function ddoc_body_classes( $classes ) {
 	if ( ! is_active_sidebar( 'blog_sidebar' ) ) {
 		$classes[] = 'no-sidebar';
 	}else{
-		$classes[] = 'has-active-sidebar';	
+		$classes[] = 'has-active-sidebar';
 	}
 
 	return $classes;
@@ -127,7 +127,7 @@ function ddoc_print_first_instance_of_block( $block_name, $content = null, $inst
 endif;
 
 
-if(!function_exists('ddoc_can_show_post_thumbnail')) : 
+if(!function_exists('ddoc_can_show_post_thumbnail')) :
 /**
  * Determines if post thumbnail can be displayed.
  *
@@ -145,8 +145,8 @@ function ddoc_can_show_post_thumbnail() {
 endif;
 
 /**
- * Change custom logo class  
- *  
+ * Change custom logo class
+ *
  **/
 add_filter( 'get_custom_logo', 'ddoc_custom_logo_class' );
 
@@ -188,14 +188,14 @@ if(!function_exists('ddoc_wrapper_start')) {
 		do_action('_ddoc_banner_content', $post_id, $bannar_type);
 
 		$row_class = 'row';
-	
+
 		if ($sidebar == 'left' && is_active_sidebar( 'blog_sidebar' ) ) {
 			$row_class = 'row flex-row-reverse';
 		}
 
 		if ( $sidebar == 'full' || !is_active_sidebar( 'blog_sidebar' ) ) {
 			$row_class = 'row justify-content-center';
-			
+
 		}
 
 		if ( $column == !is_active_sidebar( 'blog_sidebar' ) ) {
@@ -207,7 +207,7 @@ if(!function_exists('ddoc_wrapper_start')) {
 			<div class="<?php echo esc_attr($row_class); ?>">
 				<div class="col-lg-<?php echo esc_attr( $column ); ?>">
 		<?php
-     
+
 	}
 
 }
@@ -221,10 +221,10 @@ if(!function_exists('ddoc_wrapper_end')) {
 				get_sidebar();
 			}
 	     ?>
-			
+
 		 </div>
 	   </div>
-		<?php 
+		<?php
 	}
 
 }
@@ -259,14 +259,14 @@ function get_themebuilder_Id( $id, $type = 'header' ) {
 
  foreach($pages as $page) {
 	$get_tempalte = get_post_meta($page->ID, 'dtdr_header_templates', true);
-	
-	//  Check display Header 	
+
+	//  Check display Header
 	if($get_tempalte['type'] == $type) {
 		$dispaly = $get_tempalte['display'];
 		$dispaly_list[$page->ID] = $dispaly;
-	}	
- }  
- 
+	}
+ }
+
  return _ddoc_themebuilder_id($dispaly_list, $id);
 
 }
@@ -283,7 +283,7 @@ if(!function_exists('_ddoc_header')){
             </header><!-- #masthead -->
             <?php
         }
-		 
+
 	}
 
 	add_action('_ddoc_header_content', '_ddoc_header');
@@ -291,7 +291,7 @@ if(!function_exists('_ddoc_header')){
 
 if(!function_exists('_ddoc_footer')){
 	function _ddoc_footer( $footer_id ) {
-	
+
 		if ( $footer_id != '' && class_exists( '\Elementor\Plugin' ) ) {
 			echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display( $footer_id );
 		} else {
@@ -311,13 +311,13 @@ if(!function_exists('_ddoc_footer')){
 
 if(!function_exists('_ddoc_banner_display')) {
 	function _ddoc_banner_display( $banner_id = '', $display_on = '' ) {
-		 
+
 		if ( $banner_id != '' && class_exists( '\Elementor\Plugin' ) ) {
 			echo \Elementor\Plugin::instance()->frontend->get_builder_content_for_display( $banner_id );
 		} else {
 			get_template_part('template-parts/banner/banner', $display_on);
 		}
- 
+
 	}
 	add_action('_ddoc_banner_content', '_ddoc_banner_display', 10, 2);
 }
@@ -329,7 +329,7 @@ function get_builder_id($arr, $key) {
 	}
 	return null;
  }
- 
+
 if(!function_exists('_ddoc_themebuilder_id')){
 function _ddoc_themebuilder_id($arr = [], $id = '') {
   if(empty($arr)) {
@@ -337,7 +337,7 @@ function _ddoc_themebuilder_id($arr = [], $id = '') {
   }
   global $post;
   $post_type = get_post_type(get_the_ID());
-      
+
   //  check custom postype select header
   if(is_singular($post_type) && get_builder_id($arr, $post_type)) {
 	return $content_id = get_builder_id($arr, $post_type);
@@ -346,15 +346,15 @@ function _ddoc_themebuilder_id($arr = [], $id = '') {
   if(is_post_type_archive($post_type) && get_builder_id($arr, $post_type)) {
 	return $content_id = get_builder_id($arr, $post_type);
   }
-  
+
   if(is_front_page() && get_builder_id($arr, 'front_page')) {
 	return $content_id = get_builder_id($arr, 'front_page');
   }
-  //  Check block page 
+  //  Check block page
   if(is_home() && get_builder_id($arr, 'home_page')) {
 	return $content_id = get_builder_id($arr, 'home_page');
   }
-// Check 404 page 
+// Check 404 page
   if(is_404() && get_builder_id($arr, 'four_0_4')) {
 	return $content_id = get_builder_id($arr, 'four_0_4');
   }
@@ -362,15 +362,15 @@ function _ddoc_themebuilder_id($arr = [], $id = '') {
 if(is_category() && get_builder_id($arr, 'category')) {
 	return $content_id = get_builder_id($arr, 'category');
   }
-// if has header on archive page 
+// if has header on archive page
 if(is_archive() && get_builder_id($arr, 'archives')) {
 	return $content_id = get_builder_id($arr, 'archives');
   }
-//  Check is search page 
+//  Check is search page
 if(is_search() && get_builder_id($arr, 'search')) {
 return $content_id = get_builder_id($arr, 'search');
 }
-// if page has uniqeuue header 
+// if page has uniqeuue header
 if(get_builder_id($arr, $id)) {
 	return $content_id = get_builder_id($arr, $id);
 }

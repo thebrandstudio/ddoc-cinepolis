@@ -38,7 +38,6 @@ function single_single_page_sidebar() {
 
         <?php if ( $children ) { ?>
             <ul id="prueba" class="doc-nav-list dddd">
-              <li id="test" class=""><a href="http://75.101.181.126/docs/cinepolis-klic/que-es-cinepolis-klic/">¿Qué es Cinépolis Klic®?</li>
                 <?php echo wp_kses_post($children); ?>
             </ul>
         <?php } ?>
@@ -102,10 +101,12 @@ add_action( 'wp_ajax_ddoc_single_page_ajax', 'ddoc_single_page_ajax' );
 add_action( 'wp_ajax_nopriv_ddoc_single_page_ajax', 'ddoc_single_page_ajax' );
 
 function ddoc_single_page_ajax() {
+
     check_ajax_referer( 'ddoc_single_ajax', 'security' );
     $get_post = get_post($_POST['pageId']);
     echo wp_json_encode($get_post);
     wp_die();
+
 }
 
 
