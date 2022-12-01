@@ -154,23 +154,17 @@ jQuery(function ($) {
 			security: ddoc_single_ajax_call.nonce,
 		};
 		let current_url = $(this).attr('href');
-
 		jQuery.post(ddoc_single_ajax_call.ajaxurl, data, function (response) {
 			let obj = JSON.parse(response);
 			display_title.html(obj.post_title);
 			display_container.html(obj.post_content);
-
-
-
 			window.history.pushState(null, '', current_url);
 			progressbar.css('width', '100%');
 			setTimeout(function () {
 				progressbar.css('width', '0%');
 				progressbar.hide();
 			}, '500');
-
 		});
-					window.location.reload();
 	});
 
 	var inputs = $('.search-doc .form-control').not(':submit');
