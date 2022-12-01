@@ -40,7 +40,6 @@ function single_single_page_sidebar() {
           <p>Field1: <input type="text" id="field1" value="Hello World!"></p>
           <p>Field2: <input type="text" id="field2"></p>
 
-          <a href='index.php?hello=true'>Run PHP Function</a>
           <button class="boton-prueba" onclick="myFunction()">Copy Text</button>
 
           <script>
@@ -56,7 +55,7 @@ function single_single_page_sidebar() {
 
 
 
-          
+
           </script>
 
 
@@ -68,18 +67,6 @@ function single_single_page_sidebar() {
     </div>
     <?php
 }
-
-
-
-
-
-function runMyFunction() {
-  echo '<script>window.alert("Hello world!");</script>';
-}
-if (isset($_GET['hello'])) {
-  runMyFunction();
-}
-
 
 
 
