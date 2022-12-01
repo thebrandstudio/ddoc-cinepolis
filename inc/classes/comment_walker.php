@@ -57,7 +57,7 @@ if ( ! class_exists( 'ddoc_Walker_Comment' ) ) {
 								if ( empty( $comment_author_url ) ) {
 									echo wp_kses_post( $avatar );
 								} else {
-									printf( '<a href="%s" rel="external nofollow" class="url">', $comment_author_url ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped --Escaped in https://developer.wordpress.org/reference/functions/get_comment_author_url/
+									printf( '<a id="test" href="%s" rel="external nofollow" class="url">', $comment_author_url ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped --Escaped in https://developer.wordpress.org/reference/functions/get_comment_author_url/
 									echo wp_kses_post( $avatar );
 								}
 							}
@@ -70,13 +70,13 @@ if ( ! class_exists( 'ddoc_Walker_Comment' ) ) {
 
 						<div class="content">
 							<?php
-							
+
 							printf(
 								'<h4 class="fn">%1$s</h4><h4 class="screen-reader-text says">%2$s</h4>',
 								esc_html( $comment_author ),
 								__( 'says:', 'ddoc' )
 							);
-							
+
 							?>
 							<div class="comment-date">
 							<?php
@@ -116,13 +116,13 @@ if ( ! class_exists( 'ddoc_Walker_Comment' ) ) {
 								}
 
 						     ?>
-							
+
                         </div>
 
 
 					</div><!-- .comment-meta -->
 
-					
+
 				</article><!-- .comment-body -->
 
 			<?php
