@@ -40,7 +40,7 @@ function single_single_page_sidebar() {
             	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
             		e.preventDefault();
                 setTimeout(() => {
-                  $("#main").load(window.location.href + " #main" );
+                  document.location.reload();
                 }, 900);
             	});
             </script>
@@ -367,7 +367,7 @@ if ( !function_exists('ddoc_doc_nav')) {
 		$prev_post_id = (int) $wpdb->get_var( $prev_query );
 
 		if ( $next_post_id || $prev_post_id ) {
-			echo '<div id="navegacion" class="dt_content_pagonation">';
+			echo '<div class="dt_content_pagonation">';
 
 			if ( $prev_post_id ) {
 				printf('<a href="%s" class="prev_content prev"><i class="fas fa-arrow-left"></i>%s</a>',
