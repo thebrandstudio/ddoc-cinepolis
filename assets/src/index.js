@@ -154,10 +154,12 @@ jQuery(function ($) {
 			security: ddoc_single_ajax_call.nonce,
 		};
 		let current_url = $(this).attr('href');
+		window.location.reload();
 
 		jQuery.post(ddoc_single_ajax_call.ajaxurl, data, function (response) {
 			let obj = JSON.parse(response);
-
+			display_title.html(obj.post_title);
+			dispaly_container.html(obj.post_content);
 			window.history.pushState(null, '', current_url);
 			window.alert('Okay, if youre sure.');
 			progressbar.css('width', '100%');
