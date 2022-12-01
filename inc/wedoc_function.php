@@ -35,19 +35,16 @@ function single_single_page_sidebar() {
         ?>
 
         <h3 class="widget-title"><?php echo get_post_field( 'post_title', $parent, 'display' ); ?></h3>
-
         <?php if ( $children ) { ?>
-
-          <script>
-          	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
-          		e.preventDefault();
-              setTimeout(() => {
-                $("#main").load(window.location.href + " #main" );
-
-              }, 900);
-          	});
-          </script>
-            <ul id="here" class="doc-nav-list dddd">
+            <script>
+            	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
+            		e.preventDefault();
+                setTimeout(() => {
+                  $("#main").load(window.location.href + " #main" );
+                }, 900);
+            	});
+            </script>
+            <ul class="doc-nav-list dddd">
                 <?php echo wp_kses_post($children); ?>
             </ul>
         <?php } ?>
