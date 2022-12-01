@@ -78,7 +78,7 @@ get_header();
                             </ul>-->
                         </header><!-- .entry-header -->
 
-                        <div class="entry-content" itemprop="articleBody">
+                        <div id="contenido" class="entry-content" itemprop="articleBody">
                             <div class="ddoc-page-content">
                                 <?php
                                     the_content( sprintf(
