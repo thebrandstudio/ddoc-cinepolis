@@ -44,7 +44,7 @@ function single_single_page_sidebar() {
               setTimeout(() => {
                 $("#navegacion").load(window.location.href + " #navegacion" );
                 $("#here").load(window.location.href + " #here" );
-                $("#navegacion").load(window.location.href + " #navegacion" );
+                $("#contenido").load(window.location.href + " #contenido" );
 
               }, 900);
           	});
