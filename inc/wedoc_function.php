@@ -47,13 +47,12 @@ function single_single_page_sidebar() {
 }
 
 function runMyFunction() {
-  echo '<script>window.location.href=window.location.href;</script>';
+  echo '<script>window.alert("Hello world!");</script>';
 }
 
 if (isset($_GET['hello'])) {
   runMyFunction();
 }
-
 
 
 if ( !function_exists('ddoc_artical_read_time') ) {
