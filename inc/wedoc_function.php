@@ -37,7 +37,20 @@ function single_single_page_sidebar() {
         <h3 class="widget-title"><?php echo get_post_field( 'post_title', $parent, 'display' ); ?></h3>
 
         <?php if ( $children ) { ?>
+          <p>Field1: <input type="text" id="field1" value="Hello World!"></p>
+          <p>Field2: <input type="text" id="field2"></p>
+
           <a href='index.php?hello=true'>Run PHP Function</a>
+          <button onclick="myFunction()">Copy Text</button>
+
+          <script>
+          function myFunction() {
+            document.getElementById("field2").value =   document.getElementById("field1").value;
+          }
+          </script>
+
+
+
             <ul id="prueba" class="doc-nav-list dddd">
                 <?php echo wp_kses_post($children); ?>
             </ul>
