@@ -46,12 +46,6 @@ function single_single_page_sidebar() {
               }, 900);
           	});
           </script>
-          <div id="here">
-            <ul class="doc-nav-list dddd">
-                <?php echo wp_kses_post($children); ?>
-            </ul>
-          </div>
-
             <ul id="here" class="doc-nav-list dddd">
                 <?php echo wp_kses_post($children); ?>
             </ul>
