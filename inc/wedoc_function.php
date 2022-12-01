@@ -8,7 +8,7 @@
 function single_single_page_sidebar() {
     global $post;
     ?>
-    <div class="wedocs-sidebar">
+    <div id="test-boton" class="wedocs-sidebar">
         <?php
         $ancestors = [];
         $root      = $parent = false;
@@ -37,7 +37,7 @@ function single_single_page_sidebar() {
         <h3 class="widget-title"><?php echo get_post_field( 'post_title', $parent, 'display' ); ?></h3>
 
         <?php if ( $children ) { ?>
-          <a id="test-boton" href='#'>Run PHP Function</a>
+          <a class="boton" href='#'>Run PHP Function</a>
             <ul id="prueba" class="doc-nav-list dddd">
                 <?php echo wp_kses_post($children); ?>
             </ul>
@@ -49,6 +49,7 @@ function single_single_page_sidebar() {
 
 
 var container = document.getElementById('test-boton');
+var elements = container.getElementsByTagName('boton');
     container.addEventListener("click",function(){
       this.style.backgroundColor = 'red'; // change element bgcolor to red
       echo '<script>window.location.href=window.location.href;</script>';
