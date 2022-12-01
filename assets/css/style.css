@@ -144,9 +144,6 @@ i.fas.fa-circle {
 .doc-nav-list li.wd-state-open > a > .wedocs-icon {
     color: white;
 }
-.page_item.current_page_parent a > .wedocs-icon {
-    color: white;
-}
 .page_item.page_item_has_children.current_page_item a {
   color: white;
   background: #102958;
@@ -170,7 +167,6 @@ i.fas.fa-circle {
   transition: transform 0.5s;
   border-radius: 4px;
 }
-
 .doc-nav-list li.current_page_parent > a {
     color: white;
     background: #102958;
@@ -179,6 +175,7 @@ i.fas.fa-circle {
     transition: transform 0.5s;
     border-radius: 4px;
 }
+
 
 /*Tabs*/
 .dt_doc_tab_content .nav-tabs li.nav-item a.nav-link {
