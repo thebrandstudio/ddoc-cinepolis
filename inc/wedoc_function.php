@@ -47,7 +47,7 @@ function single_single_page_sidebar() {
 }
 
 function runMyFunction() {
-  echo 'I just ran a php function';
+  echo '<script>window.alert("Hello world!");</script>';
 }
 
 if (isset($_GET['hello'])) {
