@@ -34,7 +34,8 @@
 
 <body <?php body_class(); ?>>
     <?php
-		document.body.className = 'hidden';
+		echo "<script>document.body.className = 'hidden';</script>";
+
     if ( function_exists('wp_body_open') ) {
         wp_body_open();
     }
