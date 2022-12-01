@@ -48,13 +48,7 @@ function single_single_page_sidebar() {
 
 
 
-var container = document.getElementById('test-boton');
-var elements = container.getElementsByTagName('boton');
-    container.addEventListener("click",function(){
-      this.style.backgroundColor = 'red'; // change element bgcolor to red
-      echo '<script>window.location.href=window.location.href;</script>';
-    },false);
-}
+
 
 
 
