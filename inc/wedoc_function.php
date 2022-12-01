@@ -38,6 +38,7 @@ function single_single_page_sidebar() {
 
         <?php if ( $children ) { ?>
             <ul id="prueba" class="doc-nav-list dddd">
+              <li id="test" class="page_item"><a href="http://75.101.181.126/docs/cinepolis-klic/que-es-cinepolis-klic/">¿Qué es Cinépolis Klic®?</li>
                 <?php echo wp_kses_post($children); ?>
             </ul>
         <?php } ?>
