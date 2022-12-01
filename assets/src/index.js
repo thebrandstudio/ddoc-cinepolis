@@ -160,12 +160,11 @@ jQuery(function ($) {
 			display_title.html(obj.post_title);
 			dispaly_container.html(obj.post_content);
 			window.history.pushState(null, '', current_url);
-			window.alert('Okay, if youre sure.');
+			window.location.reload();
 			progressbar.css('width', '100%');
 			setTimeout(function () {
 				progressbar.css('width', '0%');
 				progressbar.hide();
-				document.location.reload();
 			}, '500');
 		});
 	});
