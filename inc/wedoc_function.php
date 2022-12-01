@@ -42,12 +42,17 @@ function single_single_page_sidebar() {
           	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
           		e.preventDefault();
               setTimeout(() => {
-                document.location.reload();
+                $("#here").load(window.location.href + " #here" );
               }, 900);
           	});
           </script>
-          
-            <ul id="prueba" class="doc-nav-list dddd">
+          <div id="here">
+            <ul class="doc-nav-list dddd">
+                <?php echo wp_kses_post($children); ?>
+            </ul>
+          </div>
+
+            <ul id="here" class="doc-nav-list dddd">
                 <?php echo wp_kses_post($children); ?>
             </ul>
         <?php } ?>
