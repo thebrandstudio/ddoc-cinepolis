@@ -40,10 +40,9 @@ function single_single_page_sidebar() {
           <script>
           	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
           		e.preventDefault();
-          		window.alert('Okay, if youre sure.');
               setTimeout(() => {
                 document.location.reload();
-              }, 30);
+              }, 300);
           	});
           </script>
 
