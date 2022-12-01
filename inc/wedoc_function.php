@@ -38,7 +38,7 @@ function single_single_page_sidebar() {
             		e.preventDefault();
                 setTimeout(() => {
                   document.location.reload();
-                }, 100);
+                }, 200);
             	});
             </script>
             <ul class="doc-nav-list dddd">
