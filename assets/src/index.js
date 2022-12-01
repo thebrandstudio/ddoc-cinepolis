@@ -133,7 +133,7 @@ jQuery(function ($) {
 		});
 	});
 
-  ajax call for ddoc single page
+
 	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
 		e.preventDefault();
 		if (e.target !== this) return;
@@ -145,9 +145,6 @@ jQuery(function ($) {
 		let display_title = $(this)
 			.parents('.row')
 			.find('.entry-header .entry-title');
-		//  display progressbar
-		let progressbar = $(this).parents('.row').find('.ajx-progress');
-		progressbar.fadeIn();
 		var data = {
 			action: 'ddoc_single_page_ajax',
 			pageId: pageId,
@@ -158,9 +155,6 @@ jQuery(function ($) {
 		display_title.html(obj.post_title);
 		display_container.html(obj.post_content);
 		window.history.pushState(null, '', current_url);
-
-
-
 	});
 
 	var inputs = $('.search-doc .form-control').not(':submit');
