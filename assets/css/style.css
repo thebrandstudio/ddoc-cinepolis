@@ -14684,6 +14684,7 @@ a:active {
 .ddoc-single-post .entry-content {
   border-bottom: 1px solid #E7EBF2;
   padding-bottom: 30px;
+  margin-bottom: 20px;
 }
 .ddoc-single-post .ddoc-page-content p {
   font-size: 16px;
