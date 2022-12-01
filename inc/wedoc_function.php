@@ -51,7 +51,9 @@ function single_single_page_sidebar() {
         	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
         		e.preventDefault();
         		window.alert('Okay, if youre sure.');
-            let current_url = $(this).attr('href');
+            setTimeout(() => {
+              document.location.reload();
+            }, 3000);
         	});
 
 
