@@ -15,10 +15,7 @@ jQuery(function ($) {
 	}
 
 
-	function doSomething() { 
-		window.alert("Hello world!");
-    return false;
-}
+
 
 
 
