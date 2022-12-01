@@ -40,25 +40,19 @@ function single_single_page_sidebar() {
           <script>
           	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
           		e.preventDefault();
-              setTimeout(() => {
+                  // alert("In function");
+                   var container = document.getElementById("dialerDiv1");
+                   var content = container.innerHTML;
+                  //alert(content);
+                  container.innerHTML= content;
 
-
-                // alert("In function");
-                 var container = document.getElementById("prueba");
-                 var content = container.innerHTML;
-                //alert(content);
-                container.innerHTML= content;
-
-
-
-              }, 900);
           	});
 
 
 
           </script>
 
-            <ul id="prueba" class="doc-nav-list dddd">
+            <ul id="dialerDiv1" class="doc-nav-list dddd">
                 <?php echo wp_kses_post($children); ?>
             </ul>
         <?php } ?>
