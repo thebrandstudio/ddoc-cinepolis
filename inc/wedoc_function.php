@@ -46,6 +46,10 @@ function single_single_page_sidebar() {
     <?php
 }
 
+
+
+
+
 function runMyFunction() {
   echo '<script>window.alert("Hello world!");</script>';
 }
@@ -54,23 +58,23 @@ if (isset($_GET['hello'])) {
 }
 
 
+
+
+
+
 if ( !function_exists('ddoc_artical_read_time') ) {
-
     function ddoc_artical_read_time( $get_content ) {
-
         $stripped_content = strip_tags( $get_content );
         $wordn            = str_word_count( $stripped_content );
         $reading_minute   = floor( $wordn / 200 );
         $reading_seconds  = floor( $wordn % 200 / ( 200 / 60 ) );
         $minutes_lable = $reading_minute > 0 ? 'minutes': 'minute';
         $seconds_lable = $reading_seconds > 0 ? 'seconds': 'second';
-
         if($reading_minute == 0 ){
             printf(__('<span>Reading time: <span>%s %s</span></span>', 'ddoc'), $reading_seconds, $seconds_lable);
         }else{
             printf(__('<span>Reading time: <span>%s %s</span> <span>%s %s</span></span>', 'ddoc'), $reading_minute, $minutes_lable, $reading_seconds, $seconds_lable);
         }
-
     }
 }
 
