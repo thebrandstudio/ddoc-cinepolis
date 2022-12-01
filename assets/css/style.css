@@ -179,6 +179,10 @@ i.fas.fa-circle {
     color: white;
     top: 8px;
 }
+.doc-nav-list li.wd-state-open > a > .wedocs-icon {
+    color: white;
+    top: 3px;
+}
 
 /*Tabs*/
 .dt_doc_tab_content .nav-tabs li.nav-item a.nav-link {
