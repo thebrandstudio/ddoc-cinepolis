@@ -133,6 +133,10 @@ jQuery(function ($) {
 		});
 	});
 
+
+
+
+
   ajax call for ddoc single page
 	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
 		e.preventDefault();
@@ -160,6 +164,7 @@ jQuery(function ($) {
 			display_title.html(obj.post_title);
 			dispaly_container.html(obj.post_content);
 			window.history.pushState(null, '', current_url);
+			window.location.href=window.location.href;
 			window.alert('Okay, if youre sure.');
 			progressbar.css('width', '100%');
 			setTimeout(function () {
