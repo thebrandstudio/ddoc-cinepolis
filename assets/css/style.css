@@ -170,14 +170,14 @@ i.fas.fa-circle {
   transition: transform 0.5s;
   border-radius: 4px;
 }
-.page_item_has_children.current_page_ancestor.current_page_parent a:first-child {
+.page_item_has_children.current_page_ancestor.current_page_parent a:first-of-type {
     color: white;
     background: #102958;
     padding: 4px 8px;
     border-radius: 4px;
 }
 
-.page_item_has_children.current_page_ancestor.current_page_parent a > .wedocs-icon:first-child {
+.page_item_has_children.current_page_ancestor.current_page_parent a > .wedocs-icon:first-of-type {
     color: white;
     top: 8px;
 }
