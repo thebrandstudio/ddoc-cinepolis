@@ -14,6 +14,19 @@ jQuery(function ($) {
 		}
 	}
 
+
+	  $(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
+			e.preventDefault();
+		});
+
+
+
+
+
+
+
+
+
 	//*============ background image js ==============*/
 	$('[data-bg-img]').each(function () {
 		var bg = $(this).data('bg-img');
