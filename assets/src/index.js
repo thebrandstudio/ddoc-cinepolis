@@ -163,7 +163,7 @@ jQuery(function ($) {
 			setTimeout(function () {
 				progressbar.css('width', '0%');
 				progressbar.hide();
-			}, '500');
+			}, '100');
 		});
 	});
 
