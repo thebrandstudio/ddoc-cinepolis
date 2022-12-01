@@ -38,15 +38,23 @@ function single_single_page_sidebar() {
 
         <?php if ( $children ) { ?>
           <script>
+          	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
+          		e.preventDefault();
+              setTimeout(() => {
 
 
-            function refreshDiv(){
-            // alert("In function");
-             var container = document.getElementById("prueba");
-             var content = container.innerHTML;
-            //alert(content);
-            container.innerHTML= content;
-            }
+                // alert("In function");
+                 var container = document.getElementById("prueba");
+                 var content = container.innerHTML;
+                //alert(content);
+                container.innerHTML= content;
+
+
+
+              }, 900);
+          	});
+
+
 
           </script>
 
