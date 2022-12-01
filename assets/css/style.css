@@ -177,6 +177,7 @@ i.fas.fa-circle {
 }
 .doc-nav-list li.current_page_parent > a > .wedocs-icon {
     color: white;
+    top: 8px;
 }
 
 /*Tabs*/
