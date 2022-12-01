@@ -133,10 +133,7 @@ jQuery(function ($) {
 		});
 	});
 
-  ajax call for ddoc single page
-	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
-		e.preventDefault();
-	});
+
 
 	var inputs = $('.search-doc .form-control').not(':submit');
 
