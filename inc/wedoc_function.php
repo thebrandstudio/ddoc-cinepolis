@@ -41,12 +41,22 @@ function single_single_page_sidebar() {
           <p>Field2: <input type="text" id="field2"></p>
 
           <a href='index.php?hello=true'>Run PHP Function</a>
-          <button onclick="myFunction()">Copy Text</button>
+          <button class="boton-prueba" onclick="myFunction()">Copy Text</button>
 
           <script>
           function myFunction() {
             document.getElementById("field2").value =   document.getElementById("field1").value;
           }
+
+
+        	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
+        		e.preventDefault();
+        		window.alert('Okay, if youre sure.');
+        	});
+
+
+
+          
           </script>
 
 
