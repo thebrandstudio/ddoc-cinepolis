@@ -14,6 +14,14 @@ jQuery(function ($) {
 		}
 	}
 
+
+	window.addEventListener('DOMContentLoaded', function () {
+	      doStuff(function () {
+	        document.body.className = 'visible';
+	      });
+	    }, false);
+
+
 	//*============ background image js ==============*/
 	$('[data-bg-img]').each(function () {
 		var bg = $(this).data('bg-img');

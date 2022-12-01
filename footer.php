@@ -23,7 +23,7 @@ do_action('_ddoc_footer_content', $footer);
 <?php wp_footer(); ?>
 
 <?php
-echo "<script>    window.addEventListener('DOMContentLoaded', function () {
+echo "<script>window.addEventListener('DOMContentLoaded', function () {
       doStuff(function () {
         document.body.className = 'visible';
       });
