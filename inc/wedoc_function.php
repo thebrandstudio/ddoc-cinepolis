@@ -58,7 +58,6 @@ var elements = container.getElementsByTagName('boton');
 
 
 
-document.getElementsByClassName('prueba');
 
 
 
