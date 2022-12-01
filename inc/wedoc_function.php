@@ -46,6 +46,12 @@ function single_single_page_sidebar() {
     <?php
 }
 
+function doSomething() {
+  echo "<script>alert('$message');</script>";
+  return false;
+}
+
+
 if ( !function_exists('ddoc_artical_read_time') ) {
 
     function ddoc_artical_read_time( $get_content ) {
@@ -134,12 +140,6 @@ function ddoc_doc_banner( $banner ) {  ?>
                   $placeholder_base = esc_html__('¿Que estás buscando hoy?', 'ddoc');
 			    /*$placeholder = $placeholder_base.' '.$title; ?>*/
 			      $placeholder = $placeholder_base; ?>
-            <script type="text/javascript">
-            function doSomething() {
-                $.get("somepage.php");
-                return false;
-            }
-            </script>
       			   <div class="col-md-12 text-center">
       				   <div id="custom-titulo">
                    <h4 class="elementor-heading-title elementor-size-default custom-titulo"><?php the_field('titulo_tema'); ?></h4>
