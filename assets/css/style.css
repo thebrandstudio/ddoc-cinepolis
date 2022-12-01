@@ -177,6 +177,11 @@ i.fas.fa-circle {
     border-radius: 4px;
 }
 
+.page_item_has_children.current_page_ancestor.current_page_parent a > .wedocs-icon {
+    color: white;
+    top: 8px;
+}
+
 /*Tabs*/
 .dt_doc_tab_content .nav-tabs li.nav-item a.nav-link {
     color: #08285B!important;
