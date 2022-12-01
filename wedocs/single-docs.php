@@ -62,23 +62,11 @@ get_header();
                 </div>
                 <div class="col-lg-7 col-md-8">
                     <article id="post-<?php the_ID(); ?>" <?php post_class(  'ddoc-single-post' ); ?> itemscope itemtype="http://schema.org/Article">
-                        <div class="ajx-progress ddoc-d-none"></div>
                         <header class="entry-header">
                             <?php the_title( '<h1 class="entry-title" itemprop="headline">', '</h1>' ); ?>
-                            <!--<ul class="list-unstyled ddoc-single-post-meta">
-                                <li><i class="far fa-user"></i><?php esc_html_e('Author:', 'ddoc'); ?> <?php ddoc_posted_by(); ?></li>
-                                <li><i class="far fa-clock"></i><?php ddoc_artical_read_time(get_the_content()); ?></li>
-                                <li>
-                                    <i class="far fa-eye"></i>
-                                    <?php
-                                    ddoc_set_doc_views(get_the_ID());
-                                    ddoc_get_doc_views(get_the_ID());
-                                    ?>
-                                </li>
-                            </ul>-->
                         </header><!-- .entry-header -->
 
-                        <div id="contenido" class="entry-content" itemprop="articleBody">
+                        <div class="entry-content" itemprop="articleBody">
                             <div class="ddoc-page-content">
                                 <?php
                                     the_content( sprintf(
