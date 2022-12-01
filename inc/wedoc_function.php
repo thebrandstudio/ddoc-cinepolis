@@ -12,7 +12,6 @@ function single_single_page_sidebar() {
         <?php
         $ancestors = [];
         $root      = $parent = false;
-
         if ( $post->post_parent ) {
             $ancestors = get_post_ancestors( $post->ID );
             $root      = count( $ancestors ) - 1;
@@ -20,7 +19,6 @@ function single_single_page_sidebar() {
         } else {
             $parent = $post->ID;
         }
-
         // var_dump( $parent, $ancestors, $root );
         $walker   = new \dl\doc\Walker();
         $children = wp_list_pages( [
@@ -31,7 +29,6 @@ function single_single_page_sidebar() {
             'post_type' => 'docs',
             'walker'    => $walker,
         ] );
-
         ?>
 
         <h3 class="widget-title"><?php echo get_post_field( 'post_title', $parent, 'display' ); ?></h3>
