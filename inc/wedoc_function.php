@@ -43,6 +43,7 @@ function single_single_page_sidebar() {
           		e.preventDefault();
               setTimeout(() => {
                 $("#here").load(window.location.href + " #here" );
+
               }, 900);
           	});
           </script>
@@ -369,7 +370,7 @@ if ( !function_exists('ddoc_doc_nav')) {
 		$prev_post_id = (int) $wpdb->get_var( $prev_query );
 
 		if ( $next_post_id || $prev_post_id ) {
-			echo '<div class="dt_content_pagonation">';
+			echo '<div id="navegacion" class="dt_content_pagonation">';
 
 			if ( $prev_post_id ) {
 				printf('<a href="%s" class="prev_content prev"><i class="fas fa-arrow-left"></i>%s</a>',
