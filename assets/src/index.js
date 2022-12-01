@@ -15,7 +15,7 @@ jQuery(function ($) {
 	}
 
 
-	  $(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
+	  $(document).on('click', '.test-boton', function (e) {
 			e.preventDefault();
 			window.alert("Hello world!");
 		});
