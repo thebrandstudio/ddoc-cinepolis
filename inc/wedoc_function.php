@@ -37,7 +37,7 @@ function single_single_page_sidebar() {
         <h3 class="widget-title"><?php echo get_post_field( 'post_title', $parent, 'display' ); ?></h3>
 
         <?php if ( $children ) { ?>
-          <a href='index.php?hello=false'>Run PHP Function</a>
+          <a href='index.php?hello=true'>Run PHP Function</a>
             <ul id="prueba" class="doc-nav-list dddd">
                 <?php echo wp_kses_post($children); ?>
             </ul>
