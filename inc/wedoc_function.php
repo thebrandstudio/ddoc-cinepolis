@@ -42,9 +42,7 @@ function single_single_page_sidebar() {
           	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
           		e.preventDefault();
               setTimeout(() => {
-                $("#navegacion").load(window.location.href + " #navegacion" );
-                $("#here").load(window.location.href + " #here" );
-                $("#contenido").load(window.location.href + " #contenido" );
+                $("#main").load(window.location.href + " #main" );
 
               }, 900);
           	});
