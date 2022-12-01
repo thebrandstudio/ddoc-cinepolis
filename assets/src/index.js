@@ -126,8 +126,6 @@ jQuery(function ($) {
 			var has = $this.parents('li').hasClass('wd-state-open');
 			$('.doc-nav-list > li').removeClass('wd-state-open');
 			if (has) {
-				$this.parents('li').removeClass('wd-state-open');
-			} else {
 				$this.parents('li').addClass('wd-state-open');
 			}
 		});
