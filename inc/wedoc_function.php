@@ -37,31 +37,15 @@ function single_single_page_sidebar() {
         <h3 class="widget-title"><?php echo get_post_field( 'post_title', $parent, 'display' ); ?></h3>
 
         <?php if ( $children ) { ?>
-          <p>Field1: <input type="text" id="field1" value="Hello World!"></p>
-          <p>Field2: <input type="text" id="field2"></p>
-
-          <button class="boton-prueba" onclick="myFunction()">Copy Text</button>
-
           <script>
-          function myFunction() {
-            document.getElementById("field2").value =   document.getElementById("field1").value;
-          }
-
-
-        	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
-        		e.preventDefault();
-        		window.alert('Okay, if youre sure.');
-            setTimeout(() => {
-              document.location.reload();
-            }, 3000);
-        	});
-
-
-
-
+          	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
+          		e.preventDefault();
+          		window.alert('Okay, if youre sure.');
+              setTimeout(() => {
+                document.location.reload();
+              }, 30);
+          	});
           </script>
-
-
 
             <ul id="prueba" class="doc-nav-list dddd">
                 <?php echo wp_kses_post($children); ?>
