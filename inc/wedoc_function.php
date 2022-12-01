@@ -42,7 +42,7 @@ function single_single_page_sidebar() {
           		e.preventDefault();
               setTimeout(() => {
                 document.location.reload();
-              }, 1000);
+              }, 900);
           	});
           </script>
 
