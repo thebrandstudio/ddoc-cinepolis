@@ -109,6 +109,7 @@ jQuery(function ($) {
 	});
 
 	//  do coc  single page menu
+
 	$(document).on('click', '.doc-nav-list > li span', function (e) {
 		e.preventDefault();
 		$(this).parents('li').find('.children').slideToggle();
@@ -118,7 +119,6 @@ jQuery(function ($) {
 	if ($('.doc-nav-list > li').hasClass('wd-state-open')) {
 		$('.doc-nav-list > li.wd-state-open').find('.children').slideDown(700);
 	}
-
 
 	$('.doc-nav-list > li span').each(function () {
 		var $this = $(this);
