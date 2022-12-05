@@ -34,16 +34,40 @@ function single_single_page_sidebar() {
         <h3 class="widget-title"><?php echo get_post_field( 'post_title', $parent, 'display' ); ?></h3>
         <?php if ( $children ) { ?>
 
+
+
+
+
+
+
 <script>
-$(document).on('click', '.doc-nav-list li a', function (e) {
+$(document).ready(function () {
+  function menu_derecha() {
+    if ('.doc-sidebar-menu') {
 
-    alert("Hello! I am an alert box!");
 
-//    var has = $this.parents('li').hasClass('wd-state-open');
-//    $('.doc-nav-list > li').removeClass('wd-state-open');
-//    $this.parents('li').addClass('wd-state-open');
 
+
+      $('.doc-nav-list li a').on('click', function () {
+        alert("Prueba");
+      });
+
+
+//      $('.dt_product_body, .dt_side_menu_left_content').on(
+  //      'click',
+    //    function () {
+      //    $('.dt_product_body_wrap').removeClass('openRightSIdebar');
+        //  $('.dt_product_body').find('.overlay_bg').remove();
+        //}
+//      );
+
+
+    }
+  }
+  menu_derecha();
 });
+
+
 </script>
 
 
