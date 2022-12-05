@@ -43,7 +43,7 @@ function single_single_page_sidebar() {
 <script>
 $(document).ready(function () {
   function menu_derecha() {
-    if ($('.doc-nav-list > li').hasClass('current_page_item')) {
+    if ($('.doc-sidebar-menu .doc-nav-list').hasClass('page_item')) {
       alert("Prueba");
   	}
 
