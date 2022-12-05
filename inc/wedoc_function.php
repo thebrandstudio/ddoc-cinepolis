@@ -38,8 +38,8 @@ function single_single_page_sidebar() {
           $(document).ready(function () {
             function menu_derecha() {
 
-              if ('.doc-sidebar-menu') {
-                $('.doc-nav-list li').on('click', function () {
+              if ('.doc-nav-list') {
+                $('.current_page_item').on('click', function () {
                   alert("Prueba");
                 });
               }
