@@ -40,6 +40,16 @@ function single_single_page_sidebar() {
                   document.location.reload();
                 }, 490);
 
+                if ($('.doc-nav-list > li').hasClass('current_page_ancestor')) {
+                  alert("Hello! I am an alert box!");
+              	}
+              //			if (has) {
+              //				$this.parents('li').removeClass('wd-state-open');
+              //			} else {
+              //				$this.parents('li').addClass('wd-state-open');
+
+
+
 
 
 
