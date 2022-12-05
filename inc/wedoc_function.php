@@ -43,21 +43,16 @@ function single_single_page_sidebar() {
 <script>
 $(document).ready(function () {
   function menu_derecha() {
-    if ('.doc-sidebar-menu .doc-nav-list') {
-      $('.page-item').on('click', function () {
+    if ('.doc-sidebar-menu') {
+
+
+
+
+      $('.doc-nav-list li a').on('click', function () {
         alert("Prueba");
       });
 
-
-//      $('.dt_product_body, .dt_side_menu_left_content').on(
-  //      'click',
-    //    function () {
-      //    $('.dt_product_body_wrap').removeClass('openRightSIdebar');
-        //  $('.dt_product_body').find('.overlay_bg').remove();
-        //}
-//      );
-
-
+      
     }
   }
   menu_derecha();
