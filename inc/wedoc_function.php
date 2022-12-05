@@ -43,12 +43,8 @@ function single_single_page_sidebar() {
 <script>
 $(document).ready(function () {
   function menu_derecha() {
-    if ('.doc-sidebar-menu') {
-
-
-
-
-      $('.doc-nav-list li a').on('click', function () {
+    if ('.doc-sidebar-menu .doc-nav-list') {
+      $('.page-item').on('click', function () {
         alert("Prueba");
       });
 
