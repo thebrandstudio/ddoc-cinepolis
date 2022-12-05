@@ -43,10 +43,16 @@ function single_single_page_sidebar() {
 <script>
 $(document).ready(function () {
   function menu_derecha() {
-    if ('.doc-sidebar-menu .doc-nav-list') {
-      $('.page-item').on('click', function () {
-        alert("Prueba");
-      });
+    if ($('.doc-sidebar-menu .doc-nav-list').hasClass('page_item')) {
+      alert("Prueba");
+  	}
+
+
+
+//    if ('.doc-sidebar-menu .doc-nav-list') {
+//      $('.page-item').on('click', function () {
+//        alert("Prueba");
+//      });
 
 
 //      $('.dt_product_body, .dt_side_menu_left_content').on(
