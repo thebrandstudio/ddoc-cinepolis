@@ -45,7 +45,7 @@ $(document).ready(function () {
   function menu_derecha() {
 
     if ('.doc-sidebar-menu') {
-      $('.doc-nav-list current_page_item').on('click', function () {
+      $('.doc-nav-list li').on('click', function () {
         alert("Prueba");
       });
     }
