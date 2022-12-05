@@ -41,6 +41,11 @@
 /*
  *--------------------------- custom -----------------------------------
 */
+
+.icono-categoria{
+    transition: all .2s ease-in-out;
+}
+
 .wedocs-breadcrumb li:nth-of-type(3) {
     display: none;
 }
