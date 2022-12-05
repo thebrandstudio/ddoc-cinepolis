@@ -43,17 +43,15 @@ function single_single_page_sidebar() {
 <script>
 $(document).ready(function () {
   function menu_derecha() {
+
     if ('.doc-sidebar-menu') {
-
-
-
-
-      $('.doc-nav-list li a').on('click', function () {
+      $('.doc-nav-list current_page_item').on('click', function () {
         alert("Prueba");
       });
-
-      
     }
+
+
+
   }
   menu_derecha();
 });
