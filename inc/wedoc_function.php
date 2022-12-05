@@ -35,18 +35,14 @@ function single_single_page_sidebar() {
         <?php if ( $children ) { ?>
 
 <script>
-$('.doc-nav-list > li a').each(function () {
-  var $this = $(this);
-  $this.on('click', function (e) {
+$(document).on('click', '.doc-nav-list li a', function (e) {
+
     alert("Hello! I am an alert box!");
 
 //    var has = $this.parents('li').hasClass('wd-state-open');
 //    $('.doc-nav-list > li').removeClass('wd-state-open');
 //    $this.parents('li').addClass('wd-state-open');
 
-
-
-  });
 });
 </script>
 
