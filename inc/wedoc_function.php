@@ -33,29 +33,25 @@ function single_single_page_sidebar() {
 
         <h3 class="widget-title"><?php echo get_post_field( 'post_title', $parent, 'display' ); ?></h3>
         <?php if ( $children ) { ?>
-            <script>
-            	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
-            		e.preventDefault();
-                setTimeout(() => {
-                  document.location.reload();
-                }, 490);
 
-//                if ($('.doc-nav-list > li').hasClass('current_page_ancestor')) {
-  //                alert("Hello! I am an alert box!");
-    //              $this.parents('li').addClass('wd-state-open');
-      //        	}
-            	});
+<script>
+$('.doc-nav-list > li a').each(function () {
+  var $this = $(this);
+  $this.on('click', function (e) {
+    alert("Hello! I am an alert box!");
+
+//    var has = $this.parents('li').hasClass('wd-state-open');
+//    $('.doc-nav-list > li').removeClass('wd-state-open');
+//    $this.parents('li').addClass('wd-state-open');
 
 
-              $(document).on('click', '.doc-sidebar-menu .doc-nav-list li ul a ', function (e) {
 
-//                if ($('.doc-nav-list > li').hasClass('current_page_ancestor')) {
-                  alert("Hello! I am an alert box!");
-//                  $this.parents('li').addClass('wd-state-open');
-              	}
-            	});
+  });
+});
+</script>
 
-            </script>
+
+
             <ul class="doc-nav-list dddd">
                 <?php echo wp_kses_post($children); ?>
             </ul>
