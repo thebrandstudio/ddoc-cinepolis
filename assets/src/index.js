@@ -103,8 +103,8 @@ jQuery(function ($) {
 
 		if ($('.navbar-collapse').not('show')) {
 			$('.navbar-collapse').removeClass('show').slideToggle(700);
-		} else {
-			$('.navbar-collapse').addClass('show').slideUp(700);
+//		} else {
+//			$('.navbar-collapse').addClass('show').slideUp(700);
 		}
 	});
 
