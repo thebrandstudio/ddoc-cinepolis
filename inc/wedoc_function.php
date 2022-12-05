@@ -309,7 +309,7 @@ if(!function_exists('ddoc_doc_child_page')){
 			?>
 			<div class="col-sm-4">
                 <div class="dt_knowledge_item">
-                  <a href="<?php echo esc_url(get_the_permalink($post->ID)) ?>" class="text-decoration-none">
+                  <a href="<?php echo esc_url(get_the_permalink($post->ID)) ?>" class="text-decoration-none; cursor: pointer;">
                     <div class="media">
                         <div class="media-left">
                             <div class="img_wrap">
