@@ -38,7 +38,7 @@ function single_single_page_sidebar() {
           $(document).ready(function () {
             function menu_derecha() {
 
-              if ('.doc-nav-list') {
+              if ('.doc-sidebar-menu') {
                 $('.current_page_item').on('click', function () {
                   alert("Prueba");
                 });
