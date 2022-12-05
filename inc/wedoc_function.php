@@ -43,7 +43,7 @@ function single_single_page_sidebar() {
 
 
 
-                
+
             	});
             </script>
             <ul class="doc-nav-list dddd">
@@ -309,6 +309,7 @@ if(!function_exists('ddoc_doc_child_page')){
 			?>
 			<div class="col-sm-4">
                 <div class="dt_knowledge_item">
+                  <a href="<?php echo esc_url(get_the_permalink($post->ID)) ?>" class="text-decoration-none">
                     <div class="media">
                         <div class="media-left">
                             <div class="img_wrap">
@@ -320,10 +321,11 @@ if(!function_exists('ddoc_doc_child_page')){
                             </div>
                         </div>
                         <div class="media-body">
-                            <h4><a href="<?php echo esc_url(get_the_permalink($post->ID)) ?>" class="text-decoration-none"><?php echo esc_html(get_the_title($post->ID)) ?></a></h4>
+                            <h4><?php echo esc_html(get_the_title($post->ID)) ?></h4>
 				            <p><?php echo wpautop( wp_trim_words(get_the_excerpt($post->ID), 10, '') ); ?><p>
                         </div>
                     </div>
+                  </a>
                 </div>
 			</div>
 			<?php
