@@ -46,6 +46,10 @@
     transition: all .2s ease-in-out;
 }
 
+.icono-categoria:hover {
+    transform: scale(1.3);
+}
+
 .wedocs-breadcrumb li:nth-of-type(3) {
     display: none;
 }
