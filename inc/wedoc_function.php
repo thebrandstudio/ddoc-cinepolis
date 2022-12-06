@@ -44,12 +44,12 @@ function single_single_page_sidebar() {
               	}
 
                 if ('.doc-sidebar-menu') {
-                  $('.current_page_ancestor').on('click', function () {
-                    e.preventDefault();
+                  $(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
+                		e.preventDefault();
                     setTimeout(() => {
                       document.location.reload();
                     }, 490);
-                  });
+                	});
                 }
 
               }
