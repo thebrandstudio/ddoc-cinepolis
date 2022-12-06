@@ -44,6 +44,12 @@ function single_single_page_sidebar() {
                   });
                 }
 
+                if ('.doc-sidebar-menu') {
+                  $('.page_item').on('click', function () {
+                    alert("Normal");
+                  });
+                }
+
               }
               menu_derecha();
             });
