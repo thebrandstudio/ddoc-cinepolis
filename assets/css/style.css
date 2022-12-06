@@ -41,7 +41,9 @@
 /*
  *--------------------------- custom -----------------------------------
 */
-
+pre a:visited {
+    color: white;
+}
 .icono-categoria{
     transition: all .2s ease-in-out;
 }
