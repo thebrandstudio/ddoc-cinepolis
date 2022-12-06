@@ -42,11 +42,8 @@ function single_single_page_sidebar() {
                   $('.current_page_item').on('click', function () {
                     alert("Prueba");
                   });
-                }
-
-                if ('.doc-sidebar-menu') {
                   $('.page_item').on('click', function () {
-                    alert("Normal");
+                    alert("Prueba");
                   });
                 }
 
