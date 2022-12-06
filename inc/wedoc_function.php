@@ -45,7 +45,10 @@ function single_single_page_sidebar() {
 
                 if ('.doc-sidebar-menu') {
                   $('.current_page_ancestor').on('click', function () {
-                    alert("Principal");
+                    e.preventDefault();
+                    setTimeout(() => {
+                      document.location.reload();
+                    }, 490);
                   });
                 }
 
