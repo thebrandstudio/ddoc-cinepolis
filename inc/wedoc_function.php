@@ -41,6 +41,7 @@ function single_single_page_sidebar() {
                 if ('.doc-sidebar-menu') {
                   $('.current_page_ancestor').on('click', function () {
                     alert("Principal");
+                    $('.doc-nav-list > li').addClass('wd-state-open');
                   });
                   $('.page_item').on('click', function () {
                     alert("Normal");
