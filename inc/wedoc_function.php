@@ -43,10 +43,9 @@ function single_single_page_sidebar() {
                     alert("Prueba");
                   });
                   $('.page_item').on('click', function () {
-                    alert("Prueba");
+                    alert("Normal");
                   });
                 }
-
               }
               menu_derecha();
             });
