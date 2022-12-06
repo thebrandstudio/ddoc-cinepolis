@@ -46,10 +46,9 @@ function single_single_page_sidebar() {
                 if ('.doc-sidebar-menu') {
                   $('.current_page_ancestor').on('click', function () {
                     alert("Principal");
-                    $('.doc-nav-list > li.current_page_ancestor').addClass('wd-state-open');
-                    $('.doc-nav-list > li.wd-state-open').find('.children').slideDown(700);
                   });
                 }
+
               }
               menu_derecha();
             });
