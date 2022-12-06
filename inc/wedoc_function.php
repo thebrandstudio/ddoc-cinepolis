@@ -48,7 +48,7 @@ function single_single_page_sidebar() {
                 		e.preventDefault();
                     setTimeout(() => {
                       document.location.reload();
-                    }, 490);
+                    }, 500);
                 	});
                 }
 
