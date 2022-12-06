@@ -108,8 +108,8 @@ jQuery(function ($) {
 		}
 	});
 
-	//  do coc  single page menu
 
+	//  do coc  single page menu
 	$(document).on('click', '.doc-nav-list > li span', function (e) {
 		e.preventDefault();
 		$(this).parents('li').find('.children').slideToggle();
@@ -128,10 +128,10 @@ jQuery(function ($) {
 			$('.doc-nav-list > li').removeClass('wd-state-open');
 			$this.parents('li').addClass('wd-state-open');
 
-//			if (has) {
-//				$this.parents('li').removeClass('wd-state-open');
-//			} else {
-//				$this.parents('li').addClass('wd-state-open');
+			if (has) {
+				$this.parents('li').removeClass('wd-state-open');
+			} else {
+				$this.parents('li').addClass('wd-state-open');
 			}
 		});
 	});
