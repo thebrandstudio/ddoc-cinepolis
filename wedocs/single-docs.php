@@ -39,11 +39,8 @@ get_header();
               </div>
               <div class="clickIconLeft">
                   <span class="bar"></span>
+                  <span class="bar"><i class="fas fa-sort-down"></i></span>
                   <span class="bar"></span>
-                  <span class="bar"></span>
-              </div>
-              <div>
-                <i class="fas fa-sort-down"></i>
               </div>
               <style>
               .clickIconLeft::after {content: "-";}
