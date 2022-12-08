@@ -45,6 +45,16 @@ get_header();
             </div>
           </div>
         </div>
+<style>
+@media only screen and (max-width: 600px) {
+  .wedocs-breadcrumb {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 0;
+      margin-top: 0;
+  }
+}
+</style>
         <div id="contenido" style="background: white;">
           <div class="container p-0">
             <div class="row dt_product_body_wrap">
