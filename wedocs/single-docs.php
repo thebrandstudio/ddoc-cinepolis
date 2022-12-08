@@ -39,7 +39,7 @@ get_header();
               </div>
               <div class="clickIconLeft">
                   <span class="bar"></span>
-                  <span class="bar"><i class="fas fa-sort-down" style="position: absolute; right: -10px; top: -10px;"></i></span>
+                  <span class="bar"><i class="fas fa-sort-down" style="position: absolute; right: -14px; top: -10px;"></i></span>
                   <span class="bar"></span>
               </div>
             </div>
