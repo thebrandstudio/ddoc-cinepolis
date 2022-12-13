@@ -49,7 +49,7 @@ pre a:visited {
 }
 
 .icono-categoria:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 .wedocs-breadcrumb li:nth-of-type(3) {
