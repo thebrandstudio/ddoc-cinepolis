@@ -53,9 +53,15 @@ get_header();
       margin-bottom: 0;
       margin-top: 0;
       margin-right: 15%;
-      font-size: 10px;
+      font-size: 13px;
       line-height: 18px;
-      font-weight: 300;
+      font-weight: 400;
+  }
+  .wedocs-breadcrumb li {
+      display: inline;
+      font-size: 13px;
+      color: #08285B;
+      font-weight: 400;
   }
 }
 </style>
