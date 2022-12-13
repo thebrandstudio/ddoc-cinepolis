@@ -52,6 +52,10 @@ get_header();
       padding: 0;
       margin-bottom: 0;
       margin-top: 0;
+      margin-right: 15%;
+      font-size: 10px;
+      line-height: 18px;
+      font-weight: 300;
   }
 }
 </style>
