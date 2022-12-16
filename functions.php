@@ -185,3 +185,8 @@ if(class_exists('WeDocs')) {
  * Register sidebar's
  */
 require_once ddoc_THEMEROOT_DIR . '/inc/sidebars.php';
+
+add_action( 'init', 'my_add_excerpts_to_pages' );
+function my_add_excerpts_to_pages() {
+     add_post_type_support( 'docs', 'excerpt' ); //change page with your post type slug.
+}
