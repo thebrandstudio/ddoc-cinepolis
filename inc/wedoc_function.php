@@ -45,7 +45,7 @@ function single_single_page_sidebar() {
 
                 if ($('.doc-nav-list > li ul li').hasClass('page_item_has_children')) {
                   $('.doc-nav-list > li ul li.page_item_has_children').addClass('wd-state-closed');
-                  $('.doc-nav-list > li wd-state-closed ul').find('.children').slideUp();
+                  $('.doc-nav-list > li ul li.page_item_has_children').find('.children').slideUp();
               	}
 
                 if ('.doc-sidebar-menu') {
