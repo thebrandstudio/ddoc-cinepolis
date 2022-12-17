@@ -38,11 +38,6 @@ function single_single_page_sidebar() {
             $(document).ready(function () {
               function menu_derecha() {
 
-                if ($('.doc-nav-list > li').hasClass('page_item_has_children')) {
-                  $('.doc-nav-list > li.page_item_has_children').addClass('wd-state-closed');
-                  $('.doc-nav-list > li.wd-state-closed').find('.children').slideUp();
-              	}
-
                 if ($('.doc-nav-list > li').hasClass('current_page_ancestor')) {
                   $('.doc-nav-list > li.current_page_ancestor').addClass('wd-state-open');
               		$('.doc-nav-list > li.wd-state-open').find('.children').slideDown(700);
