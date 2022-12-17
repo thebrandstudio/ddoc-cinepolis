@@ -41,7 +41,11 @@ function single_single_page_sidebar() {
                 if ($('.doc-nav-list > li').hasClass('current_page_ancestor')) {
                   $('.doc-nav-list > li.current_page_ancestor').addClass('wd-state-open');
               		$('.doc-nav-list > li.wd-state-open').find('.children').slideDown(700);
-              	}
+              	} else {
+                  $('.doc-nav-list > li.current_page_ancestor').addClass('wd-state-open');
+                  $('.doc-nav-list > li.wd-state-open').find('.children').slideUp();
+                }
+
 
                 if ('.doc-sidebar-menu') {
                   $(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
