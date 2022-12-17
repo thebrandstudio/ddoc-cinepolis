@@ -42,7 +42,7 @@ function single_single_page_sidebar() {
                   $('.doc-nav-list > li.current_page_ancestor').addClass('wd-state-open');
               		$('.doc-nav-list > li.wd-state-open').find('.children').slideDown(700);
               	} else {
-                  $('.doc-nav-list > li.current_page_ancestor').addClass('wd-state-open');
+                  $('.doc-nav-list > li.current_page_ancestor').addClass('wd-state-closed');
                   $('.doc-nav-list > li.wd-state-open').find('.children').slideUp();
                 }
 
