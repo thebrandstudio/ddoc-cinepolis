@@ -43,7 +43,7 @@ function single_single_page_sidebar() {
               		$('.doc-nav-list > li.wd-state-open').find('.children').slideDown(700);
 
               	} else {
-                  $('.doc-nav-list > li.current_page_ancestor').addClass('wd-state-closed');
+                  $('.doc-nav-list > li.page_item_has_children').addClass('wd-state-closed');
                   $(this).parents('li').siblings('li').find('.children').slideUp();
                 }
 
