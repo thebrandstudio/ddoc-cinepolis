@@ -121,20 +121,7 @@ jQuery(function ($) {
 	}
 
 
-	$('.doc-nav-list > li span').each(function () {
-		var $this = $(this);
-		$this.on('click', function (e) {
-			var has = $this.parents('li').hasClass('wd-state-open');
-			$('.doc-nav-list > li').removeClass('wd-state-open');
-			$this.parents('li').addClass('wd-state-open');
 
-			if (has) {
-				$this.parents('li').addClass('wd-state-open');
-			} else {
-				$this.parents('li').removeClass('wd-state-open');
-			}
-		});
-	});
 
 
 //  ajax load content
