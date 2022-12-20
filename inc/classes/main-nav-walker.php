@@ -54,7 +54,7 @@ class ddoc_Navwalker extends Walker_Nav_Menu  {
         }
 
         $item_output = $args->before;
-		$item_output .= '<a ="test"' . $attributes . '>';
+		$item_output .= '<a' . $attributes . '>';
 		$item_output .= $args->link_before . apply_filters( 'the_title', $page->title, $page->ID ) . $args->link_after;
 		$item_output .='</a>'.$has_child_icon;
 		$item_output .= $args->after;
