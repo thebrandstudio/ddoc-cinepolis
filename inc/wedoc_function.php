@@ -44,7 +44,7 @@ function single_single_page_sidebar() {
 
 
                 if ($('.doc-nav-list > li').hasClass('page_item')) {
-                  const link = document.getElementByClassName('enlace');
+                  const link = document.getElementsByClassName('enlace');
                   link.textContent = 'Replacement link text';
               	}
 
