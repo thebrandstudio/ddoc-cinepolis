@@ -22,7 +22,7 @@ function single_single_page_sidebar() {
         // var_dump( $parent, $ancestors, $root );
         $walker   = new \dl\doc\Walker();
         $children = wp_list_pages( [
-            'title_li'  => '',
+            'title_li'  => ''
             'order'     => 'menu_order',
             'child_of'  => $parent,
             'echo'      => false,
