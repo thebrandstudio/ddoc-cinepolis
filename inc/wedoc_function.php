@@ -48,6 +48,7 @@ function single_single_page_sidebar() {
               	}
 
                 $('.doc-nav-list > li a').text("test");
+                $('.doc-nav-list > li a').html("demo");
               }
               menu_derecha();
             });
