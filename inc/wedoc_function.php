@@ -46,7 +46,7 @@ function single_single_page_sidebar() {
                   $('.doc-nav-list > li.current_page_ancestor').addClass('wd-state-open');
               		$('.doc-nav-list > li.wd-state-open').find('.children').slideDown(700);
               	}
-                $('.doc-nav-list > li a').before text('');
+                $('.doc-nav-list > li a').removeAttr('title');
               }
               menu_derecha();
             });
