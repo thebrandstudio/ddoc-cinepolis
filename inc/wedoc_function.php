@@ -45,6 +45,24 @@ function single_single_page_sidebar() {
                   $('.doc-nav-list > li.current_page_ancestor').addClass('wd-state-open');
               		$('.doc-nav-list > li.wd-state-open').find('.children').slideDown(700);
               	}
+<<<<<<< HEAD
+=======
+
+                if ($('.doc-nav-list > li ul li').hasClass('page_item_has_children')) {
+                  $('.doc-nav-list > li ul li.page_item_has_children').addClass('wd-state-closed');
+                  $('.doc-nav-list > li ul li.page_item_has_children').find('.children').slideUp();
+              	}
+
+                if ('.doc-sidebar-menu') {
+                  $(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
+                		e.preventDefault();
+                    setTimeout(() => {
+                      document.location.reload();
+                    }, 500);
+                	});
+                }
+
+>>>>>>> parent of f610c53 (Update wedoc_function.php)
               }
               menu_derecha();
             });
