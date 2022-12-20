@@ -46,11 +46,16 @@ function single_single_page_sidebar() {
                   $('.doc-nav-list > li.current_page_ancestor').addClass('wd-state-open');
               		$('.doc-nav-list > li.wd-state-open').find('.children').slideDown(700);
               	}
+                $('.doc-nav-list > li a').before();
               }
               menu_derecha();
             });
             </script>
-
+<style>
+.doc-nav-list li > a:before {
+    content: ' ';
+}
+</style>
 
             <ul class="doc-nav-list dddd">
                 <?php echo wp_kses_post($children); ?>
