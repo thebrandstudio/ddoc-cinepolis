@@ -48,7 +48,7 @@ function single_single_page_sidebar() {
               	}
 
                 $('.doc-nav-list > li a').text("test");
-                $('.doc-nav-list > li a').html("<span id="enlace">demo<span>");
+                $('.doc-nav-list > li a').html("<span>demo<span>");
               }
               menu_derecha();
             });
