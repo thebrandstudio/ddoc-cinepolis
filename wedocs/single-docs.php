@@ -79,7 +79,7 @@ get_header();
                 </div>
                 <div class="col-lg-7 col-md-8">
                     <article id="post-<?php the_ID(); ?>" <?php post_class(  'ddoc-single-post' ); ?> itemscope itemtype="http://schema.org/Article">
-                        <header class="entry-header">
+                        <header name="titulo" class="entry-header">
                             <?php the_title( '<h1 class="entry-title" itemprop="headline">', '</h1>' ); ?>
                         </header><!-- .entry-header -->
 
