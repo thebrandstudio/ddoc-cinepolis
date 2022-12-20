@@ -49,19 +49,18 @@ function single_single_page_sidebar() {
               }
               menu_derecha();
             });
+            </script>
 
+            <script>
             $(document).ready(function () {
               function reemplazo() {
-                if ($('.doc-nav-list > li').hasClass('page_item')) {
-                  const link = $(document).getElementById("demo");
-                  $(document).getElementById("demo").innerHTML ='<span id="prueba">' + link;
+                if ($('.doc-nav-list > li a').hasClass('enlace')) {
+                  $("#demo").text("Hello world!");
               	}
               }
               reemplazo();
             });
-
             </script>
-
 
 
             <ul class="doc-nav-list dddd">
