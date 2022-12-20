@@ -46,19 +46,10 @@ function single_single_page_sidebar() {
                   $('.doc-nav-list > li.current_page_ancestor').addClass('wd-state-open');
               		$('.doc-nav-list > li.wd-state-open').find('.children').slideDown(700);
               	}
+
+                $('.doc-nav-list > li a').text("test");
               }
               menu_derecha();
-            });
-            </script>
-
-            <script>
-            $(document).ready(function () {
-              function reemplazo() {
-                if ($('.doc-nav-list > li a').hasClass('enlace')) {
-                  $('.doc-nav-list > li a').text("jQuery Tutorial");
-              	}
-              }
-              reemplazo();
             });
             </script>
 
