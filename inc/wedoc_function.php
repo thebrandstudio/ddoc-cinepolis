@@ -37,7 +37,6 @@ function single_single_page_sidebar() {
             <script>
             $(document).ready(function () {
               function menu_derecha() {
-
                 if ($('.doc-nav-list > li').hasClass('page_item')) {
                   $('.doc-nav-list > li a').addClass('enlace');
                   $('.doc-nav-list > li a').attr('id', 'demo');
@@ -46,7 +45,6 @@ function single_single_page_sidebar() {
                   $('.doc-nav-list > li.current_page_ancestor').addClass('wd-state-open');
               		$('.doc-nav-list > li.wd-state-open').find('.children').slideDown(700);
               	}
-                $('.doc-nav-list > li a').removeAttr('title');
               }
               menu_derecha();
             });
