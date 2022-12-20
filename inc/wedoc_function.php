@@ -40,12 +40,13 @@ function single_single_page_sidebar() {
 
                 if ($('.doc-nav-list > li').hasClass('page_item')) {
                   $('.doc-nav-list > li a').addClass('enlace');
+                  $('.doc-nav-list > li a').attr('id', 'demo');
               	}
 
 
                 if ($('.doc-nav-list > li').hasClass('page_item')) {
-                  const link = document.getElementByClassName('enlace');
-                  document.getElementByClassName("enlace").innerHTML ='<span id="prueba">' + link;
+                  const link = document.getElementById("demo");
+                  document.getElementById("demo").innerHTML ='<span id="prueba">' + link;
               	}
 
 
