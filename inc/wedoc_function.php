@@ -53,8 +53,8 @@ function single_single_page_sidebar() {
             $(document).ready(function () {
               function reemplazo() {
                 if ($('.doc-nav-list > li').hasClass('page_item')) {
-                  const link = document.getElementById("demo");
-                  document.getElementById("demo").innerHTML ='<span id="prueba">' + link;
+                  const link = $(document).getElementById("demo");
+                  $(document).getElementById("demo").innerHTML ='<span id="prueba">' + link;
               	}
               }
               reemplazo();
