@@ -14,7 +14,7 @@ class Walker extends Walker_Page {
     public function start_el( &$output, $page, $depth = 0, $args = [], $current_page = 0 ) {
 
         if ( isset( $args['pages_with_children'][ $page->ID ] ) ) {
-            $args['link_after'] = '<span id="enlace"></span>'.$page->post_title.'<span class="wedocs-icon wedocs-icon-angle-down"></span><span id="prueba" data-page-id="'.$page->ID.'"></span>';
+            $args['link_after'] = '<span id="enlace">'.$page->post_title.'</span><span class="wedocs-icon wedocs-icon-angle-down"></span><span id="prueba" data-page-id="'.$page->ID.'"></span>';
         }else{
           $args['link_after'] = '<span id="enlace">'.$page->post_title.'</span><span data-page-id="'.$page->ID.'"></span>';
         }
