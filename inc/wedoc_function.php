@@ -41,18 +41,23 @@ function single_single_page_sidebar() {
                 if ($('.doc-nav-list > li').hasClass('page_item')) {
                   $('.doc-nav-list > li a').addClass('enlace');
                   $('.doc-nav-list > li a').attr('id', 'demo');
-                  let texto = document.getElementById("demo").textContent;
-                  $('.doc-nav-list > li a').html('<span id="enlace">' + text);
               	}
                 if ($('.doc-nav-list > li').hasClass('current_page_ancestor')) {
                   $('.doc-nav-list > li.current_page_ancestor').addClass('wd-state-open');
               		$('.doc-nav-list > li.wd-state-open').find('.children').slideDown(700);
               	}
-
-
-
               }
               menu_derecha();
+            });
+            </script>
+
+            <script>
+            $(document).ready(function () {
+              function reemplazo() {
+                let texto = document.getElementById("demo").textContent;
+                $('.doc-nav-list > li a').html('<span id="enlace">' + text);
+              }
+              reemplazo();
             });
             </script>
 
