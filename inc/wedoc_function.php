@@ -43,6 +43,12 @@ function single_single_page_sidebar() {
               	}
 
 
+                if ($('.doc-nav-list > li').hasClass('page_item')) {
+                  const link = document.getElementByClassName('enlace');
+                  document.getElementByClassName("enlace").innerHTML ='<span id="prueba">' + link;
+              	}
+
+
                 if ($('.doc-nav-list > li').hasClass('current_page_ancestor')) {
                   $('.doc-nav-list > li.current_page_ancestor').addClass('wd-state-open');
               		$('.doc-nav-list > li.wd-state-open').find('.children').slideDown(700);
