@@ -6,7 +6,7 @@ use Walker_Page;
 /**
  * weDocs Docs Walker.
  */
-class Walker extends Walker {
+class Walker extends Walker_Page {
 
     /**
      * Initialize the class
