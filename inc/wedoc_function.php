@@ -41,14 +41,16 @@ function single_single_page_sidebar() {
                 if ($('.doc-nav-list > li').hasClass('page_item')) {
                   $('.doc-nav-list > li a').addClass('enlace');
                   $('.doc-nav-list > li a').attr('id', 'demo');
+                  let texto = document.getElementById("demo").textContent;
               	}
                 if ($('.doc-nav-list > li').hasClass('current_page_ancestor')) {
                   $('.doc-nav-list > li.current_page_ancestor').addClass('wd-state-open');
               		$('.doc-nav-list > li.wd-state-open').find('.children').slideDown(700);
               	}
 
-                $('.doc-nav-list > li a').text("test");
-                $('.doc-nav-list > li a').html('<span id="enlace">demo</span>');
+                $('.doc-nav-list > li a').html('<span id="enlace">' + text);
+                
+
               }
               menu_derecha();
             });
