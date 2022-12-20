@@ -94,6 +94,7 @@ jQuery(function ($) {
 		return false;
 	});
 
+
 	$('.navbar-toggler').on('click', function () {
 		if ($('.navbar-toggler').hasClass('collapsed')) {
 			$(this).removeClass('collapsed');
@@ -109,43 +110,12 @@ jQuery(function ($) {
 	});
 
 
-
-
-
-//  ajax load content
-//	$(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
-//		e.preventDefault();
-//		if (e.target !== this) return;
-//		//  Get page id on click
-//		let pageId = $(this).find('span[data-page-id]').data('page-id');
-//		//  get div where want to dispaly content
-//		let display_container = $(this).parents('.row').find('.ddoc-page-content');
-//		//  get div to display title
-//		let display_title = $(this)
-//			.parents('.row')
-//			.find('.entry-header .entry-title');
-//		var data = {
-//			action: 'ddoc_single_page_ajax',
-//			pageId: pageId,
-//			security: ddoc_single_ajax_call.nonce,
-//		};
-//		let current_url = $(this).attr('href');
-//		let obj = JSON.parse(response);
-//		display_title.html(obj.post_title);
-//		display_container.html(obj.post_content);
-//		window.history.pushState(null, '', current_url);
-//	});
-
-
-
 	var inputs = $('.search-doc .form-control').not(':submit');
 	inputs.on('input', function (idx) {
 		var top_text = $(this).parent('.search-doc').find('.ajax_sajation');
 		$(this).toggleClass('animated', this.value > '');
 		$(top_text).toggleClass('animated', this.value > '');
 	});
-
-
 
 	$(document).ready(function () {
 		function openRightSiDebar() {

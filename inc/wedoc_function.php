@@ -43,14 +43,7 @@ function single_single_page_sidebar() {
               		$('.doc-nav-list > li.wd-state-open').find('.children').slideDown(700);
               	}
 
-                if ('.doc-sidebar-menu') {
-                  $(document).on('click', '.doc-sidebar-menu .doc-nav-list li a', function (e) {
-                		e.preventDefault();
-                    setTimeout(() => {
-                      document.location.reload();
-                    }, 500);
-                	});
-                }
+
 
               }
               menu_derecha();
