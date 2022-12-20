@@ -37,7 +37,6 @@ function single_single_page_sidebar() {
             <script>
             $(document).ready(function () {
               function menu_derecha() {
-
                 if ($('.doc-nav-list > li').hasClass('page_item')) {
                   $('.doc-nav-list > li a').addClass('enlace');
                   $('.doc-nav-list > li a').attr('id', 'demo');
@@ -51,11 +50,6 @@ function single_single_page_sidebar() {
               menu_derecha();
             });
             </script>
-<style>
-.doc-nav-list li > a:before {
-    content: ' ';
-}
-</style>
 
             <ul class="doc-nav-list dddd">
                 <?php echo wp_kses_post($children); ?>
