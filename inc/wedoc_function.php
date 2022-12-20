@@ -55,7 +55,7 @@ function single_single_page_sidebar() {
             $(document).ready(function () {
               function reemplazo() {
                 if ($('.doc-nav-list > li a').hasClass('enlace')) {
-                  $("#demo").text("Hello world!");
+                  $("#demo").html("Hello world!");
               	}
               }
               reemplazo();
